@@ -1,0 +1,1362 @@
+[
+ {
+  "w": "sybaritic",
+  "pr": "sib-uh-RIT-ik",
+  "pos": "adj",
+  "def": "devoted to luxury and sensual pleasure",
+  "ex": "His sybaritic tastes ran to silk and rare wine.",
+  "tier": 6
+ },
+ {
+  "w": "mercantile",
+  "pr": "MUR-kun-teel",
+  "pos": "adj",
+  "def": "concerned with trade, profit, and commerce",
+  "ex": "She had a coldly mercantile view of friendship.",
+  "tier": 6
+ },
+ {
+  "w": "persnickety",
+  "pr": "pur-SNIK-uh-tee",
+  "pos": "adj",
+  "def": "fussy about small details",
+  "ex": "The persnickety editor flagged every comma.",
+  "tier": 6
+ },
+ {
+  "w": "jejune",
+  "pr": "juh-JOON",
+  "pos": "adj",
+  "def": "naive, simplistic, or intellectually unsatisfying",
+  "ex": "Her jejune opinions embarrassed the scholars.",
+  "tier": 6
+ },
+ {
+  "w": "hidebound",
+  "pr": "HYDE-bownd",
+  "pos": "adj",
+  "def": "rigidly conventional and resistant to change",
+  "ex": "The hidebound board rejected every fresh idea.",
+  "tier": 6
+ },
+ {
+  "w": "raffishness",
+  "pr": "RAF-ish-nis",
+  "pos": "n",
+  "def": "unconventional, rakish charm",
+  "ex": "A raffishness about him made women curious.",
+  "tier": 6
+ },
+ {
+  "w": "prig",
+  "pr": "PRIG",
+  "pos": "n",
+  "def": "a self-righteous, moralizing person",
+  "ex": "Only a prig lectures strangers about grammar.",
+  "tier": 6
+ },
+ {
+  "w": "poseur",
+  "pr": "poh-ZUR",
+  "pos": "n",
+  "def": "a person who affects a false persona",
+  "ex": "The gallery was full of art-world poseur types.",
+  "tier": 6
+ },
+ {
+  "w": "bonhomie",
+  "pr": "bon-uh-MEE",
+  "pos": "n",
+  "def": "cheerful, easygoing friendliness",
+  "ex": "His bonhomie put nervous guests at ease.",
+  "tier": 6
+ },
+ {
+  "w": "insularity",
+  "pr": "in-suh-LAIR-uh-tee",
+  "pos": "n",
+  "def": "narrow-mindedness from limited contact",
+  "ex": "The town's insularity unsettled newcomers.",
+  "tier": 6
+ },
+ {
+  "w": "venturesome",
+  "pr": "VEN-chur-sum",
+  "pos": "adj",
+  "def": "willing to take risks; boldly adventurous",
+  "ex": "A venturesome cook, he seasoned by instinct.",
+  "tier": 6
+ },
+ {
+  "w": "misanthropic",
+  "pr": "miss-un-THROP-ik",
+  "pos": "adj",
+  "def": "disliking and distrusting humankind",
+  "ex": "His misanthropic streak kept him offline.",
+  "tier": 6
+ },
+ {
+  "w": "chary",
+  "pr": "CHAIR-ee",
+  "pos": "adj",
+  "def": "cautiously reluctant; wary of risk",
+  "ex": "She was chary of lending money to relatives.",
+  "tier": 6
+ },
+ {
+  "w": "effervescent",
+  "pr": "ef-ur-VESS-unt",
+  "pos": "adj",
+  "def": "lively, enthusiastic, and bubbly",
+  "ex": "Her effervescent host charmed the panel.",
+  "tier": 6
+ },
+ {
+  "w": "mulish",
+  "pr": "MYOO-lish",
+  "pos": "adj",
+  "def": "stubborn and unwilling to compromise",
+  "ex": "His mulish refusal stalled the talks.",
+  "tier": 6
+ },
+ {
+  "w": "epicurean",
+  "pr": "ep-ih-kyoo-REE-un",
+  "pos": "adj",
+  "def": "devoted to refined sensory pleasure",
+  "ex": "Their epicurean dinners lasted past midnight.",
+  "tier": 6
+ },
+ {
+  "w": "meretriciousness",
+  "pr": "mer-uh-TRISH-us-nis",
+  "pos": "n",
+  "def": "showy attractiveness lacking real value",
+  "ex": "The casino's meretriciousness repelled her.",
+  "tier": 6
+ },
+ {
+  "w": "churlishness",
+  "pr": "CHUR-lish-nis",
+  "pos": "n",
+  "def": "rude, surly bad temper",
+  "ex": "His churlishness drove the volunteers away.",
+  "tier": 6
+ },
+ {
+  "w": "impetuousness",
+  "pr": "im-PECH-oo-us-nis",
+  "pos": "n",
+  "def": "a tendency to act rashly and impulsively",
+  "ex": "Her impetuousness once cost the firm a client.",
+  "tier": 6
+ },
+ {
+  "w": "capriciousness",
+  "pr": "kuh-PRISH-us-nis",
+  "pos": "n",
+  "def": "unpredictable changes of mood or mind",
+  "ex": "The director's capriciousness exhausted the cast.",
+  "tier": 6
+ },
+ {
+  "w": "taciturnity",
+  "pr": "tass-ih-TUR-nih-tee",
+  "pos": "n",
+  "def": "a reserved, untalkative nature",
+  "ex": "His taciturnity was mistaken for coldness.",
+  "tier": 6
+ },
+ {
+  "w": "cantankerousness",
+  "pr": "kan-TANG-kur-us-nis",
+  "pos": "n",
+  "def": "a bad-tempered, argumentative disposition",
+  "ex": "His cantankerousness drove off the new tenants.",
+  "tier": 6
+ },
+ {
+  "w": "pugnaciousness",
+  "pr": "pug-NAY-shus-nis",
+  "pos": "n",
+  "def": "a readiness to quarrel or fight",
+  "ex": "Her pugnaciousness made every debate a brawl.",
+  "tier": 6
+ },
+ {
+  "w": "glibness",
+  "pr": "GLIB-nis",
+  "pos": "n",
+  "def": "smooth, superficial, and insincere fluency",
+  "ex": "His glibness charmed buyers but hid the flaws.",
+  "tier": 6
+ },
+ {
+  "w": "priggishness",
+  "pr": "PRIG-ish-nis",
+  "pos": "n",
+  "def": "self-righteous, fussy moralizing",
+  "ex": "The critic's priggishness spoiled the dinner.",
+  "tier": 6
+ },
+ {
+  "w": "sanctimony",
+  "pr": "SANK-tih-moh-nee",
+  "pos": "n",
+  "def": "hypocritical display of moral superiority",
+  "ex": "His sanctimony grated on the whole committee.",
+  "tier": 6
+ },
+ {
+  "w": "intrepidness",
+  "pr": "in-TREP-id-nis",
+  "pos": "n",
+  "def": "fearless, resolute courage",
+  "ex": "Her intrepidness in the storm awed the crew.",
+  "tier": 6
+ },
+ {
+  "w": "despondence",
+  "pr": "dis-PON-duns",
+  "pos": "n",
+  "def": "deep dejection and loss of hope",
+  "ex": "A grey despondence settled over the team.",
+  "tier": 6
+ },
+ {
+  "w": "frenetic",
+  "pr": "fruh-NET-ik",
+  "pos": "adj",
+  "def": "wildly frantic and uncontrolled",
+  "ex": "The newsroom kept a frenetic pace till dawn.",
+  "tier": 6
+ },
+ {
+  "w": "rapt",
+  "pr": "RAPT",
+  "pos": "adj",
+  "def": "completely absorbed and fascinated",
+  "ex": "The children sat rapt through the long tale.",
+  "tier": 6
+ },
+ {
+  "w": "affright",
+  "pr": "uh-FRYTE",
+  "pos": "n",
+  "def": "sudden intense fear or alarm",
+  "ex": "A noise in the cellar filled her with affright.",
+  "tier": 6
+ },
+ {
+  "w": "choler",
+  "pr": "KOL-ur",
+  "pos": "n",
+  "def": "irritability and quickness to anger",
+  "ex": "His rising choler silenced the boardroom.",
+  "tier": 6
+ },
+ {
+  "w": "abashment",
+  "pr": "uh-BASH-munt",
+  "pos": "n",
+  "def": "embarrassed shame or self-consciousness",
+  "ex": "Her abashment showed when named aloud.",
+  "tier": 6
+ },
+ {
+  "w": "glee",
+  "pr": "GLEE",
+  "pos": "n",
+  "def": "exultant, often mischievous delight",
+  "ex": "He told the prank with undisguised glee.",
+  "tier": 6
+ },
+ {
+  "w": "jollity",
+  "pr": "JOL-ih-tee",
+  "pos": "n",
+  "def": "lively, festive cheerfulness",
+  "ex": "The reunion dissolved into easy jollity.",
+  "tier": 6
+ },
+ {
+  "w": "vexation",
+  "pr": "vek-SAY-shun",
+  "pos": "n",
+  "def": "the state of being annoyed or frustrated",
+  "ex": "To her vexation, the train was late again.",
+  "tier": 6
+ },
+ {
+  "w": "woefulness",
+  "pr": "WOH-ful-nis",
+  "pos": "n",
+  "def": "deep sorrow and misery",
+  "ex": "The song's woefulness moved guests to tears.",
+  "tier": 6
+ },
+ {
+  "w": "chagrin",
+  "pr": "shuh-GRIN",
+  "pos": "n",
+  "def": "annoyance and embarrassment at failure",
+  "ex": "To his chagrin, the proposal was rejected.",
+  "tier": 6
+ },
+ {
+  "w": "jubilance",
+  "pr": "JOO-buh-luns",
+  "pos": "n",
+  "def": "exultant, triumphant joy",
+  "ex": "Jubilance swept the stands after the late goal.",
+  "tier": 6
+ },
+ {
+  "w": "asperity",
+  "pr": "uh-SPER-ih-tee",
+  "pos": "n",
+  "def": "harshness of tone or temper",
+  "ex": "He answered the question with unexpected asperity.",
+  "tier": 6
+ },
+ {
+  "w": "sullenness",
+  "pr": "SUL-un-nis",
+  "pos": "n",
+  "def": "silent, gloomy bad temper",
+  "ex": "His sullenness cast a chill over dinner.",
+  "tier": 6
+ },
+ {
+  "w": "mirth",
+  "pr": "MURTH",
+  "pos": "n",
+  "def": "lighthearted amusement and laughter",
+  "ex": "The toast was greeted with general mirth.",
+  "tier": 6
+ },
+ {
+  "w": "ruefulness",
+  "pr": "ROO-ful-nis",
+  "pos": "n",
+  "def": "regretful, wistful sorrow",
+  "ex": "He spoke of his youth with quiet ruefulness.",
+  "tier": 6
+ },
+ {
+  "w": "peevishness",
+  "pr": "PEE-vish-nis",
+  "pos": "n",
+  "def": "irritable, petty bad temper",
+  "ex": "Hunger sharpened the toddler's peevishness.",
+  "tier": 6
+ },
+ {
+  "w": "repugnance",
+  "pr": "rih-PUG-nuns",
+  "pos": "n",
+  "def": "intense disgust or distaste",
+  "ex": "She felt a deep repugnance at the cruelty.",
+  "tier": 6
+ },
+ {
+  "w": "abhorrence",
+  "pr": "ab-HOR-uns",
+  "pos": "n",
+  "def": "a feeling of strong loathing",
+  "ex": "His abhorrence of waste shaped every budget.",
+  "tier": 6
+ },
+ {
+  "w": "languor",
+  "pr": "LANG-gur",
+  "pos": "n",
+  "def": "pleasant or weary heaviness and inactivity",
+  "ex": "A summer languor settled over the porch.",
+  "tier": 6
+ },
+ {
+  "w": "waspishness",
+  "pr": "WOSP-ish-nis",
+  "pos": "n",
+  "def": "sharp, irritable sharpness of temper",
+  "ex": "Her waspishness flared whenever she was tired.",
+  "tier": 6
+ },
+ {
+  "w": "moroseness",
+  "pr": "muh-ROHS-nis",
+  "pos": "n",
+  "def": "gloomy, sullen ill humor",
+  "ex": "His moroseness deepened through the long winter.",
+  "tier": 6
+ },
+ {
+  "w": "sermonize",
+  "pr": "SUR-muh-nyze",
+  "pos": "v",
+  "def": "to moralize at tedious length",
+  "ex": "He loved to sermonize about thrift and duty.",
+  "tier": 6
+ },
+ {
+  "w": "rodomontade",
+  "pr": "rod-uh-mon-TAYD",
+  "pos": "n",
+  "def": "boastful, blustering talk",
+  "ex": "His rodomontade about old deals impressed nobody.",
+  "tier": 6
+ },
+ {
+  "w": "jeremiad",
+  "pr": "jer-uh-MY-ud",
+  "pos": "n",
+  "def": "a long, mournful complaint or lament",
+  "ex": "The column was a jeremiad about lost manners.",
+  "tier": 6
+ },
+ {
+  "w": "asseveration",
+  "pr": "uh-sev-uh-RAY-shun",
+  "pos": "n",
+  "def": "an earnest, emphatic declaration",
+  "ex": "His asseveration of innocence swayed the jury.",
+  "tier": 6
+ },
+ {
+  "w": "euphuism",
+  "pr": "YOO-fyoo-iz-um",
+  "pos": "n",
+  "def": "an artificial, overly elaborate style",
+  "ex": "His prose was ruined by stiff euphuism.",
+  "tier": 6
+ },
+ {
+  "w": "raillery",
+  "pr": "RAY-luh-ree",
+  "pos": "n",
+  "def": "good-humored teasing or mockery",
+  "ex": "He took the office raillery with a grin.",
+  "tier": 6
+ },
+ {
+  "w": "laconism",
+  "pr": "LAK-uh-niz-um",
+  "pos": "n",
+  "def": "terse, economical expression",
+  "ex": "His laconism reduced reports to a sentence.",
+  "tier": 6
+ },
+ {
+  "w": "grandiloquence",
+  "pr": "gran-DIL-uh-kwuns",
+  "pos": "n",
+  "def": "pompous, lofty language meant to impress",
+  "ex": "His grandiloquence wearied the patient jurors.",
+  "tier": 6
+ },
+ {
+  "w": "prolixity",
+  "pr": "proh-LIK-sih-tee",
+  "pos": "n",
+  "def": "tedious, long-winded wordiness",
+  "ex": "The judge tired of the lawyer's prolixity.",
+  "tier": 6
+ },
+ {
+  "w": "invective",
+  "pr": "in-VEK-tiv",
+  "pos": "n",
+  "def": "abusive, insulting language",
+  "ex": "He hurled invective at the heckling crowd.",
+  "tier": 6
+ },
+ {
+  "w": "oratory",
+  "pr": "OR-uh-tor-ee",
+  "pos": "n",
+  "def": "the art of formal, persuasive public speaking",
+  "ex": "His soaring oratory roused the whole convention.",
+  "tier": 6
+ },
+ {
+  "w": "censoriousness",
+  "pr": "sen-SOR-ee-us-nis",
+  "pos": "n",
+  "def": "a tendency to harshly criticize",
+  "ex": "His censoriousness made him a feared editor.",
+  "tier": 6
+ },
+ {
+  "w": "disparagement",
+  "pr": "dis-PAIR-ij-munt",
+  "pos": "n",
+  "def": "belittling or dismissive criticism",
+  "ex": "Years of disparagement crushed her confidence.",
+  "tier": 6
+ },
+ {
+  "w": "denigration",
+  "pr": "den-ih-GRAY-shun",
+  "pos": "n",
+  "def": "unfair criticism that damages a reputation",
+  "ex": "The campaign sank into petty denigration.",
+  "tier": 6
+ },
+ {
+  "w": "denunciation",
+  "pr": "dih-nun-see-AY-shun",
+  "pos": "n",
+  "def": "public condemnation of someone or something",
+  "ex": "Her denunciation of the fraud made headlines.",
+  "tier": 6
+ },
+ {
+  "w": "castigation",
+  "pr": "kass-tih-GAY-shun",
+  "pos": "n",
+  "def": "severe scolding or criticism",
+  "ex": "His public castigation of the team backfired.",
+  "tier": 6
+ },
+ {
+  "w": "reprimand",
+  "pr": "REP-rih-mand",
+  "pos": "n",
+  "def": "a formal expression of disapproval",
+  "ex": "A sharp reprimand followed his careless error.",
+  "tier": 6
+ },
+ {
+  "w": "equivocation",
+  "pr": "ih-kwiv-uh-KAY-shun",
+  "pos": "n",
+  "def": "the use of vague language to mislead",
+  "ex": "His equivocation only deepened the suspicion.",
+  "tier": 6
+ },
+ {
+  "w": "vilification",
+  "pr": "vil-ih-fih-KAY-shun",
+  "pos": "n",
+  "def": "abusive, defamatory attack on a reputation",
+  "ex": "The vilification of the witness shocked observers.",
+  "tier": 6
+ },
+ {
+  "w": "objurgation",
+  "pr": "ob-jur-GAY-shun",
+  "pos": "n",
+  "def": "a harsh, sharp rebuke",
+  "ex": "His objurgation of the rookie went too far.",
+  "tier": 6
+ },
+ {
+  "w": "subterfuge",
+  "pr": "SUB-tur-fyooj",
+  "pos": "n",
+  "def": "deceit used to achieve a goal",
+  "ex": "He gained entry by simple subterfuge.",
+  "tier": 6
+ },
+ {
+  "w": "condemnation",
+  "pr": "kon-dem-NAY-shun",
+  "pos": "n",
+  "def": "strong expression of disapproval",
+  "ex": "His remarks drew swift public condemnation.",
+  "tier": 6
+ },
+ {
+  "w": "sentience",
+  "pr": "SEN-shuns",
+  "pos": "n",
+  "def": "the capacity to perceive and feel",
+  "ex": "They debated whether the machine had sentience.",
+  "tier": 6
+ },
+ {
+  "w": "profundity",
+  "pr": "pruh-FUN-dih-tee",
+  "pos": "n",
+  "def": "great depth of thought or insight",
+  "ex": "The lecture's profundity rewarded close listeners.",
+  "tier": 6
+ },
+ {
+  "w": "cognition",
+  "pr": "kog-NISH-un",
+  "pos": "n",
+  "def": "the mental process of acquiring knowledge",
+  "ex": "Fatigue dulled his cognition by evening.",
+  "tier": 6
+ },
+ {
+  "w": "discernment",
+  "pr": "dih-SURN-munt",
+  "pos": "n",
+  "def": "the ability to judge well",
+  "ex": "Wine demanded a discernment he never gained.",
+  "tier": 6
+ },
+ {
+  "w": "discrimination",
+  "pr": "dis-krim-ih-NAY-shun",
+  "pos": "n",
+  "def": "keen judgment of fine distinctions",
+  "ex": "A palate of real discrimination ranked the wines.",
+  "tier": 6
+ },
+ {
+  "w": "exactitude",
+  "pr": "ig-ZAK-tih-tood",
+  "pos": "n",
+  "def": "precise, rigorous correctness",
+  "ex": "He checked the figures with maddening exactitude.",
+  "tier": 6
+ },
+ {
+  "w": "pedantry",
+  "pr": "PED-un-tree",
+  "pos": "n",
+  "def": "excessive concern with minor rules or details",
+  "ex": "His pedantry derailed an otherwise lively talk.",
+  "tier": 6
+ },
+ {
+  "w": "sophistication",
+  "pr": "suh-fis-tih-KAY-shun",
+  "pos": "n",
+  "def": "refined complexity of thought or design",
+  "ex": "The model's sophistication impressed reviewers.",
+  "tier": 6
+ },
+ {
+  "w": "judiciousness",
+  "pr": "joo-DISH-us-nis",
+  "pos": "n",
+  "def": "sound, careful good judgment",
+  "ex": "Her judiciousness defused a tense standoff.",
+  "tier": 6
+ },
+ {
+  "w": "prudence",
+  "pr": "PROO-duns",
+  "pos": "n",
+  "def": "careful good sense in practical matters",
+  "ex": "Mere prudence kept him from the rash bet.",
+  "tier": 6
+ },
+ {
+  "w": "opportunism",
+  "pr": "op-ur-TOO-niz-um",
+  "pos": "n",
+  "def": "exploiting chances with little regard for principle",
+  "ex": "His naked opportunism alienated old allies.",
+  "tier": 6
+ },
+ {
+  "w": "obduracy",
+  "pr": "OB-dur-uh-see",
+  "pos": "n",
+  "def": "stubborn refusal to change one's view",
+  "ex": "His obduracy on the point ended the debate.",
+  "tier": 6
+ },
+ {
+  "w": "scrupulousness",
+  "pr": "SKROO-pyuh-lus-nis",
+  "pos": "n",
+  "def": "careful attention to what is right",
+  "ex": "His scrupulousness made the audit painless.",
+  "tier": 6
+ },
+ {
+  "w": "conscientiousness",
+  "pr": "kon-shee-EN-shus-nis",
+  "pos": "n",
+  "def": "diligent care in doing things right",
+  "ex": "Her conscientiousness caught the costly error.",
+  "tier": 6
+ },
+ {
+  "w": "thoroughness",
+  "pr": "THUR-oh-nis",
+  "pos": "n",
+  "def": "complete attention to every detail",
+  "ex": "The report's thoroughness reassured the board.",
+  "tier": 6
+ },
+ {
+  "w": "obliquity",
+  "pr": "oh-BLIK-wih-tee",
+  "pos": "n",
+  "def": "indirectness or evasiveness in conduct",
+  "ex": "His answer's obliquity frustrated the panel.",
+  "tier": 6
+ },
+ {
+  "w": "undergird",
+  "pr": "un-dur-GURD",
+  "pos": "v",
+  "def": "to support or strengthen from beneath",
+  "ex": "Strong sales undergird the firm's expansion.",
+  "tier": 6
+ },
+ {
+  "w": "surmount",
+  "pr": "sur-MOWNT",
+  "pos": "v",
+  "def": "to overcome a difficulty or obstacle",
+  "ex": "They surmount each new setback together.",
+  "tier": 6
+ },
+ {
+  "w": "arduous",
+  "pr": "AR-joo-us",
+  "pos": "adj",
+  "def": "difficult and requiring much effort",
+  "ex": "The arduous trek tested every climber.",
+  "tier": 6
+ },
+ {
+  "w": "endeavour",
+  "pr": "en-DEV-ur",
+  "pos": "n",
+  "def": "an earnest effort toward a goal",
+  "ex": "The whole endeavour collapsed for lack of funds.",
+  "tier": 6
+ },
+ {
+  "w": "machination",
+  "pr": "mak-ih-NAY-shun",
+  "pos": "n",
+  "def": "a crafty scheme or plot",
+  "ex": "His quiet machination toppled the chairman.",
+  "tier": 6
+ },
+ {
+  "w": "prostration",
+  "pr": "pross-TRAY-shun",
+  "pos": "n",
+  "def": "complete physical or mental exhaustion",
+  "ex": "Heat left the marchers near prostration.",
+  "tier": 6
+ },
+ {
+  "w": "enervation",
+  "pr": "en-ur-VAY-shun",
+  "pos": "n",
+  "def": "a draining of energy or vitality",
+  "ex": "The endless heat brought a creeping enervation.",
+  "tier": 6
+ },
+ {
+  "w": "debilitation",
+  "pr": "dih-bil-ih-TAY-shun",
+  "pos": "n",
+  "def": "a weakening of strength or health",
+  "ex": "Months of illness caused real debilitation.",
+  "tier": 6
+ },
+ {
+  "w": "assiduousness",
+  "pr": "uh-SIJ-oo-us-nis",
+  "pos": "n",
+  "def": "careful, persistent diligence",
+  "ex": "Her assiduousness caught errors others missed.",
+  "tier": 6
+ },
+ {
+  "w": "sedulousness",
+  "pr": "SEJ-uh-lus-nis",
+  "pos": "n",
+  "def": "persistent, diligent application to a task",
+  "ex": "His sedulousness shamed the idler colleagues.",
+  "tier": 6
+ },
+ {
+  "w": "laboriousness",
+  "pr": "luh-BOR-ee-us-nis",
+  "pos": "n",
+  "def": "the quality of requiring much hard work",
+  "ex": "The laboriousness of editing surprised the novice.",
+  "tier": 6
+ },
+ {
+  "w": "toilsomeness",
+  "pr": "TOYL-sum-nis",
+  "pos": "n",
+  "def": "the quality of requiring hard, tiring effort",
+  "ex": "The toilsomeness of the harvest aged them fast.",
+  "tier": 6
+ },
+ {
+  "w": "studiousness",
+  "pr": "STOO-dee-us-nis",
+  "pos": "n",
+  "def": "diligent devotion to study or care",
+  "ex": "His studiousness earned the rare scholarship.",
+  "tier": 6
+ },
+ {
+  "w": "gumption",
+  "pr": "GUMP-shun",
+  "pos": "n",
+  "def": "shrewd initiative and resourceful drive",
+  "ex": "It took real gumption to start over at fifty.",
+  "tier": 6
+ },
+ {
+  "w": "mettle",
+  "pr": "MET-ul",
+  "pos": "n",
+  "def": "spirited courage and resolve under pressure",
+  "ex": "The final lap tested every runner's mettle.",
+  "tier": 6
+ },
+ {
+  "w": "grit",
+  "pr": "GRIT",
+  "pos": "n",
+  "def": "courage and stubborn persistence",
+  "ex": "Sheer grit carried her through the long recovery.",
+  "tier": 6
+ },
+ {
+  "w": "resoluteness",
+  "pr": "REZ-uh-loot-nis",
+  "pos": "n",
+  "def": "firm, unwavering determination",
+  "ex": "His resoluteness held the strikers together.",
+  "tier": 6
+ },
+ {
+  "w": "dauntlessness",
+  "pr": "DAWNT-lis-nis",
+  "pos": "n",
+  "def": "fearless, undaunted courage",
+  "ex": "Her dauntlessness inspired the weary crew.",
+  "tier": 6
+ },
+ {
+  "w": "audaciousness",
+  "pr": "aw-DAY-shus-nis",
+  "pos": "n",
+  "def": "bold, daring nerve",
+  "ex": "The heist's audaciousness stunned the police.",
+  "tier": 6
+ },
+ {
+  "w": "steeliness",
+  "pr": "STEE-lee-nis",
+  "pos": "n",
+  "def": "hard, unflinching resolve",
+  "ex": "A quiet steeliness underlay her gentle manner.",
+  "tier": 6
+ },
+ {
+  "w": "sovereignty",
+  "pr": "SOV-rin-tee",
+  "pos": "n",
+  "def": "supreme authority over a territory",
+  "ex": "The island fiercely guarded its sovereignty.",
+  "tier": 6
+ },
+ {
+  "w": "oppressor",
+  "pr": "uh-PRESS-ur",
+  "pos": "n",
+  "def": "one who rules with cruel, unjust power",
+  "ex": "The villagers finally rose against the oppressor.",
+  "tier": 6
+ },
+ {
+  "w": "implacability",
+  "pr": "im-plak-uh-BIL-ih-tee",
+  "pos": "n",
+  "def": "the refusal to be appeased or calmed",
+  "ex": "His implacability ended any hope of a truce.",
+  "tier": 6
+ },
+ {
+  "w": "collusion",
+  "pr": "kuh-LOO-zhun",
+  "pos": "n",
+  "def": "secret cooperation for a deceitful purpose",
+  "ex": "The firms were fined for price collusion.",
+  "tier": 6
+ },
+ {
+  "w": "intrigue",
+  "pr": "IN-treeg",
+  "pos": "n",
+  "def": "secret scheming to gain advantage",
+  "ex": "Palace intrigue undid three chancellors in a year.",
+  "tier": 6
+ },
+ {
+  "w": "conspiracy",
+  "pr": "kun-SPEER-uh-see",
+  "pos": "n",
+  "def": "a secret plan by a group to do harm",
+  "ex": "The conspiracy to fix prices unraveled fast.",
+  "tier": 6
+ },
+ {
+  "w": "connivance",
+  "pr": "kuh-NY-vuns",
+  "pos": "n",
+  "def": "secret cooperation in wrongdoing",
+  "ex": "The fraud thrived on official connivance.",
+  "tier": 6
+ },
+ {
+  "w": "ruthlessness",
+  "pr": "ROOTH-lis-nis",
+  "pos": "n",
+  "def": "hard, merciless pursuit of one's aims",
+  "ex": "His ruthlessness in business cost him friends.",
+  "tier": 6
+ },
+ {
+  "w": "relentlessness",
+  "pr": "rih-LENT-lis-nis",
+  "pos": "n",
+  "def": "unyielding, persistent pressure",
+  "ex": "The relentlessness of the siege broke the defenders.",
+  "tier": 6
+ },
+ {
+  "w": "inflexibility",
+  "pr": "in-flek-suh-BIL-ih-tee",
+  "pos": "n",
+  "def": "refusal to change or adapt",
+  "ex": "The boss's inflexibility cost the firm key talent.",
+  "tier": 6
+ },
+ {
+  "w": "indomitability",
+  "pr": "in-dom-ih-tuh-BIL-ih-tee",
+  "pos": "n",
+  "def": "the quality of being impossible to subdue",
+  "ex": "Her indomitability carried the team to victory.",
+  "tier": 6
+ },
+ {
+  "w": "invulnerability",
+  "pr": "in-vul-nur-uh-BIL-ih-tee",
+  "pos": "n",
+  "def": "the state of being impossible to harm",
+  "ex": "He acted with the invulnerability of the powerful.",
+  "tier": 6
+ },
+ {
+  "w": "formidableness",
+  "pr": "FOR-mih-duh-bul-nis",
+  "pos": "n",
+  "def": "the quality of inspiring fear or respect",
+  "ex": "The fortress's formidableness deterred attack.",
+  "tier": 6
+ },
+ {
+  "w": "pulchritudinous",
+  "pr": "pul-krih-TOO-dih-nus",
+  "pos": "adj",
+  "def": "strikingly beautiful",
+  "ex": "The pulchritudinous gardens drew painters for miles.",
+  "tier": 6
+ },
+ {
+  "w": "magnificent",
+  "pr": "mag-NIF-ih-sunt",
+  "pos": "adj",
+  "def": "strikingly grand and impressive",
+  "ex": "The magnificent dome silenced the tourists below.",
+  "tier": 6
+ },
+ {
+  "w": "comely",
+  "pr": "KUM-lee",
+  "pos": "adj",
+  "def": "pleasingly attractive in appearance",
+  "ex": "Her comely features drew glances across the room.",
+  "tier": 6
+ },
+ {
+  "w": "slovenly",
+  "pr": "SLUV-un-lee",
+  "pos": "adj",
+  "def": "untidy, careless, and unclean",
+  "ex": "His slovenly desk embarrassed him before clients.",
+  "tier": 6
+ },
+ {
+  "w": "grandiose",
+  "pr": "GRAN-dee-ohs",
+  "pos": "adj",
+  "def": "impressively grand, often pretentiously so",
+  "ex": "His grandiose plans never left the drawing board.",
+  "tier": 6
+ },
+ {
+  "w": "ghastliness",
+  "pr": "GAST-lee-nis",
+  "pos": "n",
+  "def": "a horrifying, deathly unpleasantness",
+  "ex": "The ghastliness of the wreck haunted the medics.",
+  "tier": 6
+ },
+ {
+  "w": "hideousness",
+  "pr": "HID-ee-us-nis",
+  "pos": "n",
+  "def": "extreme ugliness or repulsiveness",
+  "ex": "The mask's hideousness made children flinch.",
+  "tier": 6
+ },
+ {
+  "w": "repulsiveness",
+  "pr": "rih-PUL-siv-nis",
+  "pos": "n",
+  "def": "the quality of causing disgust",
+  "ex": "The slum's repulsiveness shocked the inspectors.",
+  "tier": 6
+ },
+ {
+  "w": "floridness",
+  "pr": "FLOR-id-nis",
+  "pos": "n",
+  "def": "excessive, showy ornamentation",
+  "ex": "The floridness of the décor overwhelmed the room.",
+  "tier": 6
+ },
+ {
+  "w": "flamboyance",
+  "pr": "flam-BOY-uns",
+  "pos": "n",
+  "def": "showy, exuberant flair",
+  "ex": "His flamboyance dazzled the staid old gallery.",
+  "tier": 6
+ },
+ {
+  "w": "showiness",
+  "pr": "SHOH-ee-nis",
+  "pos": "n",
+  "def": "flashy, ostentatious display",
+  "ex": "The car's showiness embarrassed his modest wife.",
+  "tier": 6
+ },
+ {
+  "w": "elaborateness",
+  "pr": "ih-LAB-ur-it-nis",
+  "pos": "n",
+  "def": "the quality of being richly detailed",
+  "ex": "The cake's elaborateness took two days of work.",
+  "tier": 6
+ },
+ {
+  "w": "gentility",
+  "pr": "jen-TIL-ih-tee",
+  "pos": "n",
+  "def": "refined, well-bred respectability",
+  "ex": "A faded gentility clung to the old estate.",
+  "tier": 6
+ },
+ {
+  "w": "stateliness",
+  "pr": "STAYT-lee-nis",
+  "pos": "n",
+  "def": "dignified, impressive grandeur",
+  "ex": "The cathedral's stateliness hushed the crowd.",
+  "tier": 6
+ },
+ {
+  "w": "loftiness",
+  "pr": "LOF-tee-nis",
+  "pos": "n",
+  "def": "impressive height or noble elevation",
+  "ex": "The hall's loftiness dwarfed every visitor.",
+  "tier": 6
+ },
+ {
+  "w": "suaveness",
+  "pr": "SWAHV-nis",
+  "pos": "n",
+  "def": "smooth, polished charm of manner",
+  "ex": "His suaveness disarmed even hostile reporters.",
+  "tier": 6
+ },
+ {
+  "w": "urbaneness",
+  "pr": "ur-BAYN-nis",
+  "pos": "n",
+  "def": "sophisticated, polished courtesy",
+  "ex": "His urbaneness eased the awkward introductions.",
+  "tier": 6
+ },
+ {
+  "w": "gallantry",
+  "pr": "GAL-un-tree",
+  "pos": "n",
+  "def": "courteous, courageous gentlemanly conduct",
+  "ex": "His old-world gallantry charmed the guests.",
+  "tier": 6
+ },
+ {
+  "w": "dreariness",
+  "pr": "DREER-ee-nis",
+  "pos": "n",
+  "def": "dull, bleak gloominess",
+  "ex": "The dreariness of the office sapped morale.",
+  "tier": 6
+ },
+ {
+  "w": "blandness",
+  "pr": "BLAND-nis",
+  "pos": "n",
+  "def": "dull lack of flavor or character",
+  "ex": "The film's blandness put half the row to sleep.",
+  "tier": 6
+ },
+ {
+  "w": "metamorphic",
+  "pr": "met-uh-MOR-fik",
+  "pos": "adj",
+  "def": "involving a complete change of form",
+  "ex": "The town's metamorphic boom shocked old residents.",
+  "tier": 6
+ },
+ {
+  "w": "perpetuance",
+  "pr": "pur-PECH-oo-uns",
+  "pos": "n",
+  "def": "the state of lasting indefinitely",
+  "ex": "He doubted the perpetuance of the fragile truce.",
+  "tier": 6
+ },
+ {
+  "w": "depletion",
+  "pr": "dih-PLEE-shun",
+  "pos": "n",
+  "def": "the reduction of a supply or resource",
+  "ex": "The depletion of reserves alarmed the board.",
+  "tier": 6
+ },
+ {
+  "w": "plentitude",
+  "pr": "PLEN-tih-tood",
+  "pos": "n",
+  "def": "a full or abundant quantity",
+  "ex": "Autumn brought a plentitude of apples and pears.",
+  "tier": 6
+ },
+ {
+  "w": "longevity",
+  "pr": "lon-JEV-ih-tee",
+  "pos": "n",
+  "def": "long duration or length of life",
+  "ex": "The brand's longevity surprised the analysts.",
+  "tier": 6
+ },
+ {
+  "w": "profuse",
+  "pr": "pruh-FYOOS",
+  "pos": "adj",
+  "def": "existing in great, abundant amount",
+  "ex": "She offered profuse thanks for the daring rescue.",
+  "tier": 6
+ },
+ {
+  "w": "abeyance",
+  "pr": "uh-BAY-uns",
+  "pos": "n",
+  "def": "a state of temporary suspension",
+  "ex": "The project was held in abeyance for a year.",
+  "tier": 6
+ },
+ {
+  "w": "momentariness",
+  "pr": "MOH-mun-tuh-ree-nis",
+  "pos": "n",
+  "def": "the quality of lasting only a moment",
+  "ex": "The momentariness of the flash startled her.",
+  "tier": 6
+ },
+ {
+  "w": "tediousness",
+  "pr": "TEE-dee-us-nis",
+  "pos": "n",
+  "def": "the quality of being long and dull",
+  "ex": "The tediousness of the wait wore everyone down.",
+  "tier": 6
+ },
+ {
+  "w": "ponderousness",
+  "pr": "PON-dur-us-nis",
+  "pos": "n",
+  "def": "slow, heavy, labored quality",
+  "ex": "The book's ponderousness lost casual readers.",
+  "tier": 6
+ },
+ {
+  "w": "monotonousness",
+  "pr": "muh-NOT-uh-nus-nis",
+  "pos": "n",
+  "def": "tiresome, unvarying sameness",
+  "ex": "The monotonousness of the drive numbed them.",
+  "tier": 6
+ },
+ {
+  "w": "languorousness",
+  "pr": "LANG-gur-us-nis",
+  "pos": "n",
+  "def": "a state of dreamy, weary heaviness",
+  "ex": "A tropical languorousness slowed every chore.",
+  "tier": 6
+ },
+ {
+  "w": "sluggishness",
+  "pr": "SLUG-ish-nis",
+  "pos": "n",
+  "def": "slow, inactive heaviness",
+  "ex": "Market sluggishness delayed the new hires.",
+  "tier": 6
+ },
+ {
+  "w": "lethargy",
+  "pr": "LETH-ur-jee",
+  "pos": "n",
+  "def": "a state of sluggish inactivity",
+  "ex": "A heavy lethargy followed the rich lunch.",
+  "tier": 6
+ },
+ {
+  "w": "somnolence",
+  "pr": "SOM-nuh-luns",
+  "pos": "n",
+  "def": "sleepy drowsiness",
+  "ex": "The warm hall sank the audience into somnolence.",
+  "tier": 6
+ },
+ {
+  "w": "gravity",
+  "pr": "GRAV-ih-tee",
+  "pos": "n",
+  "def": "serious importance or solemnity",
+  "ex": "The gravity of the news silenced the room.",
+  "tier": 6
+ },
+ {
+  "w": "solemnity",
+  "pr": "suh-LEM-nih-tee",
+  "pos": "n",
+  "def": "dignified, serious formality",
+  "ex": "The ceremony's solemnity moved the mourners.",
+  "tier": 6
+ },
+ {
+  "w": "severity",
+  "pr": "sih-VER-ih-tee",
+  "pos": "n",
+  "def": "the quality of being harsh or extreme",
+  "ex": "The severity of the storm grounded all flights.",
+  "tier": 6
+ },
+ {
+  "w": "sobriety",
+  "pr": "suh-BRY-ih-tee",
+  "pos": "n",
+  "def": "serious, restrained seriousness of manner",
+  "ex": "He delivered the verdict with grave sobriety.",
+  "tier": 6
+ },
+ {
+  "w": "surliness",
+  "pr": "SUR-lee-nis",
+  "pos": "n",
+  "def": "sullen, bad-tempered rudeness",
+  "ex": "His surliness drove away the regular customers.",
+  "tier": 6
+ },
+ {
+  "w": "brusqueness",
+  "pr": "BRUSK-nis",
+  "pos": "n",
+  "def": "blunt, abrupt sharpness of manner",
+  "ex": "Her brusqueness offended the sensitive intern.",
+  "tier": 6
+ },
+ {
+  "w": "dourness",
+  "pr": "DOOR-nis",
+  "pos": "n",
+  "def": "grim, humorless severity",
+  "ex": "His dourness chilled the holiday gathering.",
+  "tier": 6
+ },
+ {
+  "w": "aloofness",
+  "pr": "uh-LOOF-nis",
+  "pos": "n",
+  "def": "cool, distant reserve",
+  "ex": "Her aloofness was mistaken for arrogance.",
+  "tier": 6
+ },
+ {
+  "w": "unflappability",
+  "pr": "un-flap-uh-BIL-ih-tee",
+  "pos": "n",
+  "def": "calm steadiness under pressure",
+  "ex": "The pilot's unflappability reassured the cabin.",
+  "tier": 6
+ },
+ {
+  "w": "servile",
+  "pr": "SUR-vyle",
+  "pos": "adj",
+  "def": "excessively obedient and submissive",
+  "ex": "His servile flattery embarrassed the whole table.",
+  "tier": 6
+ },
+ {
+  "w": "sycophantic",
+  "pr": "sik-uh-FAN-tik",
+  "pos": "adj",
+  "def": "flattering powerful people for personal gain",
+  "ex": "The sycophantic aide praised every dull idea.",
+  "tier": 6
+ },
+ {
+  "w": "obeisant",
+  "pr": "oh-BAY-sunt",
+  "pos": "adj",
+  "def": "showing deferential respect or submission",
+  "ex": "The obeisant clerks bowed as he swept past.",
+  "tier": 6
+ },
+ {
+  "w": "tortuous",
+  "pr": "TOR-choo-us",
+  "pos": "adj",
+  "def": "full of twists; excessively complex",
+  "ex": "The tortuous contract hid its real terms.",
+  "tier": 6
+ },
+ {
+  "w": "labyrinthine",
+  "pr": "lab-uh-RIN-thyne",
+  "pos": "adj",
+  "def": "intricate and confusingly complex",
+  "ex": "The labyrinthine rules baffled new applicants.",
+  "tier": 6
+ },
+ {
+  "w": "duplicity",
+  "pr": "doo-PLISS-ih-tee",
+  "pos": "n",
+  "def": "deceitful double-dealing",
+  "ex": "His duplicity cost him the board's trust.",
+  "tier": 6
+ }
+]
