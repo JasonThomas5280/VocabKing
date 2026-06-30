@@ -1,0 +1,1402 @@
+[
+ {
+  "w": "obstreperous",
+  "pos": "adj",
+  "def": "noisy, unruly, and difficult to control",
+  "ex": "The substitute teacher could barely manage the obstreperous third-graders.",
+  "tier": 3
+ },
+ {
+  "w": "phlegmatic",
+  "pos": "adj",
+  "def": "calm and unemotional in temperament",
+  "ex": "Even during the crisis, our phlegmatic manager never raised his voice.",
+  "tier": 3
+ },
+ {
+  "w": "fastidious",
+  "pos": "adj",
+  "def": "very attentive to detail and cleanliness",
+  "ex": "She's so fastidious that every pencil on her desk faces the same way.",
+  "tier": 3
+ },
+ {
+  "w": "insouciant",
+  "pos": "adj",
+  "def": "casually unconcerned or carefree",
+  "ex": "He gave an insouciant shrug when I asked if he'd studied at all.",
+  "tier": 3
+ },
+ {
+  "w": "truculent",
+  "pos": "adj",
+  "def": "eager to argue or fight; aggressively defiant",
+  "ex": "After two losses, the truculent coach snapped at every reporter.",
+  "tier": 3
+ },
+ {
+  "w": "mawkish",
+  "pos": "adj",
+  "def": "excessively and falsely sentimental",
+  "ex": "The card's mawkish poem made me cringe rather than tear up.",
+  "tier": 3
+ },
+ {
+  "w": "unflappable",
+  "pos": "adj",
+  "def": "remaining calm under pressure",
+  "ex": "Our pilot stayed unflappable even as the storm tossed the plane.",
+  "tier": 3
+ },
+ {
+  "w": "capricious",
+  "pos": "adj",
+  "def": "given to sudden unpredictable changes of mood",
+  "ex": "My capricious boss loved the plan Monday and hated it Tuesday.",
+  "tier": 3
+ },
+ {
+  "w": "feckless",
+  "pos": "adj",
+  "def": "lacking initiative, effort, or responsibility",
+  "ex": "His feckless roommate never paid rent on time or washed a dish.",
+  "tier": 3
+ },
+ {
+  "w": "querulous",
+  "pos": "adj",
+  "def": "habitually complaining or peevish",
+  "ex": "The querulous customer found fault with every dish we served.",
+  "tier": 3
+ },
+ {
+  "w": "magnanimity",
+  "pos": "n",
+  "def": "generous forgiveness or nobility of spirit",
+  "ex": "She showed real magnanimity by congratulating the rival who beat her.",
+  "tier": 3
+ },
+ {
+  "w": "effrontery",
+  "pos": "n",
+  "def": "shameless boldness or insolence",
+  "ex": "He had the effrontery to ask for a raise after showing up late all week.",
+  "tier": 3
+ },
+ {
+  "w": "reprobate",
+  "pos": "n",
+  "def": "an unprincipled or morally corrupt person",
+  "ex": "That old reprobate gambled away his family's savings without remorse.",
+  "tier": 3
+ },
+ {
+  "w": "ebullience",
+  "pos": "n",
+  "def": "the quality of cheerful, energetic enthusiasm",
+  "ex": "Her ebullience at the party was contagious, and soon everyone was dancing.",
+  "tier": 3
+ },
+ {
+  "w": "diffidence",
+  "pos": "n",
+  "def": "shyness or lack of self-confidence",
+  "ex": "His diffidence kept him from raising his hand even when he knew the answer.",
+  "tier": 3
+ },
+ {
+  "w": "affability",
+  "pos": "n",
+  "def": "the quality of being friendly and easy to talk to",
+  "ex": "The host's affability put even the most nervous guests at ease.",
+  "tier": 3
+ },
+ {
+  "w": "probity",
+  "pos": "n",
+  "def": "strong moral integrity and honesty",
+  "ex": "The judge was known for her probity and refused every bribe outright.",
+  "tier": 3
+ },
+ {
+  "w": "temerity",
+  "pos": "n",
+  "def": "reckless boldness or audacious nerve",
+  "ex": "He had the temerity to correct the professor in front of the whole class.",
+  "tier": 3
+ },
+ {
+  "w": "recidivist",
+  "pos": "n",
+  "def": "someone who repeatedly relapses into bad behavior",
+  "ex": "As a recidivist, he was back in trouble within a month of his release.",
+  "tier": 3
+ },
+ {
+  "w": "mountebank",
+  "pos": "n",
+  "def": "a charlatan who deceives people for gain",
+  "ex": "That so-called healer is a mountebank selling colored water as medicine.",
+  "tier": 3
+ },
+ {
+  "w": "penurious",
+  "pos": "adj",
+  "def": "extremely stingy or miserly",
+  "ex": "My penurious uncle reuses the same teabag four times.",
+  "tier": 3
+ },
+ {
+  "w": "feisty",
+  "pos": "adj",
+  "def": "spirited, lively, and ready to fight",
+  "ex": "The feisty little terrier wasn't afraid of the much larger dog.",
+  "tier": 3
+ },
+ {
+  "w": "phlegmatically",
+  "pos": "adv",
+  "def": "in a calm, unemotional manner",
+  "ex": "He responded phlegmatically to the bad news, simply nodding once.",
+  "tier": 3
+ },
+ {
+  "w": "doctrinaire",
+  "pos": "adj",
+  "def": "rigidly applying theory without regard to practicality",
+  "ex": "His doctrinaire approach ignored how messy the real situation was.",
+  "tier": 3
+ },
+ {
+  "w": "raffish",
+  "pos": "adj",
+  "def": "unconventional and slightly disreputable in an attractive way",
+  "ex": "He had a raffish charm, like a pirate invited to a dinner party.",
+  "tier": 3
+ },
+ {
+  "w": "disconsolation",
+  "pos": "n",
+  "def": "a state of deep, inconsolable unhappiness",
+  "ex": "After the team lost, a heavy disconsolation settled over the locker room.",
+  "tier": 3
+ },
+ {
+  "w": "compunction",
+  "pos": "n",
+  "def": "a feeling of guilt or moral hesitation",
+  "ex": "She felt not the slightest compunction about returning the broken toaster.",
+  "tier": 3
+ },
+ {
+  "w": "disquiet",
+  "pos": "n",
+  "def": "a feeling of anxiety or unease",
+  "ex": "A vague disquiet kept me up long after I'd turned off the lights.",
+  "tier": 3
+ },
+ {
+  "w": "rapture",
+  "pos": "n",
+  "def": "a state of intense joy or delight",
+  "ex": "She listened to the symphony in pure rapture, eyes closed.",
+  "tier": 3
+ },
+ {
+  "w": "forlornness",
+  "pos": "n",
+  "def": "a feeling of being abandoned and miserable",
+  "ex": "There was a forlornness in the empty house after everyone moved out.",
+  "tier": 3
+ },
+ {
+  "w": "exhilaration",
+  "pos": "n",
+  "def": "a feeling of lively, intense happiness",
+  "ex": "The exhilaration of the first downhill run made him whoop out loud.",
+  "tier": 3
+ },
+ {
+  "w": "misgiving",
+  "pos": "n",
+  "def": "a feeling of doubt or apprehension",
+  "ex": "I signed the lease despite a nagging misgiving about the neighborhood.",
+  "tier": 3
+ },
+ {
+  "w": "despondency",
+  "pos": "n",
+  "def": "a state of low spirits and hopelessness",
+  "ex": "Weeks of rejection letters sank him into deep despondency.",
+  "tier": 3
+ },
+ {
+  "w": "jubilation",
+  "pos": "n",
+  "def": "a feeling of great happiness and triumph",
+  "ex": "The crowd erupted in jubilation when the final whistle blew.",
+  "tier": 3
+ },
+ {
+  "w": "melancholic",
+  "pos": "adj",
+  "def": "feeling or expressing pensive sadness",
+  "ex": "The rainy afternoon left her in a quiet, melancholic mood.",
+  "tier": 3
+ },
+ {
+  "w": "woebegone",
+  "pos": "adj",
+  "def": "looking sad, miserable, or dejected",
+  "ex": "The woebegone puppy waited by the door for its owner to come home.",
+  "tier": 3
+ },
+ {
+  "w": "crestfallenly",
+  "pos": "adv",
+  "def": "in a dejected, disappointed manner",
+  "ex": "He walked away crestfallenly after missing the final shot.",
+  "tier": 3
+ },
+ {
+  "w": "aggrievement",
+  "pos": "n",
+  "def": "a sense of having been treated unfairly",
+  "ex": "His tone carried a deep aggrievement about being passed over again.",
+  "tier": 3
+ },
+ {
+  "w": "contentedness",
+  "pos": "n",
+  "def": "a state of quiet satisfaction",
+  "ex": "There was a real contentedness in the way she sipped her morning coffee.",
+  "tier": 3
+ },
+ {
+  "w": "trepidatious",
+  "pos": "adj",
+  "def": "feeling nervous fear or apprehension",
+  "ex": "She was trepidatious about her first day but smiled anyway.",
+  "tier": 3
+ },
+ {
+  "w": "buoyancy",
+  "pos": "n",
+  "def": "cheerful and optimistic resilience",
+  "ex": "His natural buoyancy lifted the whole team after the setback.",
+  "tier": 3
+ },
+ {
+  "w": "perturbation",
+  "pos": "n",
+  "def": "a state of anxiety or mental disturbance",
+  "ex": "News of the layoffs caused visible perturbation across the office.",
+  "tier": 3
+ },
+ {
+  "w": "giddiness",
+  "pos": "n",
+  "def": "a dizzy, excited, lighthearted feeling",
+  "ex": "A giddiness took over as the roller coaster crested the first hill.",
+  "tier": 3
+ },
+ {
+  "w": "morbidity",
+  "pos": "n",
+  "def": "an abnormal preoccupation with gloom or death",
+  "ex": "His jokes had a morbidity that made some guests uncomfortable.",
+  "tier": 3
+ },
+ {
+  "w": "elatedness",
+  "pos": "n",
+  "def": "a feeling of great joy and pride",
+  "ex": "You could see the elatedness on her face as she crossed the finish line.",
+  "tier": 3
+ },
+ {
+  "w": "wretchedness",
+  "pos": "n",
+  "def": "a state of deep misery or distress",
+  "ex": "The wretchedness of the flooded basement nearly brought him to tears.",
+  "tier": 3
+ },
+ {
+  "w": "serenity",
+  "pos": "n",
+  "def": "a state of calm, untroubled peace",
+  "ex": "A deep serenity came over her as she watched the sunset.",
+  "tier": 3
+ },
+ {
+  "w": "agitation",
+  "pos": "n",
+  "def": "a state of nervous or restless distress",
+  "ex": "His agitation grew as the phone kept ringing with no answer.",
+  "tier": 3
+ },
+ {
+  "w": "sanguinity",
+  "pos": "n",
+  "def": "cheerful optimism, especially in hard times",
+  "ex": "Her sanguinity about the diagnosis surprised even her doctors.",
+  "tier": 3
+ },
+ {
+  "w": "vexedness",
+  "pos": "n",
+  "def": "a state of irritated annoyance",
+  "ex": "There was a clear vexedness in how he slammed the laptop shut.",
+  "tier": 3
+ },
+ {
+  "w": "loquaciousness",
+  "pos": "n",
+  "def": "the tendency to talk a great deal",
+  "ex": "His loquaciousness meant a five-minute call always ran an hour.",
+  "tier": 3
+ },
+ {
+  "w": "circumlocutory",
+  "pos": "adj",
+  "def": "using many words to avoid being direct",
+  "ex": "Her circumlocutory answer never actually said yes or no.",
+  "tier": 3
+ },
+ {
+  "w": "declamation",
+  "pos": "n",
+  "def": "a dramatic, forceful speech",
+  "ex": "He launched into a declamation about loyalty that silenced the room.",
+  "tier": 3
+ },
+ {
+  "w": "perorate",
+  "pos": "v",
+  "def": "to speak at length, especially pompously",
+  "ex": "Uncle Ray loves to perorate about politics over Thanksgiving dinner.",
+  "tier": 3
+ },
+ {
+  "w": "voluability",
+  "pos": "n",
+  "def": "the quality of speaking fluently and at length",
+  "ex": "The host's voluability kept the interview moving without an awkward pause.",
+  "tier": 3
+ },
+ {
+  "w": "gainsay",
+  "pos": "v",
+  "def": "to deny or contradict a statement",
+  "ex": "No one dared gainsay the boss once she'd made up her mind.",
+  "tier": 3
+ },
+ {
+  "w": "adumbrate",
+  "pos": "v",
+  "def": "to outline or hint at something faintly",
+  "ex": "In the meeting she only adumbrated the plan, saving details for later.",
+  "tier": 3
+ },
+ {
+  "w": "expatiate",
+  "pos": "v",
+  "def": "to speak or write in great detail",
+  "ex": "He could expatiate on coffee beans for an entire afternoon.",
+  "tier": 3
+ },
+ {
+  "w": "asseverate",
+  "pos": "v",
+  "def": "to declare earnestly and emphatically",
+  "ex": "She asseverated that she had locked the door before leaving.",
+  "tier": 3
+ },
+ {
+  "w": "vociferate",
+  "pos": "v",
+  "def": "to shout or cry out loudly",
+  "ex": "Fans began to vociferate the moment the referee blew the whistle.",
+  "tier": 3
+ },
+ {
+  "w": "interlocution",
+  "pos": "n",
+  "def": "a conversation or dialogue between people",
+  "ex": "Their interlocution over dinner ranged from films to philosophy.",
+  "tier": 3
+ },
+ {
+  "w": "maunder",
+  "pos": "v",
+  "def": "to talk in a rambling, aimless way",
+  "ex": "He tends to maunder on about the past whenever he's tired.",
+  "tier": 3
+ },
+ {
+  "w": "objurgate",
+  "pos": "v",
+  "def": "to scold or rebuke sharply",
+  "ex": "The coach objurgated the players for their sloppy passing.",
+  "tier": 3
+ },
+ {
+  "w": "importunate",
+  "pos": "adj",
+  "def": "persistent and annoyingly demanding",
+  "ex": "The importunate salesman called three times before noon.",
+  "tier": 3
+ },
+ {
+  "w": "sententious",
+  "pos": "adj",
+  "def": "given to pompous moralizing",
+  "ex": "His sententious remarks about hard work grew tiresome fast.",
+  "tier": 3
+ },
+ {
+  "w": "laconicism",
+  "pos": "n",
+  "def": "a terse, economical way of speaking",
+  "ex": "His laconicism meant most texts were a single word.",
+  "tier": 3
+ },
+ {
+  "w": "verbosity",
+  "pos": "n",
+  "def": "the use of more words than necessary",
+  "ex": "Edit out the verbosity and your essay will read twice as well.",
+  "tier": 3
+ },
+ {
+  "w": "discursiveness",
+  "pos": "n",
+  "def": "the tendency to digress in speech or writing",
+  "ex": "The lecture's discursiveness made it hard to find the main point.",
+  "tier": 3
+ },
+ {
+  "w": "remonstrate",
+  "pos": "v",
+  "def": "to protest or argue in objection",
+  "ex": "She remonstrated with the clerk over the unfair surcharge.",
+  "tier": 3
+ },
+ {
+  "w": "fulminate",
+  "pos": "v",
+  "def": "to protest loudly and angrily",
+  "ex": "He fulminated against the new parking rules at the town meeting.",
+  "tier": 3
+ },
+ {
+  "w": "badger",
+  "pos": "v",
+  "def": "to pester someone persistently",
+  "ex": "Stop badgering me about the deadline; I'll finish it tonight.",
+  "tier": 3
+ },
+ {
+  "w": "cajole",
+  "pos": "v",
+  "def": "to persuade by flattery or coaxing",
+  "ex": "She managed to cajole her brother into driving her to the airport.",
+  "tier": 3
+ },
+ {
+  "w": "euphemistic",
+  "pos": "adj",
+  "def": "using mild words for harsh realities",
+  "ex": "\"Letting people go\" is a euphemistic way of saying firing them.",
+  "tier": 3
+ },
+ {
+  "w": "oration",
+  "pos": "n",
+  "def": "a formal, elaborate public speech",
+  "ex": "His graduation oration brought half the auditorium to tears.",
+  "tier": 3
+ },
+ {
+  "w": "interpolate",
+  "pos": "v",
+  "def": "to insert remarks into a conversation",
+  "ex": "She kept trying to interpolate corrections while he told the story.",
+  "tier": 3
+ },
+ {
+  "w": "perspicuity",
+  "pos": "n",
+  "def": "clearness and ease of understanding",
+  "ex": "The professor explained relativity with surprising perspicuity.",
+  "tier": 3
+ },
+ {
+  "w": "sagacity",
+  "pos": "n",
+  "def": "keen practical wisdom and good judgment",
+  "ex": "Her grandmother's sagacity guided every big decision the family made.",
+  "tier": 3
+ },
+ {
+  "w": "cogitative",
+  "pos": "adj",
+  "def": "inclined toward deep, careful thought",
+  "ex": "He fell into a cogitative silence, weighing every option.",
+  "tier": 3
+ },
+ {
+  "w": "ratiocinative",
+  "pos": "adj",
+  "def": "based on logical, methodical reasoning",
+  "ex": "The detective's ratiocinative approach cracked a case others had dropped.",
+  "tier": 3
+ },
+ {
+  "w": "abstruseness",
+  "pos": "n",
+  "def": "the quality of being hard to understand",
+  "ex": "The paper's abstruseness lost everyone but the specialists.",
+  "tier": 3
+ },
+ {
+  "w": "discernibility",
+  "pos": "n",
+  "def": "the quality of being perceptible or recognizable",
+  "ex": "The discernibility of the trend grew clearer with more data.",
+  "tier": 3
+ },
+ {
+  "w": "perspicaciousness",
+  "pos": "n",
+  "def": "sharp insight and shrewd understanding",
+  "ex": "Her perspicaciousness let her spot the flaw nobody else noticed.",
+  "tier": 3
+ },
+ {
+  "w": "sophistic",
+  "pos": "adj",
+  "def": "using clever but misleading reasoning",
+  "ex": "His sophistic argument sounded convincing until you checked the facts.",
+  "tier": 3
+ },
+ {
+  "w": "erudite",
+  "pos": "adj",
+  "def": "having or showing deep learning",
+  "ex": "The erudite host could discuss medieval art and quantum physics alike.",
+  "tier": 3
+ },
+ {
+  "w": "recondite",
+  "pos": "adj",
+  "def": "dealing with obscure, specialized knowledge",
+  "ex": "Their conversation drifted into recondite points of grammar.",
+  "tier": 3
+ },
+ {
+  "w": "abstractness",
+  "pos": "n",
+  "def": "the quality of existing as an idea, not concrete",
+  "ex": "The plan's abstractness made it hard to know where to start.",
+  "tier": 3
+ },
+ {
+  "w": "conjectural",
+  "pos": "adj",
+  "def": "based on guesswork rather than evidence",
+  "ex": "His theory is still conjectural until someone tests it.",
+  "tier": 3
+ },
+ {
+  "w": "prescience",
+  "pos": "n",
+  "def": "knowledge of events before they happen",
+  "ex": "Her prescience about the market crash saved the firm millions.",
+  "tier": 3
+ },
+ {
+  "w": "cogency",
+  "pos": "n",
+  "def": "the quality of being clear, logical, and convincing",
+  "ex": "The cogency of her argument won over even the skeptics.",
+  "tier": 3
+ },
+ {
+  "w": "intellection",
+  "pos": "n",
+  "def": "the action or process of thinking",
+  "ex": "Solving the puzzle required pure intellection, no luck involved.",
+  "tier": 3
+ },
+ {
+  "w": "insightfulness",
+  "pos": "n",
+  "def": "the quality of deep, perceptive understanding",
+  "ex": "The review's insightfulness made me see the film completely differently.",
+  "tier": 3
+ },
+ {
+  "w": "acuity",
+  "pos": "n",
+  "def": "sharpness of perception or thought",
+  "ex": "Her mental acuity at ninety puts most of us to shame.",
+  "tier": 3
+ },
+ {
+  "w": "obfuscation",
+  "pos": "n",
+  "def": "the act of making something unclear or confusing",
+  "ex": "The contract was a wall of legal obfuscation.",
+  "tier": 3
+ },
+ {
+  "w": "contemplativeness",
+  "pos": "n",
+  "def": "a tendency toward thoughtful reflection",
+  "ex": "There was a quiet contemplativeness to how he watched the river.",
+  "tier": 3
+ },
+ {
+  "w": "ruminative",
+  "pos": "adj",
+  "def": "inclined to ponder things deeply",
+  "ex": "He grew ruminative on long drives, mulling over old decisions.",
+  "tier": 3
+ },
+ {
+  "w": "sapience",
+  "pos": "n",
+  "def": "wisdom and good judgment",
+  "ex": "We turned to the elder for the sapience only experience can bring.",
+  "tier": 3
+ },
+ {
+  "w": "speculative",
+  "pos": "adj",
+  "def": "based on conjecture rather than knowledge",
+  "ex": "Any guess about next year's sales is purely speculative.",
+  "tier": 3
+ },
+ {
+  "w": "perceptiveness",
+  "pos": "n",
+  "def": "the ability to notice or understand quickly",
+  "ex": "Her perceptiveness about people made her a natural negotiator.",
+  "tier": 3
+ },
+ {
+  "w": "inscrutability",
+  "pos": "n",
+  "def": "the quality of being impossible to interpret",
+  "ex": "The inscrutability of his expression gave nothing away.",
+  "tier": 3
+ },
+ {
+  "w": "prescient",
+  "pos": "adj",
+  "def": "having foreknowledge of events",
+  "ex": "His prescient warning about the bug saved us a costly recall.",
+  "tier": 3
+ },
+ {
+  "w": "assiduity",
+  "pos": "n",
+  "def": "constant and careful effort",
+  "ex": "She tackled the project with an assiduity that impressed everyone.",
+  "tier": 3
+ },
+ {
+  "w": "indefatigability",
+  "pos": "n",
+  "def": "tireless persistence",
+  "ex": "His indefatigability carried the campaign through its hardest weeks.",
+  "tier": 3
+ },
+ {
+  "w": "perseverance",
+  "pos": "n",
+  "def": "steady persistence despite difficulty",
+  "ex": "Sheer perseverance got her through medical school.",
+  "tier": 3
+ },
+ {
+  "w": "diligently",
+  "pos": "adv",
+  "def": "with steady, careful effort",
+  "ex": "He worked diligently on the report until it was flawless.",
+  "tier": 3
+ },
+ {
+  "w": "expeditious",
+  "pos": "adj",
+  "def": "done quickly and efficiently",
+  "ex": "We need an expeditious fix before the demo at noon.",
+  "tier": 3
+ },
+ {
+  "w": "sedulous",
+  "pos": "adj",
+  "def": "showing dedicated, painstaking effort",
+  "ex": "Her sedulous note-taking captured every detail of the lecture.",
+  "tier": 3
+ },
+ {
+  "w": "painstaking",
+  "pos": "adj",
+  "def": "done with great care and thoroughness",
+  "ex": "Restoring the painting was painstaking work that took months.",
+  "tier": 3
+ },
+ {
+  "w": "flag",
+  "pos": "v",
+  "def": "to grow tired or lose energy",
+  "ex": "By mile twenty, even the strongest runners began to flag.",
+  "tier": 3
+ },
+ {
+  "w": "galvanizing",
+  "pos": "adj",
+  "def": "shocking into sudden activity",
+  "ex": "Her galvanizing speech sent volunteers rushing to sign up.",
+  "tier": 3
+ },
+ {
+  "w": "strenuousness",
+  "pos": "n",
+  "def": "the quality of requiring great effort",
+  "ex": "The strenuousness of the hike left us sore for days.",
+  "tier": 3
+ },
+ {
+  "w": "unstinting",
+  "pos": "adj",
+  "def": "given generously and without limit",
+  "ex": "His unstinting support kept the little theater alive for years.",
+  "tier": 3
+ },
+ {
+  "w": "laborious",
+  "pos": "adj",
+  "def": "requiring much hard work",
+  "ex": "Sorting the old archive was slow, laborious work.",
+  "tier": 3
+ },
+ {
+  "w": "dawdling",
+  "pos": "n",
+  "def": "the act of wasting time or moving slowly",
+  "ex": "Enough dawdling; we'll miss the train if you don't hurry.",
+  "tier": 3
+ },
+ {
+  "w": "procrastination",
+  "pos": "n",
+  "def": "the act of needlessly delaying tasks",
+  "ex": "My procrastination meant cramming the whole report into one night.",
+  "tier": 3
+ },
+ {
+  "w": "persistence",
+  "pos": "n",
+  "def": "continued effort despite obstacles",
+  "ex": "Her persistence finally wore down the committee's objections.",
+  "tier": 3
+ },
+ {
+  "w": "exertion",
+  "pos": "n",
+  "def": "physical or mental effort",
+  "ex": "After that much exertion, he collapsed onto the couch.",
+  "tier": 3
+ },
+ {
+  "w": "dogged",
+  "pos": "adj",
+  "def": "stubbornly persistent in effort",
+  "ex": "His dogged determination eventually fixed the stubborn bug.",
+  "tier": 3
+ },
+ {
+  "w": "slipshod",
+  "pos": "adj",
+  "def": "careless and lacking in thoroughness",
+  "ex": "The slipshod paint job left streaks all over the wall.",
+  "tier": 3
+ },
+ {
+  "w": "meticulousness",
+  "pos": "n",
+  "def": "extreme attention to detail",
+  "ex": "The watchmaker's meticulousness was visible in every tiny gear.",
+  "tier": 3
+ },
+ {
+  "w": "undertaking",
+  "pos": "n",
+  "def": "a task or project that is begun",
+  "ex": "Renovating the whole house was a huge undertaking.",
+  "tier": 3
+ },
+ {
+  "w": "perfunctoriness",
+  "pos": "n",
+  "def": "the quality of being done with minimal effort",
+  "ex": "The perfunctoriness of his apology made it feel insincere.",
+  "tier": 3
+ },
+ {
+  "w": "strive",
+  "pos": "v",
+  "def": "to make great efforts toward a goal",
+  "ex": "We strive to answer every email within a single day.",
+  "tier": 3
+ },
+ {
+  "w": "toilsome",
+  "pos": "adj",
+  "def": "involving hard, tiring work",
+  "ex": "Harvesting by hand is toilsome but oddly satisfying.",
+  "tier": 3
+ },
+ {
+  "w": "buckle",
+  "pos": "v",
+  "def": "to apply oneself with determination",
+  "ex": "It's time to buckle down and finish the thesis.",
+  "tier": 3
+ },
+ {
+  "w": "redouble",
+  "pos": "v",
+  "def": "to greatly intensify one's efforts",
+  "ex": "After the close loss, the team redoubled its training.",
+  "tier": 3
+ },
+ {
+  "w": "belligerence",
+  "pos": "n",
+  "def": "aggressive or warlike hostility",
+  "ex": "His belligerence at the meeting derailed any chance of compromise.",
+  "tier": 3
+ },
+ {
+  "w": "contentiousness",
+  "pos": "n",
+  "def": "a tendency to argue or provoke disputes",
+  "ex": "The committee's contentiousness stalled every vote for hours.",
+  "tier": 3
+ },
+ {
+  "w": "hegemonic",
+  "pos": "adj",
+  "def": "dominant over others, especially politically",
+  "ex": "The company's hegemonic grip on the market scared off rivals.",
+  "tier": 3
+ },
+ {
+  "w": "insubordination",
+  "pos": "n",
+  "def": "defiance of authority or orders",
+  "ex": "Refusing the direct order counted as flat insubordination.",
+  "tier": 3
+ },
+ {
+  "w": "pugnacity",
+  "pos": "n",
+  "def": "eagerness to fight or argue",
+  "ex": "His pugnacity made even friendly debates feel like brawls.",
+  "tier": 3
+ },
+ {
+  "w": "subjugation",
+  "pos": "n",
+  "def": "the act of bringing under control by force",
+  "ex": "The empire expanded through the subjugation of weaker neighbors.",
+  "tier": 3
+ },
+ {
+  "w": "recalcitrancy",
+  "pos": "n",
+  "def": "stubborn resistance to authority",
+  "ex": "The mule's recalcitrancy meant the cart went nowhere.",
+  "tier": 3
+ },
+ {
+  "w": "factionalism",
+  "pos": "n",
+  "def": "conflict between rival groups within an organization",
+  "ex": "Factionalism tore the party apart before the election.",
+  "tier": 3
+ },
+ {
+  "w": "acrimoniousness",
+  "pos": "n",
+  "def": "bitter, angry hostility",
+  "ex": "The divorce dragged on amid growing acrimoniousness.",
+  "tier": 3
+ },
+ {
+  "w": "insurrectionary",
+  "pos": "adj",
+  "def": "involving rebellion against authority",
+  "ex": "The pamphlet's insurrectionary tone alarmed the governor.",
+  "tier": 3
+ },
+ {
+  "w": "dominance",
+  "pos": "n",
+  "def": "power and influence over others",
+  "ex": "The champion reasserted her dominance with a flawless final round.",
+  "tier": 3
+ },
+ {
+  "w": "subversion",
+  "pos": "n",
+  "def": "the act of undermining authority or a system",
+  "ex": "The leak was a deliberate subversion of the official narrative.",
+  "tier": 3
+ },
+ {
+  "w": "vanquishment",
+  "pos": "n",
+  "def": "the act of utterly defeating an opponent",
+  "ex": "The team celebrated the vanquishment of their longtime rivals.",
+  "tier": 3
+ },
+ {
+  "w": "combativeness",
+  "pos": "n",
+  "def": "readiness to fight or argue",
+  "ex": "His combativeness in negotiations cost us the partnership.",
+  "tier": 3
+ },
+ {
+  "w": "capitulation",
+  "pos": "n",
+  "def": "the act of surrendering or giving in",
+  "ex": "Their sudden capitulation ended the strike overnight.",
+  "tier": 3
+ },
+ {
+  "w": "oppressive",
+  "pos": "adj",
+  "def": "unjustly harsh and controlling",
+  "ex": "The oppressive rules left employees afraid to speak up.",
+  "tier": 3
+ },
+ {
+  "w": "embattled",
+  "pos": "adj",
+  "def": "beset by conflict or difficulty",
+  "ex": "The embattled mayor faced protests from every direction.",
+  "tier": 3
+ },
+ {
+  "w": "despotism",
+  "pos": "n",
+  "def": "the exercise of absolute, oppressive power",
+  "ex": "Years of despotism left the country desperate for reform.",
+  "tier": 3
+ },
+ {
+  "w": "antagonism",
+  "pos": "n",
+  "def": "active hostility or opposition",
+  "ex": "There was open antagonism between the two department heads.",
+  "tier": 3
+ },
+ {
+  "w": "sedition",
+  "pos": "n",
+  "def": "incitement to rebel against authority",
+  "ex": "The fiery speech bordered on outright sedition.",
+  "tier": 3
+ },
+ {
+  "w": "overpowering",
+  "pos": "adj",
+  "def": "too strong to resist or withstand",
+  "ex": "The favorite's overpowering serve won the match in straight sets.",
+  "tier": 3
+ },
+ {
+  "w": "factious",
+  "pos": "adj",
+  "def": "causing or marked by group conflict",
+  "ex": "The factious debate split the club into warring camps.",
+  "tier": 3
+ },
+ {
+  "w": "discordance",
+  "pos": "n",
+  "def": "lack of agreement or harmony",
+  "ex": "The discordance among the partners doomed the venture.",
+  "tier": 3
+ },
+ {
+  "w": "overthrow",
+  "pos": "v",
+  "def": "to remove from power by force",
+  "ex": "The rebels vowed to overthrow the corrupt regime.",
+  "tier": 3
+ },
+ {
+  "w": "quell",
+  "pos": "v",
+  "def": "to suppress or put an end to forcefully",
+  "ex": "It took hours for officials to quell the unrest downtown.",
+  "tier": 3
+ },
+ {
+  "w": "resplendence",
+  "pos": "n",
+  "def": "brilliant, dazzling splendor",
+  "ex": "The ballroom's resplendence left the guests momentarily speechless.",
+  "tier": 3
+ },
+ {
+  "w": "luminescence",
+  "pos": "n",
+  "def": "soft glowing light",
+  "ex": "The luminescence of the fireflies turned the field into a galaxy.",
+  "tier": 3
+ },
+ {
+  "w": "sumptuousness",
+  "pos": "n",
+  "def": "rich, lavish, expensive quality",
+  "ex": "The hotel's sumptuousness was obvious from the marble lobby alone.",
+  "tier": 3
+ },
+ {
+  "w": "unsightliness",
+  "pos": "n",
+  "def": "the quality of being ugly or unpleasant to see",
+  "ex": "The unsightliness of the dumpster ruined the otherwise lovely courtyard.",
+  "tier": 3
+ },
+ {
+  "w": "immaculateness",
+  "pos": "n",
+  "def": "the state of being perfectly clean or flawless",
+  "ex": "The immaculateness of her kitchen made me afraid to spill anything.",
+  "tier": 3
+ },
+ {
+  "w": "ostentation",
+  "pos": "n",
+  "def": "showy display meant to impress",
+  "ex": "The gold-plated faucets were pure ostentation.",
+  "tier": 3
+ },
+ {
+  "w": "shabbiness",
+  "pos": "n",
+  "def": "a worn-out, run-down condition",
+  "ex": "The shabbiness of the old theater somehow added to its charm.",
+  "tier": 3
+ },
+ {
+  "w": "opulence",
+  "pos": "n",
+  "def": "great wealth and luxuriousness",
+  "ex": "The palace's opulence rivaled anything in a fairy tale.",
+  "tier": 3
+ },
+ {
+  "w": "drabness",
+  "pos": "n",
+  "def": "dull, colorless dreariness",
+  "ex": "A coat of yellow paint banished the office's drabness.",
+  "tier": 3
+ },
+ {
+  "w": "pristineness",
+  "pos": "n",
+  "def": "the state of being spotless and unspoiled",
+  "ex": "The pristineness of the snow made us hesitate to step on it.",
+  "tier": 3
+ },
+ {
+  "w": "gaudiness",
+  "pos": "n",
+  "def": "showy, tasteless brightness",
+  "ex": "The gaudiness of the neon sign clashed with the quiet street.",
+  "tier": 3
+ },
+ {
+  "w": "elegance",
+  "pos": "n",
+  "def": "graceful, refined beauty",
+  "ex": "The dress had a simple elegance that needed no jewelry.",
+  "tier": 3
+ },
+ {
+  "w": "squalor",
+  "pos": "n",
+  "def": "filthy, neglected, degraded conditions",
+  "ex": "The abandoned building had fallen into utter squalor.",
+  "tier": 3
+ },
+ {
+  "w": "refulgent",
+  "pos": "adj",
+  "def": "shining brightly; radiant",
+  "ex": "The refulgent dome caught the last light of the sunset.",
+  "tier": 3
+ },
+ {
+  "w": "unkempt",
+  "pos": "adj",
+  "def": "untidy or not properly maintained",
+  "ex": "His unkempt hair suggested he'd rolled straight out of bed.",
+  "tier": 3
+ },
+ {
+  "w": "lustrousness",
+  "pos": "n",
+  "def": "a soft, shining quality",
+  "ex": "The lustrousness of the pearls drew every eye at the gala.",
+  "tier": 3
+ },
+ {
+  "w": "dilapidation",
+  "pos": "n",
+  "def": "a state of disrepair and decay",
+  "ex": "The dilapidation of the bridge made the city finally act.",
+  "tier": 3
+ },
+ {
+  "w": "radiance",
+  "pos": "n",
+  "def": "glowing brightness or warmth",
+  "ex": "There was a radiance to her smile that lit up the whole room.",
+  "tier": 3
+ },
+ {
+  "w": "grottiness",
+  "pos": "n",
+  "def": "a grimy, unpleasant, dirty quality",
+  "ex": "The grottiness of the old gym finally got it shut down.",
+  "tier": 3
+ },
+ {
+  "w": "finery",
+  "pos": "n",
+  "def": "showy, elaborate clothes or decoration",
+  "ex": "Guests arrived in their finery for the charity ball.",
+  "tier": 3
+ },
+ {
+  "w": "resplendent",
+  "pos": "adj",
+  "def": "shining brilliantly; dazzlingly bright",
+  "ex": "She looked resplendent in the gold gown.",
+  "tier": 3
+ },
+ {
+  "w": "unblemished",
+  "pos": "adj",
+  "def": "perfect and without any flaws",
+  "ex": "His unblemished record made him the obvious pick for the role.",
+  "tier": 3
+ },
+ {
+  "w": "garishness",
+  "pos": "n",
+  "def": "loud, tasteless brightness or display",
+  "ex": "The garishness of the casino's carpet made my eyes hurt.",
+  "tier": 3
+ },
+ {
+  "w": "scruffiness",
+  "pos": "n",
+  "def": "a shabby, untidy appearance",
+  "ex": "Despite his scruffiness, the musician played like a master.",
+  "tier": 3
+ },
+ {
+  "w": "splendor",
+  "pos": "n",
+  "def": "magnificent and impressive beauty",
+  "ex": "The canyon's splendor stopped every hiker in their tracks.",
+  "tier": 3
+ },
+ {
+  "w": "metamorphosis",
+  "pos": "n",
+  "def": "a complete change of form or nature",
+  "ex": "The shy intern's metamorphosis into a confident leader amazed us all.",
+  "tier": 3
+ },
+ {
+  "w": "ephemerality",
+  "pos": "n",
+  "def": "the quality of lasting a very short time",
+  "ex": "Part of a sandcastle's charm is its ephemerality.",
+  "tier": 3
+ },
+ {
+  "w": "perpetuity",
+  "pos": "n",
+  "def": "the state of lasting forever",
+  "ex": "The trust funds the scholarship in perpetuity.",
+  "tier": 3
+ },
+ {
+  "w": "superabundance",
+  "pos": "n",
+  "def": "an excessive or overflowing amount",
+  "ex": "There was a superabundance of zucchini from the garden this year.",
+  "tier": 3
+ },
+ {
+  "w": "diminution",
+  "pos": "n",
+  "def": "a reduction in size, amount, or importance",
+  "ex": "Sales saw a sharp diminution after the price hike.",
+  "tier": 3
+ },
+ {
+  "w": "proliferation",
+  "pos": "n",
+  "def": "rapid increase in number or spread",
+  "ex": "The proliferation of food trucks transformed the neighborhood.",
+  "tier": 3
+ },
+ {
+  "w": "transience",
+  "pos": "n",
+  "def": "the state of being temporary or fleeting",
+  "ex": "The transience of cherry blossoms makes them all the more precious.",
+  "tier": 3
+ },
+ {
+  "w": "permanence",
+  "pos": "n",
+  "def": "the state of lasting indefinitely",
+  "ex": "The tattoo's permanence is exactly why she hesitated.",
+  "tier": 3
+ },
+ {
+  "w": "fluctuation",
+  "pos": "n",
+  "def": "continual irregular variation",
+  "ex": "The wild fluctuation in prices made budgeting impossible.",
+  "tier": 3
+ },
+ {
+  "w": "escalation",
+  "pos": "n",
+  "def": "a rapid increase or intensification",
+  "ex": "The escalation of the argument surprised everyone at the table.",
+  "tier": 3
+ },
+ {
+  "w": "abatement",
+  "pos": "n",
+  "def": "a reduction in intensity or amount",
+  "ex": "There was no abatement in the rain all weekend.",
+  "tier": 3
+ },
+ {
+  "w": "augmentation",
+  "pos": "n",
+  "def": "the act of making something larger or greater",
+  "ex": "The augmentation of the staff finally cleared the backlog.",
+  "tier": 3
+ },
+ {
+  "w": "dwindling",
+  "pos": "adj",
+  "def": "steadily shrinking or diminishing",
+  "ex": "Our dwindling savings forced us to cancel the trip.",
+  "tier": 3
+ },
+ {
+  "w": "copiousness",
+  "pos": "n",
+  "def": "the quality of being plentiful or abundant",
+  "ex": "The copiousness of the buffet meant nobody left hungry.",
+  "tier": 3
+ },
+ {
+  "w": "transmutation",
+  "pos": "n",
+  "def": "a change into a different form or substance",
+  "ex": "Cooking is really just the transmutation of raw ingredients.",
+  "tier": 3
+ },
+ {
+  "w": "plenitude",
+  "pos": "n",
+  "def": "an abundance or fullness",
+  "ex": "There was a plenitude of advice but very little real help.",
+  "tier": 3
+ },
+ {
+  "w": "scarceness",
+  "pos": "n",
+  "def": "the state of being in short supply",
+  "ex": "The scarceness of rain ruined this season's crops.",
+  "tier": 3
+ },
+ {
+  "w": "recurrence",
+  "pos": "n",
+  "def": "a repeated occurrence of something",
+  "ex": "The recurrence of the error pointed to a deeper problem.",
+  "tier": 3
+ },
+ {
+  "w": "intermittence",
+  "pos": "n",
+  "def": "the quality of stopping and starting irregularly",
+  "ex": "The intermittence of the signal made the call drop repeatedly.",
+  "tier": 3
+ },
+ {
+  "w": "perpetuation",
+  "pos": "n",
+  "def": "the act of causing something to continue",
+  "ex": "The myth's perpetuation owed much to a single popular film.",
+  "tier": 3
+ },
+ {
+  "w": "upsurge",
+  "pos": "n",
+  "def": "a sudden large increase",
+  "ex": "There was an upsurge in applications after the ad aired.",
+  "tier": 3
+ },
+ {
+  "w": "surfeit",
+  "pos": "n",
+  "def": "an excessive amount of something",
+  "ex": "After the holidays we had a surfeit of leftover cookies.",
+  "tier": 3
+ },
+ {
+  "w": "gradation",
+  "pos": "n",
+  "def": "a gradual change through small stages",
+  "ex": "The wall showed a soft gradation from blue to violet.",
+  "tier": 3
+ },
+ {
+  "w": "momentousness",
+  "pos": "n",
+  "def": "great importance or significance",
+  "ex": "No one in the room grasped the momentousness of the decision.",
+  "tier": 3
+ },
+ {
+  "w": "protraction",
+  "pos": "n",
+  "def": "the act of prolonging or drawing out",
+  "ex": "The needless protraction of the meeting wasted the afternoon.",
+  "tier": 3
+ }
+]
