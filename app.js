@@ -11,7 +11,7 @@
   // ---------- element refs ----------
   const $ = (id) => document.getElementById(id);
 
-  const screens = { setup: $("setup"), quiz: $("quiz"), results: $("results") };
+  const screens = { setup: $("setup"), quiz: $("quiz"), results: $("results"), shop: $("shop") };
 
   const tierGrid = $("tierGrid");
   const modeRow = $("modeRow");
@@ -66,6 +66,8 @@
   const resultPoints = $("resultPoints");
   const resultGems = $("resultGems");
   const resultGemsNum = $("resultGemsNum");
+  const shopGrid = $("shopGrid");
+  const shopBalance = $("shopBalance");
 
   // daily streak panel + customize
   const streakPanel = $("streakPanel");
@@ -103,6 +105,35 @@
   const GEMS_JACKPOT = 40;    // gems for a jackpot
   const COMBO_CALLOUTS = ["NICE!", "GREAT!", "ON FIRE!", "UNSTOPPABLE!", "GODLIKE!"];
 
+  // Color themes purchasable with gems. Each overrides the CSS design tokens.
+  const THEMES = [
+    { id: "aurora", name: "Aurora", emoji: "🌌", cost: 0, vars: {
+      "--brand": "#6d5efc", "--brand-2": "#b66bff", "--accent": "#2ad6c8", "--good": "#2fd07a",
+      "--bad": "#ff5a7a", "--warn": "#ffce4f", "--bg": "#0e0b1e", "--bg-2": "#16122e",
+      "--glow1": "#241a4d", "--glow2": "#1a2350" } },
+    { id: "sunset", name: "Sunset", emoji: "🌅", cost: 150, vars: {
+      "--brand": "#ff7a4d", "--brand-2": "#ff5e87", "--accent": "#ffb24d", "--good": "#46d39a",
+      "--bad": "#ff5a7a", "--warn": "#ffd24d", "--bg": "#190d14", "--bg-2": "#2a1320",
+      "--glow1": "#4d1f2a", "--glow2": "#3a1a30" } },
+    { id: "emerald", name: "Emerald", emoji: "🌿", cost: 250, vars: {
+      "--brand": "#16b97a", "--brand-2": "#0ea5a5", "--accent": "#8ae66b", "--good": "#2fd07a",
+      "--bad": "#ff6b6b", "--warn": "#ffe06b", "--bg": "#07140f", "--bg-2": "#0c1f1a",
+      "--glow1": "#103a2e", "--glow2": "#0e2a35" } },
+    { id: "candy", name: "Candy", emoji: "🍬", cost: 300, vars: {
+      "--brand": "#ff5fb0", "--brand-2": "#b15cff", "--accent": "#5fd0ff", "--good": "#57e08e",
+      "--bad": "#ff5a7a", "--warn": "#ffd84d", "--bg": "#1a0f1e", "--bg-2": "#241332",
+      "--glow1": "#4a1f55", "--glow2": "#34204f" } },
+    { id: "midnight", name: "Midnight Gold", emoji: "👑", cost: 450, vars: {
+      "--brand": "#d4af37", "--brand-2": "#b8862b", "--accent": "#f5d77a", "--good": "#6bd39a",
+      "--bad": "#e0667a", "--warn": "#ffd76e", "--bg": "#0a0e1a", "--bg-2": "#0f1424",
+      "--glow1": "#1a2340", "--glow2": "#2a2410" } },
+    { id: "neon", name: "Neon", emoji: "⚡", cost: 600, vars: {
+      "--brand": "#00e5ff", "--brand-2": "#ff2bd6", "--accent": "#b6ff3b", "--good": "#2fff9e",
+      "--bad": "#ff3b6b", "--warn": "#ffe23b", "--bg": "#05060f", "--bg-2": "#0a0a18",
+      "--glow1": "#0a2a4d", "--glow2": "#2a0a40" } },
+  ];
+  const THEME_BY_ID = new Map(THEMES.map((t) => [t.id, t]));
+
   const ACHIEVEMENTS = {
     first_perfect: { emoji: "🏆", name: "Flawless", desc: "100% in a round" },
     sharpshooter:  { emoji: "🎯", name: "Sharpshooter", desc: "90%+ in a round" },
@@ -133,7 +164,8 @@
   const defaultStore = () => ({
     bestPct: 0, bestStreak: 0, games: 0,
     xp: 0, totalCorrect: 0,
-    gems: 0, powerWords: 0, chests: 0,  // Candy-Crush-style collectibles
+    gems: 0, gemsEarned: 0, powerWords: 0, chests: 0,  // gems = spendable balance, gemsEarned = lifetime
+    theme: "aurora", themesOwned: ["aurora"],
     words: {},             // word -> { s: seen, c: correct }
     achievements: {},      // id -> true
     settings: { tiers: [1, 2], auto: true, mode: "choice", length: 10 },
@@ -142,7 +174,13 @@
     dailyGoal: 10, todayCorrect: 0, todayDay: null, goalDoneDay: null,
   });
   function loadStore() {
-    try { return Object.assign(defaultStore(), JSON.parse(localStorage.getItem(STORE_KEY)) || {}); }
+    try {
+      const s = Object.assign(defaultStore(), JSON.parse(localStorage.getItem(STORE_KEY)) || {});
+      if (s.gemsEarned == null) s.gemsEarned = s.gems || 0; // migrate: lifetime defaults to current balance
+      if (!Array.isArray(s.themesOwned) || !s.themesOwned.length) s.themesOwned = ["aurora"];
+      if (!s.theme) s.theme = "aurora";
+      return s;
+    }
     catch { return defaultStore(); }
   }
   function saveStore() { try { localStorage.setItem(STORE_KEY, JSON.stringify(store)); } catch {} }
@@ -332,28 +370,85 @@
   function comboMult() { return Math.min(COMBO_MAX, 1 + Math.floor(streak / COMBO_STEP)); }
 
   function renderTreasure() {
-    const g = store.gems || 0;
-    if (gemNum) gemNum.textContent = g;
-    if (gemQuiz) gemQuiz.textContent = g;
-    const into = g % CHEST_SIZE;
+    const bal = store.gems || 0;              // spendable balance
+    const earned = store.gemsEarned || 0;     // lifetime earned drives the chest
+    if (gemNum) gemNum.textContent = bal;
+    if (gemQuiz) gemQuiz.textContent = bal;
+    const into = earned % CHEST_SIZE;
     if (chestFill) chestFill.style.width = Math.round((into / CHEST_SIZE) * 100) + "%";
     if (chestNow) chestNow.textContent = into;
     if (chestTarget) chestTarget.textContent = CHEST_SIZE;
   }
 
-  // Award gems and celebrate whenever a chest fills (every CHEST_SIZE gems).
+  // Award gems (adds to both balance + lifetime); celebrate when a chest fills.
   function addGems(n) {
     if (!n) return;
-    const before = store.gems || 0;
-    store.gems = before + n;
-    if (Math.floor(store.gems / CHEST_SIZE) > Math.floor(before / CHEST_SIZE)) {
+    const before = store.gemsEarned || 0;
+    store.gems = (store.gems || 0) + n;
+    store.gemsEarned = before + n;
+    if (Math.floor(store.gemsEarned / CHEST_SIZE) > Math.floor(before / CHEST_SIZE)) {
       store.chests = (store.chests || 0) + 1;
-      store.gems += 30; // chest bonus
+      store.gems += 30; store.gemsEarned += 30; // chest bonus
       setTimeout(() => { toast("🎁", "Chest unlocked!", "+30 bonus gems — keep going!"); burstConfetti(); }, 300);
       award("chest_opener");
     }
-    if (store.gems >= 500) award("gem_hoarder");
+    if (store.gemsEarned >= 500) award("gem_hoarder");
     renderTreasure();
+  }
+
+  // Spend from the balance only (used by the theme shop). Returns success.
+  function spendGems(n) {
+    if ((store.gems || 0) < n) return false;
+    store.gems -= n; saveStore(); renderTreasure();
+    return true;
+  }
+
+  // ---------- theme shop ----------
+  function applyTheme(id) {
+    const th = THEME_BY_ID.get(id) || THEMES[0];
+    const root = document.documentElement;
+    Object.entries(th.vars).forEach(([k, v]) => root.style.setProperty(k, v));
+    store.theme = th.id; saveStore();
+  }
+
+  function buyTheme(id) {
+    const th = THEME_BY_ID.get(id);
+    if (!th) return;
+    const owned = store.themesOwned.includes(id);
+    if (owned) { applyTheme(id); renderShop(); return; }          // already owned → just equip
+    if (spendGems(th.cost)) {
+      store.themesOwned.push(id); saveStore();
+      applyTheme(id);
+      toast(th.emoji, th.name + " unlocked!", "Theme equipped — looking good ✨");
+      burstConfetti();
+      renderShop();
+    } else {
+      toast("💎", "Not enough gems", `${th.name} costs ${th.cost} — keep playing!`);
+    }
+  }
+
+  function renderShop() {
+    if (!shopGrid) return;
+    if (shopBalance) shopBalance.textContent = store.gems || 0;
+    shopGrid.innerHTML = "";
+    THEMES.forEach((th) => {
+      const owned = store.themesOwned.includes(th.id);
+      const active = store.theme === th.id;
+      const card = document.createElement("div");
+      card.className = "theme-card" + (active ? " active" : "");
+      const dots = ["--brand", "--brand-2", "--accent", "--warn"]
+        .map((k) => `<i style="background:${th.vars[k]}"></i>`).join("");
+      const swatchBg = `linear-gradient(160deg, ${th.vars["--bg"]}, ${th.vars["--bg-2"]})`;
+      const btn = active
+        ? `<button class="theme-btn is-active" disabled>✓ Active</button>`
+        : owned
+        ? `<button class="theme-btn" data-buy="${th.id}">Use</button>`
+        : `<button class="theme-btn buy" data-buy="${th.id}">💎 ${th.cost}</button>`;
+      card.innerHTML =
+        `<div class="theme-swatch" style="background:${swatchBg}"><span>${th.emoji}</span><div class="dots">${dots}</div></div>` +
+        `<div class="theme-name">${th.name}</div>${btn}`;
+      shopGrid.appendChild(card);
+    });
   }
 
   function flashCombo() {
@@ -974,7 +1069,7 @@
   function renderBestStrip() {
     if (!store.games) { bestStrip.textContent = `${ALL_WORDS.length.toLocaleString()} words ready — your first round awaits ✦`; return; }
     bestStrip.innerHTML =
-      `🏅 Best <b>${store.bestPct}%</b> · 🔥 Top streak <b>${store.bestStreak}</b> · 🎮 <b>${store.games}</b> rounds · ✅ <b>${store.totalCorrect}</b> correct`;
+      `⭐ <b>${(store.xp || 0).toLocaleString()}</b> lifetime pts · 🏅 Best <b>${store.bestPct}%</b> · 🔥 Top streak <b>${store.bestStreak}</b> · 🎮 <b>${store.games}</b> rounds · ✅ <b>${store.totalCorrect}</b> correct`;
   }
 
   // ===================================================================
@@ -1120,9 +1215,10 @@
   // SCREEN HELPERS + WIRING
   // ===================================================================
   function show(name) {
-    Object.values(screens).forEach((s) => s.classList.remove("is-active"));
+    Object.values(screens).forEach((s) => s && s.classList.remove("is-active"));
     screens[name].classList.add("is-active");
     if (name === "setup") renderStreak();
+    if (name === "shop") renderShop();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -1138,6 +1234,15 @@
   $("againBtn").addEventListener("click", () => startGame());
   $("menuBtn").addEventListener("click", () => show("setup"));
   $("quitBtn").addEventListener("click", () => { stopTimer(); show("setup"); });
+
+  // theme shop nav + purchases
+  const shopBtn = $("shopBtn"), shopBack = $("shopBack");
+  if (shopBtn) shopBtn.addEventListener("click", () => show("shop"));
+  if (shopBack) shopBack.addEventListener("click", () => show("setup"));
+  if (shopGrid) shopGrid.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-buy]");
+    if (b) buyTheme(b.dataset.buy);
+  });
 
   function openCustomize() {
     if (customizeEl && customizeToggle && customizeEl.hasAttribute("hidden")) customizeToggle.click();
@@ -1172,6 +1277,7 @@
   });
 
   // ---------- init ----------
+  applyTheme(store.theme);
   buildTierGrid();
   reflectDifficulty();
   reflectModeAndLength();

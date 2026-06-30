@@ -12,6 +12,8 @@
   --good: #2fd07a;
   --bad: #ff5a7a;
   --warn: #ffce4f;
+  --glow1: #241a4d;
+  --glow2: #1a2350;
   --shadow: 0 18px 50px -12px rgba(0, 0, 0, 0.55);
   --r-lg: 26px;
   --r-md: 18px;
@@ -31,10 +33,11 @@ html, body {
 
 body {
   background:
-    radial-gradient(1200px 600px at 70% -10%, #241a4d 0%, transparent 55%),
-    radial-gradient(1000px 700px at -10% 110%, #1a2350 0%, transparent 50%),
+    radial-gradient(1200px 600px at 70% -10%, var(--glow1) 0%, transparent 55%),
+    radial-gradient(1000px 700px at -10% 110%, var(--glow2) 0%, transparent 50%),
     linear-gradient(160deg, var(--bg) 0%, var(--bg-2) 100%);
   min-height: 100dvh;
+  transition: background .5s ease;
 }
 
 /* ---------- aurora background ---------- */
@@ -529,6 +532,34 @@ body {
   box-shadow: 0 0 0 3px var(--brand-2), 0 24px 60px -16px rgba(182,107,255,.6);
 }
 .flashcard.is-jackpot .fc-word { background: linear-gradient(90deg, #ffe9a8, #fff, #e7d4ff); -webkit-background-clip: text; background-clip: text; }
+
+/* ---------- theme shop ---------- */
+.shop-title { flex: 1; font-family: "Fredoka"; font-weight: 700; font-size: 1.3rem; }
+.shop-bal { flex: none; font-family: "Fredoka"; font-weight: 600; color: var(--accent); padding: 8px 14px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--stroke); }
+.shop-sub { color: var(--muted); font-size: 0.9rem; margin: 0 0 18px; }
+.theme-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.theme-card {
+  background: var(--surface); border: 1px solid var(--stroke); border-radius: var(--r-lg);
+  padding: 12px; text-align: center; box-shadow: var(--shadow);
+}
+.theme-card.active { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent), var(--shadow); }
+.theme-swatch {
+  position: relative; height: 84px; border-radius: var(--r-md); border: 1px solid var(--stroke);
+  display: grid; place-items: center; overflow: hidden;
+}
+.theme-swatch span { font-size: 2rem; filter: drop-shadow(0 2px 6px rgba(0,0,0,.5)); }
+.theme-swatch .dots { position: absolute; bottom: 8px; left: 0; right: 0; display: flex; justify-content: center; gap: 6px; }
+.theme-swatch .dots i { width: 14px; height: 14px; border-radius: 50%; border: 1px solid rgba(255,255,255,.5); }
+.theme-name { font-family: "Fredoka"; font-weight: 600; font-size: 1rem; margin: 10px 0 8px; }
+.theme-btn {
+  width: 100%; border: 1px solid var(--stroke); background: var(--surface-2); color: var(--text);
+  font-family: "Fredoka"; font-weight: 600; font-size: 0.95rem; padding: 10px; border-radius: var(--r-md);
+  cursor: pointer; transition: transform .12s, border-color .2s, background .2s;
+}
+.theme-btn:active { transform: scale(0.96); }
+.theme-btn:hover { border-color: var(--brand); }
+.theme-btn.buy { background: linear-gradient(135deg, var(--brand), var(--brand-2)); border-color: transparent; color: #fff; }
+.theme-btn.is-active { color: var(--accent); border-color: var(--accent); cursor: default; }
 
 /* ---------- confetti ---------- */
 .confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 50; }

@@ -60,6 +60,7 @@
       </div>
 
       <button id="startBtn" class="btn-primary btn-play">▶&nbsp; Quick Play</button>
+      <button id="shopBtn" class="customize-toggle">🎨 Theme Shop</button>
       <button id="customizeToggle" class="customize-toggle" aria-expanded="false" aria-controls="customize">⚙ Customize</button>
 
       <div id="customize" class="customize" hidden>
@@ -197,6 +198,17 @@
           <button id="menuBtn" class="btn-ghost">Menu</button>
         </div>
       </div>
+    </section>
+
+    <!-- ============ THEME SHOP SCREEN ============ -->
+    <section id="shop" class="screen">
+      <div class="quiz-top">
+        <button id="shopBack" class="icon-btn" aria-label="Back to menu">‹</button>
+        <h2 class="shop-title">🎨 Themes</h2>
+        <div class="shop-bal">💎 <span id="shopBalance">0</span></div>
+      </div>
+      <p class="shop-sub">Spend gems to unlock color themes. Earn gems from Power Words, Jackpots, prize drops &amp; perfect rounds.</p>
+      <div id="shopGrid" class="theme-grid"></div>
     </section>
   </main>
 
