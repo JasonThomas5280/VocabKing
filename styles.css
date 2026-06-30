@@ -461,5 +461,74 @@ body {
 }
 .flashcard.is-power .fc-word { background: linear-gradient(180deg, #fff, #ffe9a8); -webkit-background-clip: text; background-clip: text; }
 
+/* ---------- reward juice: screen flash ---------- */
+.flash-fx {
+  position: fixed; inset: 0; z-index: 45; pointer-events: none; opacity: 0;
+  background: radial-gradient(circle at 50% 45%, rgba(255,255,255,.55), rgba(255,255,255,0) 65%);
+}
+.flash-fx.on { animation: flashPulse .42s ease-out; }
+.flash-fx.power { background: radial-gradient(circle at 50% 45%, rgba(255,214,110,.7), rgba(255,206,79,0) 68%); }
+.flash-fx.jackpot { background: radial-gradient(circle at 50% 45%, rgba(255,255,255,.85), rgba(182,107,255,.25) 60%, rgba(42,214,200,0) 75%); }
+@keyframes flashPulse { 0%{opacity:0;} 22%{opacity:1;} 100%{opacity:0;} }
+
+/* ---------- floating "+points" ---------- */
+.float-layer { position: fixed; inset: 0; z-index: 55; pointer-events: none; overflow: hidden; }
+.float-pts {
+  position: absolute; left: 50%; top: 46%; transform: translate(-50%, 0);
+  font-family: "Fredoka"; font-weight: 700; font-size: 2rem; white-space: nowrap;
+  color: var(--good); text-shadow: 0 3px 12px rgba(0,0,0,.5); animation: floatUp .95s ease-out forwards;
+}
+.float-pts.power { color: var(--warn); font-size: 2.3rem; }
+.float-pts.jackpot { color: #fff; font-size: 2.7rem; text-shadow: 0 0 18px var(--brand-2), 0 3px 12px rgba(0,0,0,.5); }
+@keyframes floatUp {
+  0% { opacity: 0; transform: translate(-50%, 10px) scale(.7); }
+  20% { opacity: 1; transform: translate(-50%, -6px) scale(1.1); }
+  100% { opacity: 0; transform: translate(-50%, -90px) scale(1); }
+}
+
+/* ---------- combo callouts ---------- */
+.callout {
+  position: fixed; left: 50%; top: 34%; transform: translate(-50%, -50%);
+  z-index: 56; pointer-events: none; opacity: 0;
+  font-family: "Fredoka"; font-weight: 700; font-size: clamp(2.2rem, 9vw, 3.4rem);
+  letter-spacing: 1px; text-align: center; white-space: nowrap;
+  background: linear-gradient(180deg, #fff, var(--warn));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  text-shadow: 0 6px 24px rgba(0,0,0,.35);
+}
+.callout.show { animation: calloutPop .9s cubic-bezier(.2,.9,.2,1); }
+@keyframes calloutPop {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(.4) rotate(-6deg); }
+  25% { opacity: 1; transform: translate(-50%, -50%) scale(1.15) rotate(2deg); }
+  70% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -64%) scale(1); }
+}
+
+/* ---------- results: points + gems ---------- */
+.result-points {
+  font-family: "Fredoka"; font-weight: 700; line-height: 1;
+  font-size: clamp(2.8rem, 13vw, 4.4rem); margin: 6px 0 2px;
+  background: linear-gradient(180deg, var(--warn), #ff8a4c);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.result-points .rp-lbl { font-size: 1.1rem; color: var(--muted); -webkit-text-fill-color: var(--muted); }
+.result-points.pop { animation: pop .5s; }
+.result-gems { color: var(--accent); font-family: "Fredoka"; font-weight: 600; font-size: 1.05rem; margin-bottom: 6px; }
+.result-gems[hidden] { display: none; }
+.result-score .rs-lbl { color: var(--muted); font-size: 1rem; }
+
+/* ---------- jackpot card ---------- */
+.power-badge.is-jackpot {
+  background: linear-gradient(90deg, #ffd76e, #ff8a4c, #b66bff, #2ad6c8, #ffd76e);
+  background-size: 300% 100%; color: #2a1a00; animation: jackpotBadge 1.4s linear infinite;
+}
+@keyframes jackpotBadge { to { background-position: 300% 0; } }
+.flashcard.is-jackpot .fc-front {
+  border-color: var(--brand-2);
+  background: linear-gradient(160deg, #2a1f4a, #3a2f12);
+  box-shadow: 0 0 0 3px var(--brand-2), 0 24px 60px -16px rgba(182,107,255,.6);
+}
+.flashcard.is-jackpot .fc-word { background: linear-gradient(90deg, #ffe9a8, #fff, #e7d4ff); -webkit-background-clip: text; background-clip: text; }
+
 /* ---------- confetti ---------- */
 .confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 50; }

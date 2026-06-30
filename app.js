@@ -60,6 +60,12 @@
   const chestFill = $("chestFill");
   const chestNow = $("chestNow");
   const chestTarget = $("chestTarget");
+  const flashFx = $("flashFx");
+  const floatLayer = $("floatLayer");
+  const calloutEl = $("callout");
+  const resultPoints = $("resultPoints");
+  const resultGems = $("resultGems");
+  const resultGemsNum = $("resultGemsNum");
 
   // daily streak panel + customize
   const streakPanel = $("streakPanel");
@@ -92,6 +98,10 @@
   const GEMS_PRIZE = 15;     // gems in a mid-round prize drop
   const GEMS_PERFECT = 25;   // gems for a flawless round
   const CHEST_SIZE = 100;    // gems to fill one chest
+  const JACKPOT_RATE = 0.025; // chance a card is a surprise Jackpot
+  const JACKPOT_MULT = 3;     // jackpot point multiplier
+  const GEMS_JACKPOT = 40;    // gems for a jackpot
+  const COMBO_CALLOUTS = ["NICE!", "GREAT!", "ON FIRE!", "UNSTOPPABLE!", "GODLIKE!"];
 
   const ACHIEVEMENTS = {
     first_perfect: { emoji: "🏆", name: "Flawless", desc: "100% in a round" },
@@ -371,6 +381,73 @@
     } catch {}
   }
 
+  // ---------- reward juice helpers ----------
+  // quick Web-Audio blip (used for count-up ticks)
+  function blip(freq, dur, vol, type) {
+    try {
+      const ac = ensureAudio(); const now = ac.currentTime;
+      const o = ac.createOscillator(), g = ac.createGain();
+      o.type = type || "square"; o.frequency.value = freq;
+      g.gain.setValueAtTime(0.0001, now);
+      g.gain.exponentialRampToValueAtTime(vol || 0.08, now + 0.005);
+      g.gain.exponentialRampToValueAtTime(0.0001, now + (dur || 0.05));
+      o.connect(g).connect(ac.destination); o.start(now); o.stop(now + (dur || 0.05) + 0.02);
+    } catch {}
+  }
+
+  // Correct-answer chime that climbs a pentatonic scale as the streak grows.
+  const PENTA = [523.25, 587.33, 659.25, 783.99, 880, 1046.5, 1174.66, 1318.5, 1568, 1760];
+  function correctTone(stk) {
+    const f = PENTA[Math.min(stk - 1, PENTA.length - 1)] || PENTA[0];
+    blip(f, 0.16, 0.16, "triangle");
+    blip(f * 1.5, 0.16, 0.08, "triangle");
+  }
+
+  // brief full-screen brighten on a correct answer
+  function screenFlash(kind) {
+    if (!flashFx) return;
+    flashFx.classList.remove("on", "power", "jackpot");
+    void flashFx.offsetWidth;
+    if (kind === "power") flashFx.classList.add("power");
+    else if (kind === "jackpot") flashFx.classList.add("jackpot");
+    flashFx.classList.add("on");
+  }
+
+  // floating "+points" that pops off the card
+  function floatPoints(text, kind) {
+    if (!floatLayer) return;
+    const el = document.createElement("div");
+    el.className = "float-pts" + (kind ? " " + kind : "");
+    el.textContent = text;
+    el.style.left = (50 + (Math.random() - 0.5) * 16) + "%";
+    floatLayer.appendChild(el);
+    setTimeout(() => el.remove(), 1000);
+  }
+
+  // big animated combo callout
+  function comboCallout(text) {
+    if (!calloutEl) return;
+    calloutEl.textContent = text;
+    calloutEl.classList.remove("show"); void calloutEl.offsetWidth; calloutEl.classList.add("show");
+  }
+
+  // slot-machine count-up. opts: { from=0, tick=true, pop=true, onDone }
+  function animateCount(el, to, ms, opts) {
+    opts = opts || {};
+    const from = opts.from || 0, tick = opts.tick !== false, pop = opts.pop !== false;
+    if (!el) { if (opts.onDone) opts.onDone(); return; }
+    const dur = ms || 1100, start = performance.now(); let frames = 0;
+    function frame(now) {
+      const p = Math.min(1, (now - start) / dur);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(from + (to - from) * eased);
+      if (tick && p < 1 && (frames++ % 3 === 0)) blip(620 + 360 * eased, 0.03, 0.05, "square");
+      if (p < 1) requestAnimationFrame(frame);
+      else { el.textContent = to; if (pop && el.parentElement) { el.parentElement.classList.remove("pop"); void el.parentElement.offsetWidth; el.parentElement.classList.add("pop"); } if (tick) blip(990, 0.12, 0.14, "triangle"); if (opts.onDone) opts.onDone(); }
+    }
+    requestAnimationFrame(frame);
+  }
+
   // chips (tier quick-selects)
   document.querySelectorAll(".quick-row .chip").forEach((c) =>
     c.addEventListener("click", () => { if (c.dataset.select) applyQuickSelect(c.dataset.select); })
@@ -484,7 +561,7 @@
   let idx = 0, score = 0, streak = 0, bestStreakRound = 0;
   let locked = false, cardStart = 0, totalTime = 0, answered = 0;
   let roundXp = 0, fastCorrect = false;
-  let currentPower = false, roundCorrect = 0, roundGems = 0, hitMaxCombo = false;
+  let currentPower = false, currentJackpot = false, roundCorrect = 0, roundGems = 0, hitMaxCombo = false, lastComboTier = 1;
   let lastMissed = [];
   const missed = [];
 
@@ -497,7 +574,7 @@
     deck = customDeck || buildDeck(len);
     idx = 0; score = 0; streak = 0; bestStreakRound = 0;
     answered = 0; totalTime = 0; roundXp = 0; fastCorrect = false; missed.length = 0;
-    roundCorrect = 0; roundGems = 0; hitMaxCombo = false;
+    roundCorrect = 0; roundGems = 0; hitMaxCombo = false; lastComboTier = 1;
     scoreNum.textContent = "0"; streakNum.textContent = "0";
     comboBadge.hidden = true; gemQuiz.textContent = store.gems || 0;
     show("quiz");
@@ -537,10 +614,16 @@
     answerEx.textContent = card.ex ? "“" + card.ex + "”" : "";
     pronTextBack.textContent = card.pr || "";
 
-    // Power Word roll — golden 2× card (skip in flip mode, which isn't scored)
-    currentPower = settings.mode !== "flip" && Math.random() < POWER_RATE;
+    // Jackpot (rare) + Power Word (common) rolls — scored modes only, exclusive
+    const scored = settings.mode !== "flip";
+    currentJackpot = scored && Math.random() < JACKPOT_RATE;
+    currentPower = scored && !currentJackpot && Math.random() < POWER_RATE;
     flashcard.classList.toggle("is-power", currentPower);
-    powerBadge.hidden = !currentPower;
+    flashcard.classList.toggle("is-jackpot", currentJackpot);
+    powerBadge.classList.toggle("is-jackpot", currentJackpot);
+    if (currentJackpot) { powerBadge.hidden = false; powerBadge.textContent = "💰 JACKPOT · Triple Points!"; }
+    else if (currentPower) { powerBadge.hidden = false; powerBadge.textContent = "⚡ Power Word · Double Points!"; }
+    else powerBadge.hidden = true;
 
     pronRow.hidden = true; // shown only when the front displays the word
 
@@ -696,6 +779,7 @@
     f.s++; if (ok) f.c++;
 
     if (ok) {
+      const scoreBefore = score;
       streak++;
       bestStreakRound = Math.max(bestStreakRound, streak);
       const mult = comboMult();                 // escalating combo multiplier
@@ -704,8 +788,8 @@
       const tierBonus = (card.tier - 1) * 2;    // harder words are worth more points
       if (settings.mode !== "flip" && t < 1.2) fastCorrect = true;
       const base = 10 + speedBonus + tierBonus;
-      const powerMult = currentPower ? 2 : 1;   // ⚡ Power Word doubles it
-      const gained = base * mult * powerMult;
+      const bonusMult = currentJackpot ? JACKPOT_MULT : currentPower ? 2 : 1;
+      const gained = base * mult * bonusMult;
       score += gained; roundXp += gained;
       store.totalCorrect++;
       roundCorrect++;
@@ -713,17 +797,27 @@
       flashcard.classList.add("correct-glow");
       flashCombo();
       popStreak();
+      haptic(true);
 
-      if (currentPower) {
+      // combo callout when the multiplier climbs to a new tier
+      if (mult > lastComboTier && mult > 1) comboCallout(COMBO_CALLOUTS[Math.min(mult - 2, COMBO_CALLOUTS.length - 1)]);
+      lastComboTier = mult;
+
+      if (currentJackpot) {
+        roundGems += GEMS_JACKPOT; addGems(GEMS_JACKPOT);
+        floatPoints("+" + gained + " 💰", "jackpot"); screenFlash("jackpot"); comboCallout("💰 JACKPOT!");
+        toast("💰", "JACKPOT!", `Triple points · +${GEMS_JACKPOT}💎`);
+        burstConfetti(); powerTone(); blip(1320, 0.3, 0.2, "triangle");
+      } else if (currentPower) {
         store.powerWords = (store.powerWords || 0) + 1;
         roundGems += GEMS_POWER; addGems(GEMS_POWER);
+        floatPoints("+" + gained + " ⚡", "power"); screenFlash("power");
         toast("⚡", "Power Word!", `Double points · +${GEMS_POWER}💎`);
         burstConfetti(); powerTone();
         if (store.powerWords >= 25) award("power_player");
       } else {
-        tone(true);
+        floatPoints("+" + gained); screenFlash(); correctTone(streak);
       }
-      haptic(true);
       if (hitMaxCombo) award("combo_master");
 
       // 🎁 mid-round prize drop every few correct
@@ -731,17 +825,19 @@
         const prizePts = 25 * mult;
         score += prizePts; roundXp += prizePts;
         roundGems += GEMS_PRIZE; addGems(GEMS_PRIZE);
+        floatPoints("🎁 +" + prizePts);
         toast("🎁", "Prize drop!", `+${prizePts} pts · +${GEMS_PRIZE}💎`);
         burstConfetti();
       }
+      animateCount(scoreNum, score, 450, { from: scoreBefore, tick: false, pop: false });
     } else {
-      streak = 0;
+      streak = 0; lastComboTier = 1;
       comboBadge.hidden = true;
       missed.push({ w: card.w, pos: card.pos, def: card.def, ex: card.ex, tier: card.tier });
       flashcard.classList.add("wrong-glow", "shake");
       tone(false); haptic(false);
+      scoreNum.textContent = score;
     }
-    scoreNum.textContent = score;
     streakNum.textContent = streak;
   }
 
@@ -812,12 +908,29 @@
     saveStore();
 
     renderProfile(); renderMastery(); renderBestStrip(); reflectDifficulty();
+
+    // ----- staged reward reveal -----
+    if (resultPoints) resultPoints.textContent = "0";
+    if (resultGems) resultGems.hidden = true;
     show("results");
 
-    if (pct === 100) { burstConfetti(); playFanfare(); addGems(GEMS_PERFECT); toast("💎", "Flawless bonus!", `+${GEMS_PERFECT} gems`); }
-    else if (pct >= 80) burstConfetti();
-    if (after > before) celebrateLevel(after);
-    checkAchievements(pct);
+    let perfectGems = 0;
+    if (pct === 100) { perfectGems = GEMS_PERFECT; addGems(GEMS_PERFECT); }
+    const totalRoundGems = roundGems + perfectGems;
+
+    // Beat 1: slot-machine the points up to the round total
+    animateCount(resultPoints, score, 1150, { onDone: () => {
+      // Beat 2: gems earned fly in
+      if (totalRoundGems > 0 && resultGems && resultGemsNum) {
+        resultGemsNum.textContent = totalRoundGems;
+        resultGems.hidden = false;
+      }
+      // Beat 3: confetti / fanfare / level-up / achievements
+      if (pct === 100) { burstConfetti(); playFanfare(); }
+      else if (pct >= 80) burstConfetti();
+      if (after > before) celebrateLevel(after);
+      checkAchievements(pct);
+    } });
   }
 
   // ===================================================================

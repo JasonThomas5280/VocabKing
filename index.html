@@ -180,8 +180,10 @@
       <div class="result-card">
         <div id="resultEmoji" class="result-emoji">🎉</div>
         <h2 id="resultTitle">Brilliant!</h2>
+        <div class="result-points"><span id="resultPoints">0</span> <span class="rp-lbl">points</span></div>
+        <div class="result-gems" id="resultGems" hidden>💎 +<span id="resultGemsNum">0</span> gems</div>
         <div class="result-score">
-          <span id="resultScore">10</span><span class="result-of">/ 10</span>
+          <span id="resultScore">10</span><span class="result-of">/ 10</span><span class="rs-lbl"> correct</span>
         </div>
         <div class="result-stats">
           <div class="stat"><span id="resultPct" class="stat-num">100%</span><span class="stat-lbl">Accuracy</span></div>
@@ -198,6 +200,9 @@
     </section>
   </main>
 
+  <div id="flashFx" class="flash-fx" aria-hidden="true"></div>
+  <div id="floatLayer" class="float-layer" aria-hidden="true"></div>
+  <div id="callout" class="callout" aria-hidden="true"></div>
   <div id="toastWrap" class="toast-wrap" aria-live="polite"></div>
   <canvas id="confetti" class="confetti" aria-hidden="true"></canvas>
 
