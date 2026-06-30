@@ -1,0 +1,1682 @@
+[
+{
+"w": "mordant",
+"pos": "adj",
+"def": "sharply sarcastic or bitingly critical",
+"ex": "Her mordant wit could deflate anyone's ego in a single sentence.",
+"tier": 6
+},
+{
+"w": "fey",
+"pos": "adj",
+"def": "strange, otherworldly, or whimsically eccentric",
+"ex": "He had a fey quality, as if half somewhere else entirely.",
+"tier": 6
+},
+{
+"w": "bumptious",
+"pos": "adj",
+"def": "offensively self-assertive and conceited",
+"ex": "The new manager was so bumptious that nobody could get a word in.",
+"tier": 6
+},
+{
+"w": "sententious",
+"pos": "adj",
+"def": "given to pompous moralizing",
+"ex": "He grew unbearably sententious whenever discipline came up.",
+"tier": 6
+},
+{
+"w": "saturnine",
+"pos": "adj",
+"def": "gloomy, sullen, or darkly brooding",
+"ex": "His saturnine mood cast a chill over the dinner party.",
+"tier": 6
+},
+{
+"w": "feckless",
+"pos": "adj",
+"def": "weak, irresponsible, or lacking purpose",
+"ex": "Her feckless brother had quit yet another job by spring.",
+"tier": 6
+},
+{
+"w": "vainglorious",
+"pos": "adj",
+"def": "excessively boastful and vain about oneself",
+"ex": "He gave a vainglorious speech about achievements no one recalled.",
+"tier": 6
+},
+{
+"w": "splenetic",
+"pos": "adj",
+"def": "bad-tempered, spiteful, and irritable",
+"ex": "The critic was famous for his splenetic reviews of beloved films.",
+"tier": 6
+},
+{
+"w": "doctrinaire",
+"pos": "adj",
+"def": "rigidly applying theory regardless of practicality",
+"ex": "His doctrinaire approach left no room for real-world mess.",
+"tier": 6
+},
+{
+"w": "insouciant",
+"pos": "adj",
+"def": "casually unconcerned or carefree",
+"ex": "He gave an insouciant shrug, as if bankruptcy were trivial.",
+"tier": 6
+},
+{
+"w": "louche",
+"pos": "adj",
+"def": "disreputable in an appealingly rakish way",
+"ex": "The bar had a louche charm respectable people quietly enjoyed.",
+"tier": 6
+},
+{
+"w": "captiousness",
+"pos": "n",
+"def": "tendency to find trivial faults",
+"ex": "His captiousness made collaboration almost impossible.",
+"tier": 6
+},
+{
+"w": "supine",
+"pos": "adj",
+"def": "passively submissive or morally lazy",
+"ex": "The board's supine response to the scandal disgusted shareholders.",
+"tier": 6
+},
+{
+"w": "vatic",
+"pos": "adj",
+"def": "prophetic or oracular in manner",
+"ex": "He spoke in a vatic tone, as if foreseeing our ruin.",
+"tier": 6
+},
+{
+"w": "termagant",
+"pos": "n",
+"def": "a harsh, overbearing, quarrelsome woman",
+"ex": "The landlady was a termagant who terrorized every tenant.",
+"tier": 6
+},
+{
+"w": "poltroon",
+"pos": "n",
+"def": "an utter coward",
+"ex": "He called his rival a poltroon for fleeing the debate.",
+"tier": 6
+},
+{
+"w": "martinet",
+"pos": "n",
+"def": "a strict, rigid disciplinarian",
+"ex": "Our gym teacher was a martinet about even the smallest rule.",
+"tier": 6
+},
+{
+"w": "pedant",
+"pos": "n",
+"def": "one obsessed with minor rules or details",
+"ex": "Only a pedant would interrupt a toast to correct your grammar.",
+"tier": 6
+},
+{
+"w": "valetudinarian",
+"pos": "n",
+"def": "person unduly anxious about their health",
+"ex": "Her uncle, a lifelong valetudinarian, traveled with three pill organizers.",
+"tier": 6
+},
+{
+"w": "popinjay",
+"pos": "n",
+"def": "a vain, dandified, conceited person",
+"ex": "That preening popinjay spent more on cologne than rent.",
+"tier": 6
+},
+{
+"w": "roisterer",
+"pos": "n",
+"def": "a noisy, boisterous reveler",
+"ex": "The roisterers next door kept the whole street awake until dawn.",
+"tier": 6
+},
+{
+"w": "milquetoast",
+"pos": "n",
+"def": "a timid, unassertive person",
+"ex": "Don't be such a milquetoast; tell them what you actually think.",
+"tier": 6
+},
+{
+"w": "ingrate",
+"pos": "n",
+"def": "an ungrateful person",
+"ex": "After all that help, the ingrate didn't even say thanks.",
+"tier": 6
+},
+{
+"w": "lickspittle",
+"pos": "n",
+"def": "a contemptible flatterer or toady",
+"ex": "The boss surrounded himself with lickspittles who never disagreed.",
+"tier": 6
+},
+{
+"w": "pettifogger",
+"pos": "n",
+"def": "one who quibbles over trivial details",
+"ex": "The negotiation stalled because of one tireless pettifogger.",
+"tier": 6
+},
+{
+"w": "reprobate",
+"pos": "n",
+"def": "an unprincipled or morally corrupt person",
+"ex": "The old reprobate still charmed everyone despite his reputation.",
+"tier": 6
+},
+{
+"w": "wastrel",
+"pos": "n",
+"def": "a wasteful, idle, good-for-nothing person",
+"ex": "He squandered the inheritance like the wastrel everyone predicted.",
+"tier": 6
+},
+{
+"w": "nabob",
+"pos": "n",
+"def": "a person of great wealth or prominence",
+"ex": "The tech nabobs descended on the little town overnight.",
+"tier": 6
+},
+{
+"w": "epicure",
+"pos": "n",
+"def": "a refined connoisseur of food and pleasure",
+"ex": "As an epicure, he could discuss olive oil for an hour.",
+"tier": 6
+},
+{
+"w": "aesthete",
+"pos": "n",
+"def": "one devoted to beauty and refined taste",
+"ex": "The aesthete refused to hang anything merely decorative.",
+"tier": 6
+},
+{
+"w": "votary",
+"pos": "n",
+"def": "a devoted follower or ardent enthusiast",
+"ex": "She became a votary of minimalism after one decluttering weekend.",
+"tier": 6
+},
+{
+"w": "gadfly",
+"pos": "n",
+"def": "a persistent, provocative critic of others",
+"ex": "He played the gadfly, needling the council at every meeting.",
+"tier": 6
+},
+{
+"w": "factotum",
+"pos": "n",
+"def": "a servant handling all kinds of work",
+"ex": "She acted as the studio's factotum, doing everything from books to bookings.",
+"tier": 6
+},
+{
+"w": "amanuensis",
+"pos": "n",
+"def": "an assistant who writes or copies dictation",
+"ex": "The blind author dictated his memoir to a patient amanuensis.",
+"tier": 6
+},
+{
+"w": "interlocutor",
+"pos": "n",
+"def": "a person taking part in a conversation",
+"ex": "My interlocutor at dinner turned out to be a famous spy novelist.",
+"tier": 6
+},
+{
+"w": "panjandrum",
+"pos": "n",
+"def": "a self-important, pompous official",
+"ex": "Some panjandrum from headquarters lectured us about synergy.",
+"tier": 6
+},
+{
+"w": "philistine",
+"pos": "n",
+"def": "a person indifferent or hostile to culture",
+"ex": "He played the philistine, calling the gallery a waste of money.",
+"tier": 6
+},
+{
+"w": "doyen",
+"pos": "n",
+"def": "the most respected senior member of a field",
+"ex": "She's the doyen of food writing, and everyone defers to her.",
+"tier": 6
+},
+{
+"w": "arriviste",
+"pos": "n",
+"def": "an ambitious social climber lacking refinement",
+"ex": "The old families dismissed him as a brash arriviste.",
+"tier": 6
+},
+{
+"w": "ascetic",
+"pos": "n",
+"def": "one who practices severe self-discipline",
+"ex": "He lived like an ascetic, owning barely more than a chair.",
+"tier": 6
+},
+{
+"w": "hierophant",
+"pos": "n",
+"def": "an interpreter of sacred or arcane knowledge",
+"ex": "He fancied himself a hierophant of the new technology.",
+"tier": 6
+},
+{
+"w": "ideologue",
+"pos": "n",
+"def": "an uncompromising adherent of an ideology",
+"ex": "As an ideologue, he judged every film by its politics.",
+"tier": 6
+},
+{
+"w": "apparatchik",
+"pos": "n",
+"def": "a blindly loyal organization functionary",
+"ex": "The reforms died on the desk of some faceless apparatchik.",
+"tier": 6
+},
+{
+"w": "nonchalance",
+"pos": "n",
+"def": "casual, unconcerned composure",
+"ex": "He took the bad news with a nonchalance that surprised everyone.",
+"tier": 6
+},
+{
+"w": "elan",
+"pos": "n",
+"def": "energetic, stylish enthusiasm and flair",
+"ex": "She danced through the crowded room with remarkable elan.",
+"tier": 6
+},
+{
+"w": "froideur",
+"pos": "n",
+"def": "coolness or reserve between people",
+"ex": "A distinct froideur settled over them after the argument.",
+"tier": 6
+},
+{
+"w": "sangfroid",
+"pos": "n",
+"def": "composure under strain or danger",
+"ex": "He defused the crisis with astonishing sangfroid.",
+"tier": 6
+},
+{
+"w": "hauteur",
+"pos": "n",
+"def": "haughty arrogance and disdainful pride",
+"ex": "She greeted us with the hauteur of a deposed queen.",
+"tier": 6
+},
+{
+"w": "brio",
+"pos": "n",
+"def": "vigor and vivacity",
+"ex": "The young cast performed the old play with infectious brio.",
+"tier": 6
+},
+{
+"w": "panache",
+"pos": "n",
+"def": "flamboyant confidence and stylish flair",
+"ex": "He wore the ridiculous hat with undeniable panache.",
+"tier": 6
+},
+{
+"w": "joie",
+"pos": "n",
+"def": "exuberant enjoyment of life",
+"ex": "Even after hardship she kept a stubborn joie about everything.",
+"tier": 6
+},
+{
+"w": "frisson",
+"pos": "n",
+"def": "a sudden thrilling shiver of excitement",
+"ex": "A frisson ran through the audience as the lights dimmed.",
+"tier": 6
+},
+{
+"w": "schadenfreude",
+"pos": "n",
+"def": "pleasure at another's misfortune",
+"ex": "He felt a flash of schadenfreude when his rival stumbled.",
+"tier": 6
+},
+{
+"w": "weltschmerz",
+"pos": "n",
+"def": "world-weary melancholy at life's shortcomings",
+"ex": "A vague weltschmerz settled over him every Sunday evening.",
+"tier": 6
+},
+{
+"w": "saudade",
+"pos": "n",
+"def": "deep nostalgic longing for something absent",
+"ex": "The song filled her with a saudade she couldn't name.",
+"tier": 6
+},
+{
+"w": "anomie",
+"pos": "n",
+"def": "rootlessness from a breakdown of norms",
+"ex": "A creeping anomie pervaded the abandoned industrial town.",
+"tier": 6
+},
+{
+"w": "torpor",
+"pos": "n",
+"def": "sluggish inactivity or mental dullness",
+"ex": "A heavy torpor settled over the office after lunch.",
+"tier": 6
+},
+{
+"w": "lassitude",
+"pos": "n",
+"def": "weariness and lack of energy",
+"ex": "A strange lassitude kept her from leaving the couch all weekend.",
+"tier": 6
+},
+{
+"w": "disquietude",
+"pos": "n",
+"def": "a state of uneasiness or anxiety",
+"ex": "A vague disquietude kept him pacing late into the night.",
+"tier": 6
+},
+{
+"w": "abjection",
+"pos": "n",
+"def": "a state of utter misery or degradation",
+"ex": "He sank into an abjection no comfort could reach.",
+"tier": 6
+},
+{
+"w": "rapture",
+"pos": "n",
+"def": "intense, overwhelming joy or delight",
+"ex": "She listened to the aria in a kind of speechless rapture.",
+"tier": 6
+},
+{
+"w": "felicity",
+"pos": "n",
+"def": "intense happiness or apt appropriateness",
+"ex": "The whole afternoon had an unexpected felicity to it.",
+"tier": 6
+},
+{
+"w": "rancorousness",
+"pos": "n",
+"def": "deep, bitter, lingering resentment",
+"ex": "Years of rancorousness poisoned what was once a friendship.",
+"tier": 6
+},
+{
+"w": "perturbation",
+"pos": "n",
+"def": "a state of anxiety or mental agitation",
+"ex": "The news threw the whole household into perturbation.",
+"tier": 6
+},
+{
+"w": "abasement",
+"pos": "n",
+"def": "humiliating reduction in status or dignity",
+"ex": "He apologized in a tone close to self-abasement.",
+"tier": 6
+},
+{
+"w": "exultation",
+"pos": "n",
+"def": "triumphant, jubilant rejoicing",
+"ex": "There was open exultation in the room when the verdict came.",
+"tier": 6
+},
+{
+"w": "wretchedness",
+"pos": "n",
+"def": "extreme misery or distress",
+"ex": "She couldn't bear the wretchedness in his voice.",
+"tier": 6
+},
+{
+"w": "disport",
+"pos": "v",
+"def": "to amuse oneself in lighthearted play",
+"ex": "The children disported themselves on the lawn all afternoon.",
+"tier": 6
+},
+{
+"w": "kvell",
+"pos": "v",
+"def": "to feel proud, glowing delight",
+"ex": "She kvelled openly when her daughter walked across the stage.",
+"tier": 6
+},
+{
+"w": "repine",
+"pos": "v",
+"def": "to fret or complain discontentedly",
+"ex": "He repined for months over the chance he had missed.",
+"tier": 6
+},
+{
+"w": "languish",
+"pos": "v",
+"def": "to lose vitality or grow feeble",
+"ex": "The project languished for years without proper funding.",
+"tier": 6
+},
+{
+"w": "exult",
+"pos": "v",
+"def": "to rejoice triumphantly",
+"ex": "Fans exulted in the streets long after the final whistle.",
+"tier": 6
+},
+{
+"w": "bristle",
+"pos": "v",
+"def": "to react with sudden indignation",
+"ex": "She bristled at the suggestion that she'd needed any help.",
+"tier": 6
+},
+{
+"w": "seethe",
+"pos": "v",
+"def": "to feel intense, suppressed anger",
+"ex": "He sat there seething while they took credit for his work.",
+"tier": 6
+},
+{
+"w": "wallow",
+"pos": "v",
+"def": "to indulge unrestrainedly in an emotion",
+"ex": "Stop wallowing in self-pity and call her back.",
+"tier": 6
+},
+{
+"w": "smolder",
+"pos": "v",
+"def": "to feel barely suppressed resentment",
+"ex": "Old grievances smoldered beneath their polite conversation.",
+"tier": 6
+},
+{
+"w": "fulminate",
+"pos": "v",
+"def": "to protest loudly and vehemently",
+"ex": "He fulminated against the new policy for a full hour.",
+"tier": 6
+},
+{
+"w": "rhapsodize",
+"pos": "v",
+"def": "to speak with extravagant enthusiasm",
+"ex": "She rhapsodized about Lisbon until we all booked flights.",
+"tier": 6
+},
+{
+"w": "pontificate",
+"pos": "v",
+"def": "to speak pompously and dogmatically",
+"ex": "He'll pontificate about wine to anyone within earshot.",
+"tier": 6
+},
+{
+"w": "expatiate",
+"pos": "v",
+"def": "to speak or write at length",
+"ex": "The professor could expatiate on a comma for an hour.",
+"tier": 6
+},
+{
+"w": "perorate",
+"pos": "v",
+"def": "to conclude a speech grandly",
+"ex": "He perorated about legacy as the audience checked the time.",
+"tier": 6
+},
+{
+"w": "descant",
+"pos": "v",
+"def": "to comment or discourse at length",
+"ex": "She descanted on the merits of paper maps for ages.",
+"tier": 6
+},
+{
+"w": "vociferate",
+"pos": "v",
+"def": "to shout or cry out loudly",
+"ex": "Protesters vociferated outside the courthouse all morning.",
+"tier": 6
+},
+{
+"w": "asseverate",
+"pos": "v",
+"def": "to declare earnestly and emphatically",
+"ex": "He asseverated his innocence to anyone who would listen.",
+"tier": 6
+},
+{
+"w": "adumbrate",
+"pos": "v",
+"def": "to outline or foreshadow faintly",
+"ex": "Her early notes adumbrate the theory she'd later prove.",
+"tier": 6
+},
+{
+"w": "limn",
+"pos": "v",
+"def": "to describe or depict in words",
+"ex": "The novel limns small-town life with painful accuracy.",
+"tier": 6
+},
+{
+"w": "gainsay",
+"pos": "v",
+"def": "to deny or contradict",
+"ex": "No one could gainsay the evidence she laid out.",
+"tier": 6
+},
+{
+"w": "maunder",
+"pos": "v",
+"def": "to talk ramblingly and aimlessly",
+"ex": "He maundered on about the old days until we left.",
+"tier": 6
+},
+{
+"w": "natter",
+"pos": "v",
+"def": "to chatter idly and at length",
+"ex": "They nattered over coffee for two hours about nothing.",
+"tier": 6
+},
+{
+"w": "kibitz",
+"pos": "v",
+"def": "to offer unwanted commentary or advice",
+"ex": "Stop kibitzing and let me park the car myself.",
+"tier": 6
+},
+{
+"w": "haver",
+"pos": "v",
+"def": "to talk foolishly or hesitate indecisively",
+"ex": "Quit havering and just tell me what happened.",
+"tier": 6
+},
+{
+"w": "bloviate",
+"pos": "v",
+"def": "to speak pompously at tedious length",
+"ex": "The senator bloviated for twenty minutes without a point.",
+"tier": 6
+},
+{
+"w": "cozen",
+"pos": "v",
+"def": "to deceive or trick someone",
+"ex": "He cozened the old widow out of her savings.",
+"tier": 6
+},
+{
+"w": "gull",
+"pos": "v",
+"def": "to fool or cheat someone naive",
+"ex": "They gulled tourists with maps to nonexistent landmarks.",
+"tier": 6
+},
+{
+"w": "bamboozle",
+"pos": "v",
+"def": "to deceive by trickery",
+"ex": "The salesman bamboozled them into a useless warranty.",
+"tier": 6
+},
+{
+"w": "cajole",
+"pos": "v",
+"def": "to persuade by flattery or coaxing",
+"ex": "She cajoled him into staying for one more song.",
+"tier": 6
+},
+{
+"w": "remonstrate",
+"pos": "v",
+"def": "to protest or argue in objection",
+"ex": "He remonstrated with the referee over the obvious foul.",
+"tier": 6
+},
+{
+"w": "expostulation",
+"pos": "n",
+"def": "earnest reasoning against an action",
+"ex": "Her expostulations failed to change his stubborn mind.",
+"tier": 6
+},
+{
+"w": "objurgate",
+"pos": "v",
+"def": "to scold or rebuke harshly",
+"ex": "The coach objurgated the team for their lazy defense.",
+"tier": 6
+},
+{
+"w": "excoriate",
+"pos": "v",
+"def": "to criticize severely and harshly",
+"ex": "Reviewers excoriated the sequel for its lazy plot.",
+"tier": 6
+},
+{
+"w": "fustigate",
+"pos": "v",
+"def": "to criticize or beat severely",
+"ex": "The editorial fustigated the mayor for weeks.",
+"tier": 6
+},
+{
+"w": "traduce",
+"pos": "v",
+"def": "to speak maliciously and falsely of someone",
+"ex": "He traduced his former partner in every interview.",
+"tier": 6
+},
+{
+"w": "calumniate",
+"pos": "v",
+"def": "to make false, damaging statements about",
+"ex": "The pamphlet calumniated honest officials without proof.",
+"tier": 6
+},
+{
+"w": "malign",
+"pos": "v",
+"def": "to speak harmful untruths about someone",
+"ex": "Rivals maligned her work long after she retired.",
+"tier": 6
+},
+{
+"w": "impugn",
+"pos": "v",
+"def": "to challenge as false or questionable",
+"ex": "He impugned her motives without offering any evidence.",
+"tier": 6
+},
+{
+"w": "gibe",
+"pos": "v",
+"def": "to mock with taunting remarks",
+"ex": "The crowd gibed at the umpire after every call.",
+"tier": 6
+},
+{
+"w": "twit",
+"pos": "v",
+"def": "to tease or reproach teasingly",
+"ex": "They twitted him for years about his terrible parking.",
+"tier": 6
+},
+{
+"w": "lampoon",
+"pos": "v",
+"def": "to ridicule with sharp satire",
+"ex": "The cartoon lampooned the candidate's empty promises.",
+"tier": 6
+},
+{
+"w": "asperse",
+"pos": "v",
+"def": "to attack someone's reputation falsely",
+"ex": "He aspersed his colleague to win the promotion.",
+"tier": 6
+},
+{
+"w": "animadvert",
+"pos": "v",
+"def": "to comment critically or unfavorably",
+"ex": "The judge animadverted on the prosecutor's sloppy filing.",
+"tier": 6
+},
+{
+"w": "cogitative",
+"pos": "adj",
+"def": "given to deep, careful thinking",
+"ex": "He fell into a cogitative silence over the chessboard.",
+"tier": 6
+},
+{
+"w": "ratiocinative",
+"pos": "adj",
+"def": "based on logical, methodical reasoning",
+"ex": "Her ratiocinative approach untangled the messy case.",
+"tier": 6
+},
+{
+"w": "discursiveness",
+"pos": "n",
+"def": "tendency to digress in speech or writing",
+"ex": "The essay's discursiveness obscured its central point.",
+"tier": 6
+},
+{
+"w": "casuistry",
+"pos": "n",
+"def": "clever but specious moral reasoning",
+"ex": "His defense relied on casuistry rather than honest argument.",
+"tier": 6
+},
+{
+"w": "syllogism",
+"pos": "n",
+"def": "a formal deductive logical argument",
+"ex": "He reduced the whole dispute to a tidy syllogism.",
+"tier": 6
+},
+{
+"w": "apothegm",
+"pos": "n",
+"def": "a terse, instructive saying",
+"ex": "She had an apothegm ready for every awkward silence.",
+"tier": 6
+},
+{
+"w": "gnomic",
+"pos": "adj",
+"def": "expressed in cryptic, aphoristic terms",
+"ex": "His gnomic advice left us more puzzled than guided.",
+"tier": 6
+},
+{
+"w": "apperception",
+"pos": "n",
+"def": "conscious perception with full awareness",
+"ex": "True apperception of the painting took several long visits.",
+"tier": 6
+},
+{
+"w": "ideation",
+"pos": "n",
+"def": "the forming of ideas or concepts",
+"ex": "The workshop was pure ideation with no commitments yet.",
+"tier": 6
+},
+{
+"w": "noetic",
+"pos": "adj",
+"def": "relating to the intellect or pure reason",
+"ex": "She described a noetic insight that arrived without words.",
+"tier": 6
+},
+{
+"w": "ineffability",
+"pos": "n",
+"def": "quality of being beyond words",
+"ex": "He spoke of the summit with a kind of ineffability.",
+"tier": 6
+},
+{
+"w": "verisimilitude",
+"pos": "n",
+"def": "the appearance of being true or real",
+"ex": "The novel's verisimilitude made the fiction feel reported.",
+"tier": 6
+},
+{
+"w": "exegesis",
+"pos": "n",
+"def": "a critical explanation of a text",
+"ex": "Her exegesis of the poem ran longer than the poem.",
+"tier": 6
+},
+{
+"w": "hermeneutic",
+"pos": "adj",
+"def": "concerning interpretation of meaning",
+"ex": "They argued over the hermeneutic value of his diaries.",
+"tier": 6
+},
+{
+"w": "dialectic",
+"pos": "n",
+"def": "reasoning through opposed ideas toward truth",
+"ex": "Their debate became a genuine dialectic, not a quarrel.",
+"tier": 6
+},
+{
+"w": "sophism",
+"pos": "n",
+"def": "a clever but fallacious argument",
+"ex": "His position collapsed once you spotted the sophism.",
+"tier": 6
+},
+{
+"w": "tendentiousness",
+"pos": "n",
+"def": "bias toward a particular viewpoint",
+"ex": "The report's tendentiousness undermined its credibility.",
+"tier": 6
+},
+{
+"w": "cerebration",
+"pos": "n",
+"def": "the act of thinking deeply",
+"ex": "After much cerebration, he still couldn't decide.",
+"tier": 6
+},
+{
+"w": "perspicuity",
+"pos": "n",
+"def": "clarity and lucidity of expression",
+"ex": "The textbook was praised for its rare perspicuity.",
+"tier": 6
+},
+{
+"w": "abstrusity",
+"pos": "n",
+"def": "quality of being hard to understand",
+"ex": "The lecture's abstrusity lost half the room by minute five.",
+"tier": 6
+},
+{
+"w": "preternatural",
+"pos": "adj",
+"def": "beyond what is normal or natural",
+"ex": "She had a preternatural calm during the emergency.",
+"tier": 6
+},
+{
+"w": "apodictic",
+"pos": "adj",
+"def": "clearly established beyond dispute",
+"ex": "He stated his opinion in an apodictic tone that brooked no doubt.",
+"tier": 6
+},
+{
+"w": "ineffaceable",
+"pos": "adj",
+"def": "impossible to erase or forget",
+"ex": "The trip left an ineffaceable impression on all of us.",
+"tier": 6
+},
+{
+"w": "assay",
+"pos": "v",
+"def": "to attempt or carefully evaluate",
+"ex": "She assayed the climb despite the threatening weather.",
+"tier": 6
+},
+{
+"w": "essay",
+"pos": "v",
+"def": "to attempt or try out",
+"ex": "He essayed a joke to break the tension, and it worked.",
+"tier": 6
+},
+{
+"w": "redound",
+"pos": "v",
+"def": "to contribute greatly to a result",
+"ex": "Her honesty redounded to the whole team's credit.",
+"tier": 6
+},
+{
+"w": "evince",
+"pos": "v",
+"def": "to show or reveal clearly",
+"ex": "His careful notes evince real dedication to the craft.",
+"tier": 6
+},
+{
+"w": "actuate",
+"pos": "v",
+"def": "to move someone to act",
+"ex": "She was actuated by a stubborn sense of fairness.",
+"tier": 6
+},
+{
+"w": "impel",
+"pos": "v",
+"def": "to drive or urge into action",
+"ex": "Curiosity impelled him to open the unmarked door.",
+"tier": 6
+},
+{
+"w": "betoken",
+"pos": "v",
+"def": "to be a sign of something",
+"ex": "Those clouds betoken a storm before nightfall.",
+"tier": 6
+},
+{
+"w": "abrade",
+"pos": "v",
+"def": "to wear down by friction",
+"ex": "Years of criticism slowly abraded his confidence.",
+"tier": 6
+},
+{
+"w": "vivify",
+"pos": "v",
+"def": "to give life or energy to",
+"ex": "A few fresh recruits vivified the tired old committee.",
+"tier": 6
+},
+{
+"w": "leaven",
+"pos": "v",
+"def": "to lighten or enliven something",
+"ex": "She leavened the grim report with a bit of humor.",
+"tier": 6
+},
+{
+"w": "burnish",
+"pos": "v",
+"def": "to polish or improve a reputation",
+"ex": "The award helped burnish the firm's tarnished image.",
+"tier": 6
+},
+{
+"w": "winnow",
+"pos": "v",
+"def": "to sift out what is unwanted",
+"ex": "We winnowed the applicants down to a final three.",
+"tier": 6
+},
+{
+"w": "ply",
+"pos": "v",
+"def": "to work at steadily or supply persistently",
+"ex": "He plied his trade quietly for forty years.",
+"tier": 6
+},
+{
+"w": "marshal",
+"pos": "v",
+"def": "to gather and arrange purposefully",
+"ex": "She marshaled her arguments before the meeting began.",
+"tier": 6
+},
+{
+"w": "husband",
+"pos": "v",
+"def": "to use resources carefully and sparingly",
+"ex": "They husbanded their savings through the long winter.",
+"tier": 6
+},
+{
+"w": "broker",
+"pos": "v",
+"def": "to arrange or negotiate an agreement",
+"ex": "She brokered a truce between the feuding departments.",
+"tier": 6
+},
+{
+"w": "calibrate",
+"pos": "v",
+"def": "to adjust carefully for accuracy",
+"ex": "He calibrated his tone to match the somber room.",
+"tier": 6
+},
+{
+"w": "tergiversate",
+"pos": "v",
+"def": "to be evasive or change one's stance",
+"ex": "The witness tergiversated until no one trusted a word.",
+"tier": 6
+},
+{
+"w": "dragoon",
+"pos": "v",
+"def": "to coerce someone into doing something",
+"ex": "They dragooned him into chairing the dull committee.",
+"tier": 6
+},
+{
+"w": "browbeat",
+"pos": "v",
+"def": "to intimidate with stern words",
+"ex": "She refused to be browbeaten into changing her vote.",
+"tier": 6
+},
+{
+"w": "hector",
+"pos": "v",
+"def": "to bully or harass with bluster",
+"ex": "He hectored the staff until morale collapsed.",
+"tier": 6
+},
+{
+"w": "cow",
+"pos": "v",
+"def": "to subdue by intimidation",
+"ex": "The threats failed to cow the small-town editor.",
+"tier": 6
+},
+{
+"w": "supervene",
+"pos": "v",
+"def": "to occur as an interruption or addition",
+"ex": "Just as we relaxed, a new crisis supervened.",
+"tier": 6
+},
+{
+"w": "depredate",
+"pos": "v",
+"def": "to plunder or lay waste to",
+"ex": "Raiders depredated the coastal villages each summer.",
+"tier": 6
+},
+{
+"w": "abase",
+"pos": "v",
+"def": "to humble or degrade someone",
+"ex": "He refused to abase himself before the committee.",
+"tier": 6
+},
+{
+"w": "vanquisher",
+"pos": "n",
+"def": "one who defeats an opponent",
+"ex": "The crowd hailed the unlikely vanquisher of the champion.",
+"tier": 6
+},
+{
+"w": "interpose",
+"pos": "v",
+"def": "to insert or intervene between",
+"ex": "She interposed herself between the two angry men.",
+"tier": 6
+},
+{
+"w": "countervail",
+"pos": "v",
+"def": "to act against with equal force",
+"ex": "Strong unions once countervailed the owners' power.",
+"tier": 6
+},
+{
+"w": "embattle",
+"pos": "v",
+"def": "to prepare or fortify for conflict",
+"ex": "The embattled mayor faced critics on every side.",
+"tier": 6
+},
+{
+"w": "beleaguer",
+"pos": "v",
+"def": "to harass or surround with difficulties",
+"ex": "Beleaguered by deadlines, she canceled the trip.",
+"tier": 6
+},
+{
+"w": "discomfit",
+"pos": "v",
+"def": "to thwart and unsettle someone",
+"ex": "His sharp question discomfited the smug panelist.",
+"tier": 6
+},
+{
+"w": "rout",
+"pos": "v",
+"def": "to defeat utterly and drive off",
+"ex": "The home team routed their rivals by thirty points.",
+"tier": 6
+},
+{
+"w": "trounce",
+"pos": "v",
+"def": "to defeat decisively",
+"ex": "She trounced every challenger in the debate finals.",
+"tier": 6
+},
+{
+"w": "overmaster",
+"pos": "v",
+"def": "to overpower or dominate completely",
+"ex": "Panic overmastered him for a few terrible seconds.",
+"tier": 6
+},
+{
+"w": "suborn",
+"pos": "v",
+"def": "to induce someone to act unlawfully",
+"ex": "They tried to suborn the clerk into hiding the records.",
+"tier": 6
+},
+{
+"w": "hegemonic",
+"pos": "adj",
+"def": "exercising dominant control or influence",
+"ex": "The firm's hegemonic position discouraged any rivals.",
+"tier": 6
+},
+{
+"w": "ascendant",
+"pos": "adj",
+"def": "rising in power or influence",
+"ex": "A new and ascendant faction now ran the party.",
+"tier": 6
+},
+{
+"w": "imperium",
+"pos": "n",
+"def": "absolute power or sovereign command",
+"ex": "He ruled the newsroom with a quiet imperium.",
+"tier": 6
+},
+{
+"w": "puissance",
+"pos": "n",
+"def": "great power, might, or influence",
+"ex": "The empire's puissance had faded by the new century.",
+"tier": 6
+},
+{
+"w": "primacy",
+"pos": "n",
+"def": "the state of being foremost or supreme",
+"ex": "They fought for primacy in the streaming market.",
+"tier": 6
+},
+{
+"w": "fealty",
+"pos": "n",
+"def": "loyalty or faithful allegiance",
+"ex": "He pledged fealty to the cause and never wavered.",
+"tier": 6
+},
+{
+"w": "obeisance",
+"pos": "n",
+"def": "deferential respect or submission",
+"ex": "Courtiers paid obeisance to the indifferent king.",
+"tier": 6
+},
+{
+"w": "vassal",
+"pos": "n",
+"def": "a subordinate dependent on a superior",
+"ex": "The smaller firms became mere vassals of the giant.",
+"tier": 6
+},
+{
+"w": "interregnum",
+"pos": "n",
+"def": "a gap between two reigns or governments",
+"ex": "During the interregnum, nobody dared make decisions.",
+"tier": 6
+},
+{
+"w": "putsch",
+"pos": "n",
+"def": "a sudden attempt to seize power",
+"ex": "The boardroom putsch failed by a single vote.",
+"tier": 6
+},
+{
+"w": "junta",
+"pos": "n",
+"def": "a group ruling after seizing power",
+"ex": "A small junta of executives ran the whole division.",
+"tier": 6
+},
+{
+"w": "contretemps",
+"pos": "n",
+"def": "an awkward or unfortunate clash",
+"ex": "A minor contretemps over seating soured the evening.",
+"tier": 6
+},
+{
+"w": "imbroglio",
+"pos": "n",
+"def": "a confused, embarrassing entanglement",
+"ex": "The merger collapsed into a legal imbroglio.",
+"tier": 6
+},
+{
+"w": "donnybrook",
+"pos": "n",
+"def": "a wild, uproarious brawl or dispute",
+"ex": "The town hall meeting turned into a full donnybrook.",
+"tier": 6
+},
+{
+"w": "melee",
+"pos": "n",
+"def": "a confused, tumultuous fight",
+"ex": "The protest dissolved into a chaotic melee.",
+"tier": 6
+},
+{
+"w": "fray",
+"pos": "n",
+"def": "a heated contest or fight",
+"ex": "He jumped into the fray without thinking it through.",
+"tier": 6
+},
+{
+"w": "embroilment",
+"pos": "n",
+"def": "involvement in a difficult conflict",
+"ex": "Their embroilment in the lawsuit lasted years.",
+"tier": 6
+},
+{
+"w": "antagonism",
+"pos": "n",
+"def": "active hostility or opposition",
+"ex": "A deep antagonism simmered between the two camps.",
+"tier": 6
+},
+{
+"w": "obloquy",
+"pos": "n",
+"def": "strong public condemnation or disgrace",
+"ex": "He faced years of obloquy after the scandal broke.",
+"tier": 6
+},
+{
+"w": "opprobrium",
+"pos": "n",
+"def": "harsh public disgrace and scorn",
+"ex": "The decision earned her widespread opprobrium.",
+"tier": 6
+},
+{
+"w": "ignominy",
+"pos": "n",
+"def": "public shame and humiliation",
+"ex": "He retired in ignominy after the failed venture.",
+"tier": 6
+},
+{
+"w": "comeuppance",
+"pos": "n",
+"def": "a deserved punishment or fate",
+"ex": "The arrogant tycoon finally got his comeuppance.",
+"tier": 6
+},
+{
+"w": "reprobation",
+"pos": "n",
+"def": "strong condemnation or disapproval",
+"ex": "His remarks drew swift reprobation from colleagues.",
+"tier": 6
+},
+{
+"w": "pyrrhic",
+"pos": "adj",
+"def": "won at too great a cost",
+"ex": "Their courtroom win felt like a pyrrhic victory.",
+"tier": 6
+},
+{
+"w": "quiescent",
+"pos": "adj",
+"def": "in a state of dormant inactivity",
+"ex": "The rivalry stayed quiescent for years before flaring up.",
+"tier": 6
+},
+{
+"w": "lambent",
+"pos": "adj",
+"def": "softly glowing or lightly playing over",
+"ex": "A lambent humor ran through all her letters.",
+"tier": 6
+},
+{
+"w": "coruscating",
+"pos": "adj",
+"def": "brilliantly flashing or sparkling",
+"ex": "He gave a coruscating performance that stunned the critics.",
+"tier": 6
+},
+{
+"w": "nacreous",
+"pos": "adj",
+"def": "having a pearly, iridescent luster",
+"ex": "The vase had a nacreous sheen in the morning light.",
+"tier": 6
+},
+{
+"w": "scintillant",
+"pos": "adj",
+"def": "sparkling or brilliantly clever",
+"ex": "Her scintillant conversation kept the table laughing.",
+"tier": 6
+},
+{
+"w": "refulgent",
+"pos": "adj",
+"def": "shining brightly and radiantly",
+"ex": "The refulgent sunrise washed the valley in gold.",
+"tier": 6
+},
+{
+"w": "fulgent",
+"pos": "adj",
+"def": "dazzlingly bright or shining",
+"ex": "Her fulgent smile lit the whole gloomy room.",
+"tier": 6
+},
+{
+"w": "pellucidity",
+"pos": "n",
+"def": "transparency or clarity",
+"ex": "The lake's pellucidity let you count stones on the bottom.",
+"tier": 6
+},
+{
+"w": "chatoyant",
+"pos": "adj",
+"def": "shimmering with a changeable luster",
+"ex": "The silk shifted, chatoyant, as she turned in the light.",
+"tier": 6
+},
+{
+"w": "opalescent",
+"pos": "adj",
+"def": "showing shifting, milky rainbow colors",
+"ex": "The opalescent glass glowed faintly even in shadow.",
+"tier": 6
+},
+{
+"w": "pulchritude",
+"pos": "n",
+"def": "physical beauty",
+"ex": "The portrait captured a pulchritude no photo had managed.",
+"tier": 6
+},
+{
+"w": "comeliness",
+"pos": "n",
+"def": "pleasing, attractive appearance",
+"ex": "There was a quiet comeliness to the old farmhouse.",
+"tier": 6
+},
+{
+"w": "elegance",
+"pos": "n",
+"def": "graceful, refined beauty or simplicity",
+"ex": "The proof had an elegance mathematicians still admire.",
+"tier": 6
+},
+{
+"w": "rococo",
+"pos": "adj",
+"def": "elaborately and excessively ornate",
+"ex": "His rococo prose buried the story under decoration.",
+"tier": 6
+},
+{
+"w": "filigreed",
+"pos": "adj",
+"def": "decorated with delicate, intricate detail",
+"ex": "The filigreed gate looked too fine to touch.",
+"tier": 6
+},
+{
+"w": "meretricious",
+"pos": "adj",
+"def": "showily attractive but cheap or false",
+"ex": "The decor was meretricious, all gilt and no taste.",
+"tier": 6
+},
+{
+"w": "frowzy",
+"pos": "adj",
+"def": "untidy, shabby, and unkempt",
+"ex": "He stumbled in looking frowzy after the long flight.",
+"tier": 6
+},
+{
+"w": "blowsy",
+"pos": "adj",
+"def": "coarse, untidy, and red-faced",
+"ex": "The once-elegant inn had grown blowsy and tired.",
+"tier": 6
+},
+{
+"w": "raddled",
+"pos": "adj",
+"def": "worn out and haggard in appearance",
+"ex": "Years of late nights had left him raddled and gray.",
+"tier": 6
+},
+{
+"w": "louring",
+"pos": "adj",
+"def": "dark, threatening, and gloomy",
+"ex": "A louring sky hung over the deserted boardwalk.",
+"tier": 6
+},
+{
+"w": "fuliginous",
+"pos": "adj",
+"def": "sooty, dark, and murky",
+"ex": "A fuliginous haze settled over the industrial river.",
+"tier": 6
+},
+{
+"w": "tenebrous",
+"pos": "adj",
+"def": "dark, shadowy, and obscure",
+"ex": "The tenebrous cellar made even brave guests pause.",
+"tier": 6
+},
+{
+"w": "stygian",
+"pos": "adj",
+"def": "extremely dark or gloomy",
+"ex": "We groped through the stygian tunnel toward a faint glow.",
+"tier": 6
+},
+{
+"w": "vitreous",
+"pos": "adj",
+"def": "glassy in appearance or texture",
+"ex": "The lake froze to a vitreous, mirror-smooth sheet.",
+"tier": 6
+},
+{
+"w": "rubicund",
+"pos": "adj",
+"def": "having a healthy, ruddy complexion",
+"ex": "The rubicund innkeeper laughed at his own jokes.",
+"tier": 6
+},
+{
+"w": "wizened",
+"pos": "adj",
+"def": "shriveled and wrinkled with age",
+"ex": "A wizened gardener tended the roses every morning.",
+"tier": 6
+},
+{
+"w": "gracile",
+"pos": "adj",
+"def": "slender and gracefully thin",
+"ex": "The dancer's gracile frame moved like water.",
+"tier": 6
+},
+{
+"w": "statuesque",
+"pos": "adj",
+"def": "tall and dignified in appearance",
+"ex": "She had a statuesque bearing that commanded the room.",
+"tier": 6
+},
+{
+"w": "protean",
+"pos": "adj",
+"def": "readily changing in form or character",
+"ex": "His protean talent let him write comedy and tragedy alike.",
+"tier": 6
+},
+{
+"w": "labile",
+"pos": "adj",
+"def": "liable to change rapidly or unpredictably",
+"ex": "His labile moods made every dinner a gamble.",
+"tier": 6
+},
+{
+"w": "mutable",
+"pos": "adj",
+"def": "liable or able to change",
+"ex": "Public opinion is mutable, shifting with each headline.",
+"tier": 6
+},
+{
+"w": "evanesce",
+"pos": "v",
+"def": "to fade gradually from sight",
+"ex": "His early fame seemed to evanesce within a decade.",
+"tier": 6
+},
+{
+"w": "metastasize",
+"pos": "v",
+"def": "to spread harmfully and uncontrollably",
+"ex": "A small rumor metastasized into a full scandal.",
+"tier": 6
+},
+{
+"w": "efflorescence",
+"pos": "n",
+"def": "a flourishing or peak of development",
+"ex": "The decade saw a remarkable efflorescence of jazz.",
+"tier": 6
+},
+{
+"w": "apogee",
+"pos": "n",
+"def": "the highest point or climax",
+"ex": "The festival reached its apogee on the final night.",
+"tier": 6
+},
+{
+"w": "acme",
+"pos": "n",
+"def": "the peak or highest point",
+"ex": "That album was the acme of his short career.",
+"tier": 6
+},
+{
+"w": "denouement",
+"pos": "n",
+"def": "the final resolution of events",
+"ex": "The negotiation's denouement satisfied almost no one.",
+"tier": 6
+},
+{
+"w": "abeyant",
+"pos": "adj",
+"def": "temporarily suspended or inactive",
+"ex": "The plan lay abeyant until funding reappeared.",
+"tier": 6
+},
+{
+"w": "incipience",
+"pos": "n",
+"def": "the initial stage of something",
+"ex": "We caught the trend at its very incipience.",
+"tier": 6
+},
+{
+"w": "inception",
+"pos": "n",
+"def": "the beginning or start of something",
+"ex": "The club has met weekly since its inception.",
+"tier": 6
+},
+{
+"w": "supervention",
+"pos": "n",
+"def": "an unexpected occurrence or addition",
+"ex": "The supervention of bad weather scrapped the launch.",
+"tier": 6
+},
+{
+"w": "recrudescence",
+"pos": "n",
+"def": "a renewed outbreak after dormancy",
+"ex": "Spring brought a recrudescence of the old quarrel.",
+"tier": 6
+},
+{
+"w": "abatement",
+"pos": "n",
+"def": "a reduction or lessening of something",
+"ex": "There was no abatement in the storm until dawn.",
+"tier": 6
+},
+{
+"w": "diminution",
+"pos": "n",
+"def": "a reduction in size or importance",
+"ex": "He resented any diminution of his old authority.",
+"tier": 6
+},
+{
+"w": "augmentation",
+"pos": "n",
+"def": "an increase or enhancement",
+"ex": "The augmentation of staff barely kept pace with demand.",
+"tier": 6
+},
+{
+"w": "accretion",
+"pos": "n",
+"def": "gradual growth by accumulation",
+"ex": "The novel grew by slow accretion over many years.",
+"tier": 6
+},
+{
+"w": "exiguity",
+"pos": "n",
+"def": "scantiness or smallness in amount",
+"ex": "The exiguity of the budget doomed the project.",
+"tier": 6
+},
+{
+"w": "multifarious",
+"pos": "adj",
+"def": "having great variety and diversity",
+"ex": "Her multifarious interests filled every shelf in the house.",
+"tier": 6
+}
+]

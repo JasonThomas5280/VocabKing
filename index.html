@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#6d5efc" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%91%91%3C/text%3E%3C/svg%3E" />
+  <title>✦ VocabKing — SAT/GRE Vocabulary Flashcards</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="aurora" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+
+  <main class="app">
+    <!-- ============ START / SETUP SCREEN ============ -->
+    <section id="setup" class="screen is-active">
+      <header class="hero">
+        <div class="hero-badge">✦ VocabKing</div>
+        <h1>VocabKing</h1>
+        <p class="subtitle">Build a powerful vocabulary with snappy, beautiful flashcards — SAT, GRE &amp; beyond.</p>
+      </header>
+
+      <div class="profile" id="profile">
+        <div class="lvl" id="lvlBadge">Lv 1</div>
+        <div class="xp">
+          <div class="xp-fill" id="xpFill"></div>
+          <span class="xp-text" id="xpText">0 / 100 XP</span>
+        </div>
+        <div class="badges" id="badgeCount" title="Achievements earned">🏅 0</div>
+      </div>
+
+      <div class="streak-panel" id="streakPanel">
+        <div class="streak-head">
+          <span class="flame" id="flame">🔥</span>
+          <div class="streak-text">
+            <div class="streak-count"><b id="streakDays">0</b> day streak</div>
+            <div class="streak-sub" id="streakSub">Practice today to start your streak</div>
+          </div>
+          <button class="freeze-badge" id="freezeBadge" title="Streak freezes — cover a missed day" hidden>❄️ <span id="freezeNum">0</span></button>
+        </div>
+        <div class="goal">
+          <div class="goal-bar"><i id="goalFill"></i></div>
+          <div class="goal-text">Today's goal: <b id="goalNow">0</b>/<span id="goalTarget">10</span> correct</div>
+        </div>
+      </div>
+
+      <div class="treasure-panel" id="treasurePanel">
+        <div class="gem-count">💎 <b id="gemNum">0</b> <span class="gem-lbl">gems</span></div>
+        <div class="chest">
+          <div class="chest-bar"><i id="chestFill"></i></div>
+          <div class="chest-text">🎁 Next chest <b id="chestNow">0</b>/<span id="chestTarget">100</span></div>
+        </div>
+      </div>
+
+      <button id="startBtn" class="btn-primary btn-play">▶&nbsp; Quick Play</button>
+      <button id="shopBtn" class="customize-toggle">🎨 Theme Shop</button>
+      <button id="customizeToggle" class="customize-toggle" aria-expanded="false" aria-controls="customize">⚙ Customize</button>
+
+      <div id="customize" class="customize" hidden>
+        <div class="card-panel">
+          <h2 class="panel-title">Difficulty</h2>
+          <button class="auto-toggle is-on" id="autoToggle" aria-pressed="true">
+            <span class="auto-emoji">🎚️</span>
+            <span class="auto-text">
+              <span class="auto-name">Auto — match my level</span>
+              <span class="auto-desc" id="autoDesc">Words get harder as you level up</span>
+            </span>
+            <span class="auto-switch" aria-hidden="true"></span>
+          </button>
+          <div id="tierGrid" class="table-grid" role="group" aria-label="Choose difficulty tiers"></div>
+          <div id="mastery" class="mastery"></div>
+          <div class="quick-row">
+            <button class="chip" data-select="all">All tiers</button>
+            <button class="chip" data-select="easy">Easier (1–3)</button>
+            <button class="chip" data-select="hard">Harder (4–6)</button>
+            <button class="chip chip-focus" data-select="weak">⚡ My tricky words</button>
+          </div>
+        </div>
+
+        <div class="card-panel">
+          <h2 class="panel-title">Mode</h2>
+          <div class="mode-row" id="modeRow" role="group" aria-label="Choose a mode">
+            <button class="mode-btn is-on" data-mode="choice">
+              <span class="mode-emoji">🎯</span>
+              <span class="mode-name">Multiple Choice</span>
+              <span class="mode-desc">Pick the right meaning</span>
+            </button>
+            <button class="mode-btn" data-mode="type">
+              <span class="mode-emoji">⌨️</span>
+              <span class="mode-name">Type It</span>
+              <span class="mode-desc">Name the word from its meaning</span>
+            </button>
+            <button class="mode-btn" data-mode="flip">
+              <span class="mode-emoji">🃏</span>
+              <span class="mode-name">Flip Cards</span>
+              <span class="mode-desc">Self-check, no pressure</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="card-panel">
+          <h2 class="panel-title">Round length</h2>
+          <div class="seg" id="lengthSeg" role="group" aria-label="Round length">
+            <button data-len="10" class="is-on">10</button>
+            <button data-len="20">20</button>
+            <button data-len="0">∞</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="best-strip" id="bestStrip"></div>
+    </section>
+
+    <!-- ============ QUIZ SCREEN ============ -->
+    <section id="quiz" class="screen">
+      <div class="quiz-top">
+        <button id="quitBtn" class="icon-btn" aria-label="Back to menu">‹</button>
+        <div class="progress">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+        <div class="streak" id="streakBadge" title="Streak">🔥 <span id="streakNum">0</span></div>
+      </div>
+
+      <div class="scoreline">
+        <span id="qCount" class="q-count">1</span>
+        <span class="combo-badge" id="comboBadge" hidden>×2</span>
+        <span class="gem-pill">💎 <span id="gemQuiz">0</span></span>
+        <span class="score-pill">★ <span id="scoreNum">0</span></span>
+      </div>
+
+      <div class="stage">
+        <div id="flashcard" class="flashcard">
+          <div class="fc-face fc-front">
+            <div class="power-badge" id="powerBadge" hidden>⚡ Power Word · Double Points!</div>
+            <div class="fc-kicker" id="fcKicker">What does this word mean?</div>
+            <div class="fc-word" id="question">candid</div>
+            <div class="fc-pron" id="pronRow">
+              <button type="button" class="speak-btn" id="speakBtn" aria-label="Hear pronunciation">🔊</button>
+              <span id="pronText"></span>
+            </div>
+            <div class="fc-pos" id="posTag">adjective</div>
+            <div class="fc-hint" id="flipHint">tap to reveal</div>
+          </div>
+          <div class="fc-face fc-back">
+            <div class="fc-word-sm" id="answerWord">candid</div>
+            <div class="fc-pron back" id="pronRowBack"><span id="pronTextBack"></span></div>
+            <div class="fc-def" id="answerDef">honest and direct</div>
+            <div class="fc-ex" id="answerEx"></div>
+            <div class="fc-hint">tap for next</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="timerBar" class="timer-bar"><div id="timerFill" class="timer-fill"></div></div>
+
+      <!-- Multiple choice answers -->
+      <div id="choices" class="choices"></div>
+
+      <!-- Type answer -->
+      <form id="typeForm" class="type-form" autocomplete="off">
+        <input id="typeInput" class="type-input" type="text" autocapitalize="none" autocorrect="off" spellcheck="false" placeholder="the word…" aria-label="Type the word" />
+        <button type="submit" class="btn-check">Check</button>
+      </form>
+
+      <!-- Flip controls -->
+      <div id="flipControls" class="flip-controls">
+        <button class="flip-btn flip-wrong" data-flip="wrong">Got it wrong</button>
+        <button class="flip-btn flip-right" data-flip="right">Got it right</button>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS SCREEN ============ -->
+    <section id="results" class="screen">
+      <div class="result-card">
+        <div id="resultEmoji" class="result-emoji">🎉</div>
+        <h2 id="resultTitle">Brilliant!</h2>
+        <div class="result-points"><span id="resultPoints">0</span> <span class="rp-lbl">points</span></div>
+        <div class="result-gems" id="resultGems" hidden>💎 +<span id="resultGemsNum">0</span> gems</div>
+        <div class="result-score">
+          <span id="resultScore">10</span><span class="result-of">/ 10</span><span class="rs-lbl"> correct</span>
+        </div>
+        <div class="result-stats">
+          <div class="stat"><span id="resultPct" class="stat-num">100%</span><span class="stat-lbl">Accuracy</span></div>
+          <div class="stat"><span id="resultBest" class="stat-num">12</span><span class="stat-lbl">Best Streak</span></div>
+          <div class="stat"><span id="resultTime" class="stat-num">0s</span><span class="stat-lbl">Avg / card</span></div>
+        </div>
+        <div id="reviewWrap" class="review-wrap"></div>
+        <div class="result-actions">
+          <button id="againBtn" class="btn-primary">Play again ▸</button>
+          <button id="reviewBtn" class="btn-ghost" hidden>Practice missed</button>
+          <button id="menuBtn" class="btn-ghost">Menu</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ THEME SHOP SCREEN ============ -->
+    <section id="shop" class="screen">
+      <div class="quiz-top">
+        <button id="shopBack" class="icon-btn" aria-label="Back to menu">‹</button>
+        <h2 class="shop-title">🎨 Themes</h2>
+        <div class="shop-bal">💎 <span id="shopBalance">0</span></div>
+      </div>
+      <p class="shop-sub">Spend gems to unlock color themes. Earn gems from Power Words, Jackpots, prize drops &amp; perfect rounds.</p>
+      <div id="shopGrid" class="theme-grid"></div>
+    </section>
+  </main>
+
+  <div id="flashFx" class="flash-fx" aria-hidden="true"></div>
+  <div id="floatLayer" class="float-layer" aria-hidden="true"></div>
+  <div id="callout" class="callout" aria-hidden="true"></div>
+  <div id="toastWrap" class="toast-wrap" aria-live="polite"></div>
+  <canvas id="confetti" class="confetti" aria-hidden="true"></canvas>
+
+  <script src="words.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

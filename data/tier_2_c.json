@@ -1,0 +1,1362 @@
+[
+ {
+  "w": "staid",
+  "pr": "STAYD",
+  "pos": "adj",
+  "def": "serious, sedate, and conventional",
+  "ex": "The staid banker disliked any flashy display",
+  "tier": 2
+ },
+ {
+  "w": "waggish",
+  "pr": "WAG-ish",
+  "pos": "adj",
+  "def": "playfully humorous or witty",
+  "ex": "His waggish remarks lightened the tense room",
+  "tier": 2
+ },
+ {
+  "w": "dispassionate",
+  "pr": "dis-PASH-uh-nuht",
+  "pos": "adj",
+  "def": "calm and free from emotion or bias",
+  "ex": "The judge gave a dispassionate ruling",
+  "tier": 2
+ },
+ {
+  "w": "self-effacing",
+  "pr": "SELF-ih-FAY-sing",
+  "pos": "adj",
+  "def": "modest and reluctant to draw attention",
+  "ex": "The self-effacing scientist downplayed her huge discovery",
+  "tier": 2
+ },
+ {
+  "w": "dauntlessness",
+  "pr": "DAWNT-luhs-nuhs",
+  "pos": "n",
+  "def": "fearless determination",
+  "ex": "Her dauntlessness in crisis inspired the whole team",
+  "tier": 2
+ },
+ {
+  "w": "magnanimousness",
+  "pr": "mag-NAN-uh-muhs-nuhs",
+  "pos": "n",
+  "def": "generosity toward rivals or lessers",
+  "ex": "His magnanimousness in victory earned wide respect",
+  "tier": 2
+ },
+ {
+  "w": "vivaciousness",
+  "pr": "vih-VAY-shuhs-nuhs",
+  "pos": "n",
+  "def": "lively, animated energy",
+  "ex": "Her vivaciousness lit up the dull party",
+  "tier": 2
+ },
+ {
+  "w": "ebullientness",
+  "pr": "ih-BUHL-yuhnt-nuhs",
+  "pos": "n",
+  "def": "cheerful enthusiasm and excitement",
+  "ex": "The team's ebullientness after winning was infectious",
+  "tier": 2
+ },
+ {
+  "w": "kindhearted",
+  "pr": "KYND-har-tid",
+  "pos": "adj",
+  "def": "warm and generous in nature",
+  "ex": "The kindhearted stranger paid for our meal",
+  "tier": 2
+ },
+ {
+  "w": "priggish",
+  "pr": "PRIG-ish",
+  "pos": "adj",
+  "def": "self-righteous and prudish",
+  "ex": "Her priggish comments annoyed the whole table",
+  "tier": 2
+ },
+ {
+  "w": "good-natured",
+  "pr": "good-NAY-cherd",
+  "pos": "adj",
+  "def": "cheerful and easygoing",
+  "ex": "The good-natured coach never lost his temper",
+  "tier": 2
+ },
+ {
+  "w": "crotchety",
+  "pr": "KROCH-uh-tee",
+  "pos": "adj",
+  "def": "irritable and difficult",
+  "ex": "The crotchety landlord complained constantly",
+  "tier": 2
+ },
+ {
+  "w": "warmhearted",
+  "pr": "WORM-har-tid",
+  "pos": "adj",
+  "def": "kind and sympathetic",
+  "ex": "The warmhearted teacher stayed late to help",
+  "tier": 2
+ },
+ {
+  "w": "dogmatically",
+  "pr": "dog-MAT-ik-lee",
+  "pos": "adv",
+  "def": "in an assertive, opinionated way",
+  "ex": "She argued dogmatically, refusing any compromise",
+  "tier": 2
+ },
+ {
+  "w": "affably",
+  "pr": "AF-uh-blee",
+  "pos": "adv",
+  "def": "in a friendly, pleasant way",
+  "ex": "He greeted the new hires affably",
+  "tier": 2
+ },
+ {
+  "w": "ingratiatingly",
+  "pr": "in-GRAY-shee-ay-ting-lee",
+  "pos": "adv",
+  "def": "in a flattering, eager-to-please way",
+  "ex": "He smiled ingratiatingly at the boss",
+  "tier": 2
+ },
+ {
+  "w": "petulantly",
+  "pr": "PECH-uh-luhnt-lee",
+  "pos": "adv",
+  "def": "in a sulky, irritable way",
+  "ex": "She slammed the door petulantly",
+  "tier": 2
+ },
+ {
+  "w": "flippantly",
+  "pr": "FLIP-uhnt-lee",
+  "pos": "adv",
+  "def": "without proper seriousness",
+  "ex": "He answered flippantly and moved on",
+  "tier": 2
+ },
+ {
+  "w": "nonchalantly",
+  "pr": "non-shuh-LAHNT-lee",
+  "pos": "adv",
+  "def": "in a casually unconcerned way",
+  "ex": "He shrugged nonchalantly at the threat",
+  "tier": 2
+ },
+ {
+  "w": "buoyantly",
+  "pr": "BOY-uhnt-lee",
+  "pos": "adv",
+  "def": "in a cheerful, upbeat way",
+  "ex": "He answered buoyantly despite the loss",
+  "tier": 2
+ },
+ {
+  "w": "haughtily",
+  "pr": "HAW-tih-lee",
+  "pos": "adv",
+  "def": "in an arrogant, superior way",
+  "ex": "She haughtily dismissed the suggestion",
+  "tier": 2
+ },
+ {
+  "w": "jovially",
+  "pr": "JOH-vee-uh-lee",
+  "pos": "adv",
+  "def": "in a cheerful, hearty way",
+  "ex": "He greeted us jovially at the gate",
+  "tier": 2
+ },
+ {
+  "w": "amicability",
+  "pr": "am-ih-kuh-BIL-uh-tee",
+  "pos": "n",
+  "def": "friendliness and goodwill",
+  "ex": "They parted with surprising amicability",
+  "tier": 2
+ },
+ {
+  "w": "solicitousness",
+  "pr": "suh-LIS-ih-tuhs-nuhs",
+  "pos": "n",
+  "def": "caring, attentive concern",
+  "ex": "His solicitousness toward guests was constant",
+  "tier": 2
+ },
+ {
+  "w": "brashness",
+  "pr": "BRASH-nuhs",
+  "pos": "n",
+  "def": "bold, tactless self-assurance",
+  "ex": "His brashness offended the older partners",
+  "tier": 2
+ },
+ {
+  "w": "courteousness",
+  "pr": "KUR-tee-uhs-nuhs",
+  "pos": "n",
+  "def": "polite, considerate behavior",
+  "ex": "Her courteousness put nervous clients at ease",
+  "tier": 2
+ },
+ {
+  "w": "impetuousness",
+  "pr": "im-PECH-oo-uhs-nuhs",
+  "pos": "n",
+  "def": "rash, impulsive behavior",
+  "ex": "His impetuousness cost him the deal",
+  "tier": 2
+ },
+ {
+  "w": "conscientiousness",
+  "pr": "kon-shee-EN-shuhs-nuhs",
+  "pos": "n",
+  "def": "careful, diligent attentiveness",
+  "ex": "Her conscientiousness left no detail unchecked",
+  "tier": 2
+ },
+ {
+  "w": "aloofness",
+  "pr": "uh-LOOF-nuhs",
+  "pos": "n",
+  "def": "emotional distance or coolness",
+  "ex": "His aloofness kept colleagues at arm's length",
+  "tier": 2
+ },
+ {
+  "w": "indolence",
+  "pr": "IN-duh-luhns",
+  "pos": "n",
+  "def": "habitual laziness",
+  "ex": "His indolence frustrated the whole crew",
+  "tier": 2
+ },
+ {
+  "w": "austerity",
+  "pr": "aw-STAIR-ih-tee",
+  "pos": "n",
+  "def": "severe plainness or strictness",
+  "ex": "The room's austerity matched the monk's life",
+  "tier": 2
+ },
+ {
+  "w": "taciturnity",
+  "pr": "tas-ih-TUR-nih-tee",
+  "pos": "n",
+  "def": "habitual silence or reserve",
+  "ex": "His taciturnity made small talk hard",
+  "tier": 2
+ },
+ {
+  "w": "obstinateness",
+  "pr": "OB-stih-nuht-nuhs",
+  "pos": "n",
+  "def": "stubborn refusal to change",
+  "ex": "Her obstinateness blocked any settlement",
+  "tier": 2
+ },
+ {
+  "w": "scrupulousness",
+  "pr": "SKROO-pyuh-luhs-nuhs",
+  "pos": "n",
+  "def": "careful honesty and thoroughness",
+  "ex": "His scrupulousness reassured every client",
+  "tier": 2
+ },
+ {
+  "w": "sociability",
+  "pr": "soh-shuh-BIL-uh-tee",
+  "pos": "n",
+  "def": "fondness for company",
+  "ex": "Her sociability made the office lively",
+  "tier": 2
+ },
+ {
+  "w": "officiousness",
+  "pr": "uh-FISH-uhs-nuhs",
+  "pos": "n",
+  "def": "meddlesome, bossy interference",
+  "ex": "The clerk's officiousness slowed everything down",
+  "tier": 2
+ },
+ {
+  "w": "sprightliness",
+  "pr": "SPRYT-lee-nuhs",
+  "pos": "n",
+  "def": "lively, spirited energy",
+  "ex": "Her sprightliness belied her age",
+  "tier": 2
+ },
+ {
+  "w": "unflappability",
+  "pr": "un-flap-uh-BIL-uh-tee",
+  "pos": "n",
+  "def": "calm steadiness under pressure",
+  "ex": "His unflappability reassured the panicked crowd",
+  "tier": 2
+ },
+ {
+  "w": "testiness",
+  "pr": "TES-tee-nuhs",
+  "pos": "n",
+  "def": "quick irritability",
+  "ex": "His testiness flared at the slow service",
+  "tier": 2
+ },
+ {
+  "w": "amiability",
+  "pr": "ay-mee-uh-BIL-uh-tee",
+  "pos": "n",
+  "def": "pleasant friendliness",
+  "ex": "Her amiability disarmed the angry caller",
+  "tier": 2
+ },
+ {
+  "w": "standoffish",
+  "pr": "stand-AW-fish",
+  "pos": "adj",
+  "def": "cold and unfriendly",
+  "ex": "The new manager seemed standoffish at first",
+  "tier": 2
+ },
+ {
+  "w": "crankiness",
+  "pr": "KRANG-kee-nuhs",
+  "pos": "n",
+  "def": "bad-tempered irritability",
+  "ex": "Hunger fueled the toddler's crankiness",
+  "tier": 2
+ },
+ {
+  "w": "vindictiveness",
+  "pr": "vin-DIK-tiv-nuhs",
+  "pos": "n",
+  "def": "a strong desire for revenge",
+  "ex": "His vindictiveness poisoned every friendship",
+  "tier": 2
+ },
+ {
+  "w": "affectionate",
+  "pr": "uh-FEK-shuh-nuht",
+  "pos": "adj",
+  "def": "showing warmth and fondness",
+  "ex": "She gave an affectionate hug at the door",
+  "tier": 2
+ },
+ {
+  "w": "rapt",
+  "pr": "RAPT",
+  "pos": "adj",
+  "def": "completely absorbed and fascinated",
+  "ex": "The children sat rapt during the magic show",
+  "tier": 2
+ },
+ {
+  "w": "aghast",
+  "pr": "uh-GAST",
+  "pos": "adj",
+  "def": "filled with shock and horror",
+  "ex": "She stood aghast at the wreckage",
+  "tier": 2
+ },
+ {
+  "w": "disquieting",
+  "pr": "dis-KWY-uh-ting",
+  "pos": "adj",
+  "def": "causing worry or unease",
+  "ex": "There was a disquieting silence in the house",
+  "tier": 2
+ },
+ {
+  "w": "forlornly",
+  "pr": "fer-LORN-lee",
+  "pos": "adv",
+  "def": "in a sad and abandoned way",
+  "ex": "The dog waited forlornly by the empty gate",
+  "tier": 2
+ },
+ {
+  "w": "apprehensively",
+  "pr": "ap-rih-HEN-siv-lee",
+  "pos": "adv",
+  "def": "with worried anticipation",
+  "ex": "She glanced apprehensively at the dark hallway",
+  "tier": 2
+ },
+ {
+  "w": "disconsolately",
+  "pr": "dis-KON-suh-luht-lee",
+  "pos": "adv",
+  "def": "in an inconsolably sad way",
+  "ex": "She wept disconsolately at the funeral",
+  "tier": 2
+ },
+ {
+  "w": "elatedly",
+  "pr": "ih-LAY-tid-lee",
+  "pos": "adv",
+  "def": "with great joy and excitement",
+  "ex": "She accepted the award elatedly",
+  "tier": 2
+ },
+ {
+  "w": "morbidly",
+  "pr": "MOR-bid-lee",
+  "pos": "adv",
+  "def": "in an unhealthily gloomy way",
+  "ex": "He was morbidly fixated on the accident",
+  "tier": 2
+ },
+ {
+  "w": "euphorically",
+  "pr": "yoo-FOR-ik-lee",
+  "pos": "adv",
+  "def": "with intense joy or elation",
+  "ex": "Fans cheered euphorically at the final goal",
+  "tier": 2
+ },
+ {
+  "w": "plaintively",
+  "pr": "PLAYN-tiv-lee",
+  "pos": "adv",
+  "def": "in a sad, mournful way",
+  "ex": "The violin sang plaintively through the hall",
+  "tier": 2
+ },
+ {
+  "w": "indignantly",
+  "pr": "in-DIG-nuhnt-lee",
+  "pos": "adv",
+  "def": "with angry resentment at unfairness",
+  "ex": "She indignantly refused the unfair demand",
+  "tier": 2
+ },
+ {
+  "w": "blithely",
+  "pr": "BLY-thlee",
+  "pos": "adv",
+  "def": "in a carefree, cheerful way",
+  "ex": "She blithely ignored the warning signs",
+  "tier": 2
+ },
+ {
+  "w": "wistfulness",
+  "pr": "WIST-fuhl-nuhs",
+  "pos": "n",
+  "def": "a feeling of gentle, sad longing",
+  "ex": "A wistfulness crept in as she packed old photos",
+  "tier": 2
+ },
+ {
+  "w": "aggrievedness",
+  "pr": "uh-GREEVD-nuhs",
+  "pos": "n",
+  "def": "a feeling of being wronged",
+  "ex": "His aggrievedness over the snub lingered for weeks",
+  "tier": 2
+ },
+ {
+  "w": "trepidatiousness",
+  "pr": "trep-ih-DAY-shuhs-nuhs",
+  "pos": "n",
+  "def": "nervous fear or anxiety",
+  "ex": "Her trepidatiousness grew as the exam neared",
+  "tier": 2
+ },
+ {
+  "w": "placidness",
+  "pr": "PLAS-id-nuhs",
+  "pos": "n",
+  "def": "calm, untroubled tranquility",
+  "ex": "The lake's placidness soothed her frayed nerves",
+  "tier": 2
+ },
+ {
+  "w": "doldrum",
+  "pr": "DOHL-druhm",
+  "pos": "n",
+  "def": "a state of low spirits or inactivity",
+  "ex": "He sank into a midwinter doldrum",
+  "tier": 2
+ },
+ {
+  "w": "contented",
+  "pr": "kuhn-TEN-tid",
+  "pos": "adj",
+  "def": "peacefully satisfied",
+  "ex": "She felt contented after the long day",
+  "tier": 2
+ },
+ {
+  "w": "anguished",
+  "pr": "ANG-gwisht",
+  "pos": "adj",
+  "def": "feeling severe pain or distress",
+  "ex": "His anguished cry echoed down the hall",
+  "tier": 2
+ },
+ {
+  "w": "woeful",
+  "pr": "WOH-fuhl",
+  "pos": "adj",
+  "def": "full of sorrow",
+  "ex": "He told a woeful tale of bad luck",
+  "tier": 2
+ },
+ {
+  "w": "disconcerting",
+  "pr": "dis-kuhn-SUR-ting",
+  "pos": "adj",
+  "def": "unsettling or confusing",
+  "ex": "There was a disconcerting pause",
+  "tier": 2
+ },
+ {
+  "w": "heartened",
+  "pr": "HAR-tuhnd",
+  "pos": "adj",
+  "def": "encouraged and hopeful",
+  "ex": "She felt heartened by the support",
+  "tier": 2
+ },
+ {
+  "w": "disheartening",
+  "pr": "dis-HAR-tuh-ning",
+  "pos": "adj",
+  "def": "causing a loss of hope",
+  "ex": "The disheartening news stalled the project",
+  "tier": 2
+ },
+ {
+  "w": "exhilarated",
+  "pr": "ig-ZIL-uh-ray-tid",
+  "pos": "adj",
+  "def": "feeling very excited and happy",
+  "ex": "She felt exhilarated after the climb",
+  "tier": 2
+ },
+ {
+  "w": "jubilance",
+  "pr": "JOO-buh-luhns",
+  "pos": "n",
+  "def": "great joy and triumph",
+  "ex": "The crowd's jubilance shook the stadium",
+  "tier": 2
+ },
+ {
+  "w": "ruefulness",
+  "pr": "ROO-fuhl-nuhs",
+  "pos": "n",
+  "def": "regretful sadness",
+  "ex": "A ruefulness crept into her voice",
+  "tier": 2
+ },
+ {
+  "w": "despondence",
+  "pr": "dih-SPON-duhns",
+  "pos": "n",
+  "def": "deep dejection and hopelessness",
+  "ex": "Months of failure bred despondence",
+  "tier": 2
+ },
+ {
+  "w": "sullenness",
+  "pr": "SUH-luhn-nuhs",
+  "pos": "n",
+  "def": "gloomy, resentful silence",
+  "ex": "His sullenness ruined the celebration",
+  "tier": 2
+ },
+ {
+  "w": "vexation",
+  "pr": "vek-SAY-shuhn",
+  "pos": "n",
+  "def": "a feeling of irritation",
+  "ex": "Her vexation grew with each delay",
+  "tier": 2
+ },
+ {
+  "w": "buoyance",
+  "pr": "BOY-uhns",
+  "pos": "n",
+  "def": "cheerful resilience of spirit",
+  "ex": "His natural buoyance lifted the whole crew",
+  "tier": 2
+ },
+ {
+  "w": "dejection",
+  "pr": "dih-JEK-shuhn",
+  "pos": "n",
+  "def": "low spirits and sadness",
+  "ex": "A wave of dejection followed the verdict",
+  "tier": 2
+ },
+ {
+  "w": "digressive",
+  "pr": "dy-GRES-iv",
+  "pos": "adj",
+  "def": "tending to wander off topic",
+  "ex": "His digressive lecture never reached the point",
+  "tier": 2
+ },
+ {
+  "w": "circumlocutious",
+  "pr": "sur-kuhm-loh-KYOO-shuhs",
+  "pos": "adj",
+  "def": "using needlessly roundabout speech",
+  "ex": "Her circumlocutious answer dodged the real question",
+  "tier": 2
+ },
+ {
+  "w": "declamatory",
+  "pr": "dih-KLAM-uh-tor-ee",
+  "pos": "adj",
+  "def": "pompously rhetorical in delivery",
+  "ex": "His declamatory style annoyed the small audience",
+  "tier": 2
+ },
+ {
+  "w": "interlocutory",
+  "pr": "in-ter-LOK-yuh-tor-ee",
+  "pos": "adj",
+  "def": "relating to dialogue or conversation",
+  "ex": "They exchanged a few interlocutory pleasantries",
+  "tier": 2
+ },
+ {
+  "w": "censorious",
+  "pr": "sen-SOR-ee-uhs",
+  "pos": "adj",
+  "def": "harshly critical",
+  "ex": "Her censorious tone discouraged new ideas",
+  "tier": 2
+ },
+ {
+  "w": "hectoring",
+  "pr": "HEK-ter-ing",
+  "pos": "adj",
+  "def": "bullying or domineering in speech",
+  "ex": "His hectoring tone alienated the jury",
+  "tier": 2
+ },
+ {
+  "w": "understated",
+  "pr": "un-der-STAY-tid",
+  "pos": "adj",
+  "def": "expressed in a restrained way",
+  "ex": "Her understated thanks hid deep gratitude",
+  "tier": 2
+ },
+ {
+  "w": "clarion",
+  "pr": "KLAIR-ee-uhn",
+  "pos": "adj",
+  "def": "loud and clear",
+  "ex": "The speech was a clarion call to action",
+  "tier": 2
+ },
+ {
+  "w": "haranguing",
+  "pr": "huh-RANG-ing",
+  "pos": "adj",
+  "def": "delivering a long, scolding lecture",
+  "ex": "His haranguing speech drove people away",
+  "tier": 2
+ },
+ {
+  "w": "succinctly",
+  "pr": "suhk-SINGKT-lee",
+  "pos": "adv",
+  "def": "briefly and clearly",
+  "ex": "She summarized the report succinctly",
+  "tier": 2
+ },
+ {
+  "w": "brusquely",
+  "pr": "BRUHSK-lee",
+  "pos": "adv",
+  "def": "in an abrupt, curt manner",
+  "ex": "He dismissed the idea brusquely",
+  "tier": 2
+ },
+ {
+  "w": "verbosely",
+  "pr": "ver-BOHS-lee",
+  "pos": "adv",
+  "def": "using too many words",
+  "ex": "He explained the rule verbosely",
+  "tier": 2
+ },
+ {
+  "w": "terseness",
+  "pr": "TURS-nuhs",
+  "pos": "n",
+  "def": "brevity, sometimes to the point of rudeness",
+  "ex": "His email's terseness left her uncertain",
+  "tier": 2
+ },
+ {
+  "w": "vociferousness",
+  "pr": "voh-SIF-er-uhs-nuhs",
+  "pos": "n",
+  "def": "loud and forceful expression",
+  "ex": "The crowd's vociferousness drowned out the speaker",
+  "tier": 2
+ },
+ {
+  "w": "articulateness",
+  "pr": "ar-TIK-yuh-luht-nuhs",
+  "pos": "n",
+  "def": "clear and effective expression",
+  "ex": "Her articulateness impressed the interview panel",
+  "tier": 2
+ },
+ {
+  "w": "expatiation",
+  "pr": "ek-spay-shee-AY-shuhn",
+  "pos": "n",
+  "def": "speaking or writing at length",
+  "ex": "His expatiation on wine bored the guests",
+  "tier": 2
+ },
+ {
+  "w": "badgering",
+  "pr": "BAJ-er-ing",
+  "pos": "n",
+  "def": "persistent nagging or pestering",
+  "ex": "Her constant badgering finally wore him down",
+  "tier": 2
+ },
+ {
+  "w": "equivocation",
+  "pr": "ih-kwiv-uh-KAY-shuhn",
+  "pos": "n",
+  "def": "deliberately vague or ambiguous language",
+  "ex": "His equivocation only deepened the suspicion",
+  "tier": 2
+ },
+ {
+  "w": "muttering",
+  "pr": "MUH-ter-ing",
+  "pos": "n",
+  "def": "low, indistinct grumbling speech",
+  "ex": "His muttering signaled clear displeasure",
+  "tier": 2
+ },
+ {
+  "w": "disparagement",
+  "pr": "dih-SPAIR-ij-muhnt",
+  "pos": "n",
+  "def": "belittling criticism",
+  "ex": "Constant disparagement crushed his confidence",
+  "tier": 2
+ },
+ {
+  "w": "rhetorician",
+  "pr": "ret-uh-RISH-uhn",
+  "pos": "n",
+  "def": "a skilled or persuasive speaker",
+  "ex": "The rhetorician swayed the wavering crowd",
+  "tier": 2
+ },
+ {
+  "w": "rejoin",
+  "pr": "rih-JOYN",
+  "pos": "v",
+  "def": "reply sharply or wittily",
+  "ex": "\"Hardly,\" she rejoined with a smirk",
+  "tier": 2
+ },
+ {
+  "w": "verbalize",
+  "pr": "VUR-buh-lyz",
+  "pos": "v",
+  "def": "express in words",
+  "ex": "She struggled to verbalize her fear",
+  "tier": 2
+ },
+ {
+  "w": "acute",
+  "pr": "uh-KYOOT",
+  "pos": "adj",
+  "def": "sharp and perceptive",
+  "ex": "She has an acute sense of timing",
+  "tier": 2
+ },
+ {
+  "w": "sagaciousness",
+  "pr": "suh-GAY-shuhs-nuhs",
+  "pos": "n",
+  "def": "wise discernment",
+  "ex": "His sagaciousness guided the firm through crisis",
+  "tier": 2
+ },
+ {
+  "w": "discernment",
+  "pr": "dih-SURN-muhnt",
+  "pos": "n",
+  "def": "good judgment and insight",
+  "ex": "She chose the candidate with real discernment",
+  "tier": 2
+ },
+ {
+  "w": "nebulousness",
+  "pr": "NEB-yuh-luhs-nuhs",
+  "pos": "n",
+  "def": "vagueness or lack of clarity",
+  "ex": "The plan's nebulousness worried investors",
+  "tier": 2
+ },
+ {
+  "w": "incisiveness",
+  "pr": "in-SY-siv-nuhs",
+  "pos": "n",
+  "def": "sharp, penetrating clarity of thought",
+  "ex": "Her incisiveness cut straight to the issue",
+  "tier": 2
+ },
+ {
+  "w": "woolgathering",
+  "pr": "WOOL-gath-er-ing",
+  "pos": "n",
+  "def": "idle daydreaming",
+  "ex": "His woolgathering made him miss the cue",
+  "tier": 2
+ },
+ {
+  "w": "preconceive",
+  "pr": "pree-kuhn-SEEV",
+  "pos": "v",
+  "def": "form an opinion beforehand",
+  "ex": "Don't preconceive the outcome before the trial",
+  "tier": 2
+ },
+ {
+  "w": "introspect",
+  "pr": "in-truh-SPEKT",
+  "pos": "v",
+  "def": "examine one's own thoughts and feelings",
+  "ex": "She took time to introspect after the breakup",
+  "tier": 2
+ },
+ {
+  "w": "misjudge",
+  "pr": "mis-JUHJ",
+  "pos": "v",
+  "def": "form a wrong opinion of",
+  "ex": "Don't misjudge her quiet manner",
+  "tier": 2
+ },
+ {
+  "w": "foresee",
+  "pr": "for-SEE",
+  "pos": "v",
+  "def": "predict before it happens",
+  "ex": "No one could foresee the collapse",
+  "tier": 2
+ },
+ {
+  "w": "surmise",
+  "pr": "ser-MYZ",
+  "pos": "v",
+  "def": "guess from limited evidence",
+  "ex": "I surmise they left early",
+  "tier": 2
+ },
+ {
+  "w": "shrewdly",
+  "pr": "SHROOD-lee",
+  "pos": "adv",
+  "def": "with sharp practical judgment",
+  "ex": "She shrewdly negotiated a better deal",
+  "tier": 2
+ },
+ {
+  "w": "perceptively",
+  "pr": "per-SEP-tiv-lee",
+  "pos": "adv",
+  "def": "with keen insight",
+  "ex": "She perceptively noticed his unease",
+  "tier": 2
+ },
+ {
+  "w": "judiciously",
+  "pr": "joo-DISH-uhs-lee",
+  "pos": "adv",
+  "def": "with good judgment",
+  "ex": "She judiciously spent the small budget",
+  "tier": 2
+ },
+ {
+  "w": "circumspectly",
+  "pr": "SUR-kuhm-spekt-lee",
+  "pos": "adv",
+  "def": "in a cautious, careful way",
+  "ex": "She answered circumspectly to avoid trouble",
+  "tier": 2
+ },
+ {
+  "w": "sagely",
+  "pr": "SAYJ-lee",
+  "pos": "adv",
+  "def": "in a wise manner",
+  "ex": "He nodded sagely at the question",
+  "tier": 2
+ },
+ {
+  "w": "hamper",
+  "pr": "HAM-per",
+  "pos": "v",
+  "def": "hinder or impede",
+  "ex": "Heavy snow hampered the rescue",
+  "tier": 2
+ },
+ {
+  "w": "painstakingly",
+  "pr": "PAYNZ-tay-king-lee",
+  "pos": "adv",
+  "def": "with great care and effort",
+  "ex": "She painstakingly restored the old painting",
+  "tier": 2
+ },
+ {
+  "w": "expeditiously",
+  "pr": "ek-spuh-DISH-uhs-lee",
+  "pos": "adv",
+  "def": "quickly and efficiently",
+  "ex": "They handled the complaint expeditiously",
+  "tier": 2
+ },
+ {
+  "w": "persistently",
+  "pr": "per-SIS-tuhnt-lee",
+  "pos": "adv",
+  "def": "in a continuing, determined way",
+  "ex": "He persistently pursued the missing data",
+  "tier": 2
+ },
+ {
+  "w": "laboriously",
+  "pr": "luh-BOR-ee-uhs-lee",
+  "pos": "adv",
+  "def": "with great effort",
+  "ex": "He laboriously copied each page by hand",
+  "tier": 2
+ },
+ {
+  "w": "assiduousness",
+  "pr": "uh-SIJ-oo-uhs-nuhs",
+  "pos": "n",
+  "def": "careful and persistent effort",
+  "ex": "Her assiduousness earned the top grade",
+  "tier": 2
+ },
+ {
+  "w": "sedulousness",
+  "pr": "SEJ-uh-luhs-nuhs",
+  "pos": "n",
+  "def": "diligent, painstaking effort",
+  "ex": "His sedulousness showed in every clean line",
+  "tier": 2
+ },
+ {
+  "w": "laboriousness",
+  "pr": "luh-BOR-ee-uhs-nuhs",
+  "pos": "n",
+  "def": "the quality of requiring hard effort",
+  "ex": "The laboriousness of the task wore him out",
+  "tier": 2
+ },
+ {
+  "w": "doggedness",
+  "pr": "DAW-gid-nuhs",
+  "pos": "n",
+  "def": "stubborn persistence",
+  "ex": "His doggedness finally cracked the cold case",
+  "tier": 2
+ },
+ {
+  "w": "usurpation",
+  "pr": "yoo-ser-PAY-shuhn",
+  "pos": "n",
+  "def": "seizing power wrongfully",
+  "ex": "The general's usurpation toppled the king",
+  "tier": 2
+ },
+ {
+  "w": "subjugator",
+  "pr": "SUHB-juh-gay-ter",
+  "pos": "n",
+  "def": "one who forcefully dominates others",
+  "ex": "The subjugator ruled through fear alone",
+  "tier": 2
+ },
+ {
+  "w": "insurgence",
+  "pr": "in-SUR-juhns",
+  "pos": "n",
+  "def": "a revolt against authority",
+  "ex": "The insurgence spread to nearby provinces",
+  "tier": 2
+ },
+ {
+  "w": "dominator",
+  "pr": "DOM-uh-nay-ter",
+  "pos": "n",
+  "def": "one who controls or rules others",
+  "ex": "He acted the dominator in every debate",
+  "tier": 2
+ },
+ {
+  "w": "oppressor",
+  "pr": "uh-PRES-er",
+  "pos": "n",
+  "def": "one who rules cruelly",
+  "ex": "The villagers rose against their oppressor",
+  "tier": 2
+ },
+ {
+  "w": "vanquishable",
+  "pr": "VANG-kwish-uh-buhl",
+  "pos": "adj",
+  "def": "capable of being defeated",
+  "ex": "No foe seemed vanquishable to the champion",
+  "tier": 2
+ },
+ {
+  "w": "antagonistic",
+  "pr": "an-tag-uh-NIS-tik",
+  "pos": "adj",
+  "def": "actively hostile or opposed",
+  "ex": "The two camps grew openly antagonistic",
+  "tier": 2
+ },
+ {
+  "w": "combative",
+  "pr": "kuhm-BAT-iv",
+  "pos": "adj",
+  "def": "eager to fight or argue",
+  "ex": "His combative tone soured the talks",
+  "tier": 2
+ },
+ {
+  "w": "authoritarian",
+  "pr": "aw-thor-ih-TAIR-ee-uhn",
+  "pos": "adj",
+  "def": "demanding strict obedience",
+  "ex": "The authoritarian boss allowed no dissent",
+  "tier": 2
+ },
+ {
+  "w": "tyrannize",
+  "pr": "TIR-uh-nyz",
+  "pos": "v",
+  "def": "rule cruelly and oppressively",
+  "ex": "He tyrannized his employees for years",
+  "tier": 2
+ },
+ {
+  "w": "factionalize",
+  "pr": "FAK-shuh-nuh-lyz",
+  "pos": "v",
+  "def": "split into opposing groups",
+  "ex": "The dispute factionalized the once-united club",
+  "tier": 2
+ },
+ {
+  "w": "squabble",
+  "pr": "SKWOB-uhl",
+  "pos": "v",
+  "def": "argue noisily over trifles",
+  "ex": "The kids squabbled over the remote",
+  "tier": 2
+ },
+ {
+  "w": "domineeringly",
+  "pr": "dom-uh-NEER-ing-lee",
+  "pos": "adv",
+  "def": "in a bossy, controlling way",
+  "ex": "He spoke domineeringly to the staff",
+  "tier": 2
+ },
+ {
+  "w": "luxuriant",
+  "pr": "luhg-ZHOOR-ee-uhnt",
+  "pos": "adj",
+  "def": "rich, lush, and abundant",
+  "ex": "Luxuriant ivy covered the old wall",
+  "tier": 2
+ },
+ {
+  "w": "grubby",
+  "pr": "GRUH-bee",
+  "pos": "adj",
+  "def": "dirty and grimy",
+  "ex": "He wiped his grubby hands on a rag",
+  "tier": 2
+ },
+ {
+  "w": "spotless",
+  "pr": "SPOT-luhs",
+  "pos": "adj",
+  "def": "perfectly clean",
+  "ex": "The lab was kept spotless",
+  "tier": 2
+ },
+ {
+  "w": "dowdy",
+  "pr": "DOW-dee",
+  "pos": "adj",
+  "def": "dull and unfashionable",
+  "ex": "She changed out of the dowdy coat",
+  "tier": 2
+ },
+ {
+  "w": "exquisitely",
+  "pr": "ek-SKWIH-zit-lee",
+  "pos": "adv",
+  "def": "in a delicately beautiful way",
+  "ex": "The cake was exquisitely decorated",
+  "tier": 2
+ },
+ {
+  "w": "shabbily",
+  "pr": "SHAB-uh-lee",
+  "pos": "adv",
+  "def": "in a worn, run-down way",
+  "ex": "The cottage was shabbily furnished",
+  "tier": 2
+ },
+ {
+  "w": "dilapidatedness",
+  "pr": "dih-LAP-ih-day-tid-nuhs",
+  "pos": "n",
+  "def": "a state of ruin or decay",
+  "ex": "The mansion's dilapidatedness was striking",
+  "tier": 2
+ },
+ {
+  "w": "squalidness",
+  "pr": "SKWOL-id-nuhs",
+  "pos": "n",
+  "def": "filthy, run-down condition",
+  "ex": "The squalidness of the slum shocked visitors",
+  "tier": 2
+ },
+ {
+  "w": "threadbareness",
+  "pr": "THRED-bair-nuhs",
+  "pos": "n",
+  "def": "worn-out, shabby condition",
+  "ex": "The carpet's threadbareness showed its age",
+  "tier": 2
+ },
+ {
+  "w": "tawdriness",
+  "pr": "TAW-dree-nuhs",
+  "pos": "n",
+  "def": "cheap, showy quality",
+  "ex": "The decor's tawdriness cheapened the whole place",
+  "tier": 2
+ },
+ {
+  "w": "unkemptness",
+  "pr": "un-KEMPT-nuhs",
+  "pos": "n",
+  "def": "messy, untidy appearance",
+  "ex": "His unkemptness suggested a sleepless night",
+  "tier": 2
+ },
+ {
+  "w": "frowziness",
+  "pr": "FROW-zee-nuhs",
+  "pos": "n",
+  "def": "scruffy, neglected appearance",
+  "ex": "The frowziness of his coat drew stares",
+  "tier": 2
+ },
+ {
+  "w": "uncouthness",
+  "pr": "un-KOOTH-nuhs",
+  "pos": "n",
+  "def": "crude, unrefined manner",
+  "ex": "His uncouthness embarrassed the hosts",
+  "tier": 2
+ },
+ {
+  "w": "statelyness",
+  "pr": "STAYT-lee-nuhs",
+  "pos": "n",
+  "def": "dignified, impressive grandeur",
+  "ex": "The mansion's statelyness awed the guests",
+  "tier": 2
+ },
+ {
+  "w": "transitoriness",
+  "pr": "TRAN-sih-tor-ee-nuhs",
+  "pos": "n",
+  "def": "the quality of being temporary",
+  "ex": "The transitoriness of youth haunts many poems",
+  "tier": 2
+ },
+ {
+  "w": "ephemeralness",
+  "pr": "ih-FEM-er-uhl-nuhs",
+  "pos": "n",
+  "def": "the quality of lasting briefly",
+  "ex": "The ephemeralness of fame surprised the star",
+  "tier": 2
+ },
+ {
+  "w": "supplanting",
+  "pr": "suh-PLAN-ting",
+  "pos": "n",
+  "def": "the act of replacing something",
+  "ex": "The supplanting of cash by cards continues",
+  "tier": 2
+ },
+ {
+  "w": "plentitude",
+  "pr": "PLEN-tih-tood",
+  "pos": "n",
+  "def": "an abundance or large amount",
+  "ex": "A plentitude of options overwhelmed the buyers",
+  "tier": 2
+ },
+ {
+  "w": "multifariousness",
+  "pr": "muhl-tih-FAIR-ee-uhs-nuhs",
+  "pos": "n",
+  "def": "great variety or diversity",
+  "ex": "The festival's multifariousness delighted everyone",
+  "tier": 2
+ },
+ {
+  "w": "metamorphose",
+  "pr": "met-uh-MOR-fohz",
+  "pos": "v",
+  "def": "change completely in form",
+  "ex": "The caterpillar metamorphosed into a moth",
+  "tier": 2
+ },
+ {
+  "w": "recede",
+  "pr": "rih-SEED",
+  "pos": "v",
+  "def": "move back or diminish",
+  "ex": "The tide began to recede",
+  "tier": 2
+ },
+ {
+  "w": "amplify",
+  "pr": "AM-plih-fy",
+  "pos": "v",
+  "def": "increase in size or effect",
+  "ex": "Social media can amplify a rumor overnight",
+  "tier": 2
+ },
+ {
+  "w": "preponderate",
+  "pr": "prih-PON-duh-rayt",
+  "pos": "v",
+  "def": "be greater in number or weight",
+  "ex": "Doubts began to preponderate over hope",
+  "tier": 2
+ },
+ {
+  "w": "perpetuating",
+  "pr": "per-PECH-oo-ay-ting",
+  "pos": "adj",
+  "def": "causing something to continue",
+  "ex": "Such myths are self-perpetuating",
+  "tier": 2
+ },
+ {
+  "w": "waning",
+  "pr": "WAY-ning",
+  "pos": "adj",
+  "def": "gradually decreasing",
+  "ex": "His waning energy showed by noon",
+  "tier": 2
+ },
+ {
+  "w": "bounteous",
+  "pr": "BOWN-tee-uhs",
+  "pos": "adj",
+  "def": "plentiful and generous",
+  "ex": "The bounteous harvest fed the whole village",
+  "tier": 2
+ },
+ {
+  "w": "dwindlement",
+  "pr": "DWIN-duhl-muhnt",
+  "pos": "n",
+  "def": "a gradual decrease",
+  "ex": "A steady dwindlement of members closed the club",
+  "tier": 2
+ },
+ {
+  "w": "rapidity",
+  "pr": "ruh-PID-ih-tee",
+  "pos": "n",
+  "def": "great speed",
+  "ex": "The rapidity of the change caught us off guard",
+  "tier": 2
+ },
+ {
+  "w": "expansiveness",
+  "pr": "ik-SPAN-siv-nuhs",
+  "pos": "n",
+  "def": "the quality of being wide or extensive",
+  "ex": "The expansiveness of the plan worried the budget team",
+  "tier": 2
+ },
+ {
+  "w": "contraction",
+  "pr": "kuhn-TRAK-shuhn",
+  "pos": "n",
+  "def": "a reduction in size or amount",
+  "ex": "A sharp contraction in sales alarmed investors",
+  "tier": 2
+ },
+ {
+  "w": "hastiness",
+  "pr": "HAY-stee-nuhs",
+  "pos": "n",
+  "def": "excessive speed causing carelessness",
+  "ex": "His hastiness led to a costly mistake",
+  "tier": 2
+ },
+ {
+  "w": "amassment",
+  "pr": "uh-MAS-muhnt",
+  "pos": "n",
+  "def": "an accumulated quantity",
+  "ex": "An amassment of clutter filled the garage",
+  "tier": 2
+ },
+ {
+  "w": "plenteousness",
+  "pr": "PLEN-tee-uhs-nuhs",
+  "pos": "n",
+  "def": "the quality of being abundant",
+  "ex": "The plenteousness of the feast amazed the guests",
+  "tier": 2
+ },
+ {
+  "w": "gradualness",
+  "pr": "GRAJ-oo-uhl-nuhs",
+  "pos": "n",
+  "def": "the quality of happening slowly",
+  "ex": "The gradualness of recovery tested her patience",
+  "tier": 2
+ }
+]
