@@ -1,0 +1,1362 @@
+[
+ {
+  "w": "cavalier",
+  "pr": "KAV-uh-LEER",
+  "pos": "adj",
+  "def": "showing careless disregard for serious matters",
+  "ex": "He was cavalier about the deadline, shrugging it off",
+  "tier": 3
+ },
+ {
+  "w": "mercenary",
+  "pr": "MUR-suh-ner-ee",
+  "pos": "adj",
+  "def": "motivated only by money or gain",
+  "ex": "Her mercenary streak meant she helped no one for free",
+  "tier": 3
+ },
+ {
+  "w": "jocular",
+  "pr": "JOK-yuh-ler",
+  "pos": "adj",
+  "def": "fond of joking; playfully humorous",
+  "ex": "His jocular remarks kept the whole office laughing",
+  "tier": 3
+ },
+ {
+  "w": "dapper",
+  "pr": "DAP-er",
+  "pos": "adj",
+  "def": "neat and stylish in dress",
+  "ex": "He looked dapper in his tailored gray suit",
+  "tier": 3
+ },
+ {
+  "w": "genteel",
+  "pr": "jen-TEEL",
+  "pos": "adj",
+  "def": "politely refined, often affectedly so",
+  "ex": "Her genteel manners seemed almost too polished",
+  "tier": 3
+ },
+ {
+  "w": "punctual",
+  "pr": "PUNK-choo-uhl",
+  "pos": "adj",
+  "def": "arriving or acting exactly on time",
+  "ex": "She was always punctual, never a minute late",
+  "tier": 3
+ },
+ {
+  "w": "debonair",
+  "pr": "deb-uh-NAIR",
+  "pos": "adj",
+  "def": "confident, stylish, and charming",
+  "ex": "The debonair host greeted each guest with ease",
+  "tier": 3
+ },
+ {
+  "w": "rakish",
+  "pr": "RAY-kish",
+  "pos": "adj",
+  "def": "dashing and carelessly unconventional",
+  "ex": "He wore his hat at a rakish angle",
+  "tier": 3
+ },
+ {
+  "w": "priggish",
+  "pr": "PRIG-ish",
+  "pos": "adj",
+  "def": "self-righteously moralistic and prim",
+  "ex": "Her priggish disapproval of the joke annoyed everyone",
+  "tier": 3
+ },
+ {
+  "w": "waggish",
+  "pr": "WAG-ish",
+  "pos": "adj",
+  "def": "playfully witty and mischievous",
+  "ex": "His waggish comments lightened the tense meeting",
+  "tier": 3
+ },
+ {
+  "w": "dowdy",
+  "pr": "DOW-dee",
+  "pos": "adj",
+  "def": "unfashionable and dull in appearance",
+  "ex": "She felt dowdy beside the elegant guests",
+  "tier": 3
+ },
+ {
+  "w": "flighty",
+  "pr": "FLY-tee",
+  "pos": "adj",
+  "def": "irresponsible and unable to concentrate",
+  "ex": "Her flighty nature made deadlines a constant gamble",
+  "tier": 3
+ },
+ {
+  "w": "staid",
+  "pr": "STAYD",
+  "pos": "adj",
+  "def": "sedate, respectable, and unadventurous",
+  "ex": "The staid old firm resisted every new idea",
+  "tier": 3
+ },
+ {
+  "w": "smarmy",
+  "pr": "SMAR-mee",
+  "pos": "adj",
+  "def": "ingratiating in an insincere, oily way",
+  "ex": "His smarmy compliments made her deeply distrust him",
+  "tier": 3
+ },
+ {
+  "w": "magisterial",
+  "pr": "maj-iss-TEER-ee-uhl",
+  "pos": "adj",
+  "def": "authoritative and commanding respect",
+  "ex": "She gave a magisterial lecture on Roman law",
+  "tier": 3
+ },
+ {
+  "w": "blithesome",
+  "pr": "BLYTH-suhm",
+  "pos": "adj",
+  "def": "cheerful and lighthearted",
+  "ex": "Her blithesome mood brightened the dreary afternoon",
+  "tier": 3
+ },
+ {
+  "w": "effervescent",
+  "pr": "ef-er-VES-uhnt",
+  "pos": "adj",
+  "def": "bubbly, lively, and enthusiastic",
+  "ex": "Her effervescent personality lit up every room",
+  "tier": 3
+ },
+ {
+  "w": "forbearing",
+  "pr": "for-BAIR-ing",
+  "pos": "adj",
+  "def": "patient and tolerant of provocation",
+  "ex": "He was forbearing even with his rudest customers",
+  "tier": 3
+ },
+ {
+  "w": "hidebound",
+  "pr": "HYDE-bownd",
+  "pos": "adj",
+  "def": "narrow-minded and resistant to change",
+  "ex": "The hidebound committee rejected every fresh proposal",
+  "tier": 3
+ },
+ {
+  "w": "temperate",
+  "pr": "TEM-per-uht",
+  "pos": "adj",
+  "def": "moderate and self-restrained",
+  "ex": "His temperate habits kept him healthy for decades",
+  "tier": 3
+ },
+ {
+  "w": "wily",
+  "pr": "WY-lee",
+  "pos": "adj",
+  "def": "cunning and clever in a sly way",
+  "ex": "The wily negotiator outmaneuvered everyone present",
+  "tier": 3
+ },
+ {
+  "w": "foppish",
+  "pr": "FOP-ish",
+  "pos": "adj",
+  "def": "overly concerned with fashion and appearance",
+  "ex": "His foppish wardrobe drew amused glances",
+  "tier": 3
+ },
+ {
+  "w": "rambunctious",
+  "pr": "ram-BUNK-shuss",
+  "pos": "adj",
+  "def": "boisterous and hard to control",
+  "ex": "The rambunctious puppies knocked over every chair",
+  "tier": 3
+ },
+ {
+  "w": "equable",
+  "pr": "EK-wuh-buhl",
+  "pos": "adj",
+  "def": "even-tempered and not easily disturbed",
+  "ex": "His equable nature made him a calming presence",
+  "tier": 3
+ },
+ {
+  "w": "inconsolable",
+  "pr": "in-kuhn-SOH-luh-buhl",
+  "pos": "adj",
+  "def": "unable to be comforted",
+  "ex": "She was inconsolable after the sudden loss",
+  "tier": 3
+ },
+ {
+  "w": "downhearted",
+  "pr": "down-HAR-tid",
+  "pos": "adj",
+  "def": "sad and discouraged",
+  "ex": "He felt downhearted after the rejection letter arrived",
+  "tier": 3
+ },
+ {
+  "w": "petrified",
+  "pr": "PET-rih-fyde",
+  "pos": "adj",
+  "def": "frozen with extreme fear",
+  "ex": "She stood petrified as the storm approached",
+  "tier": 3
+ },
+ {
+  "w": "incredulous",
+  "pr": "in-KREJ-uh-luss",
+  "pos": "adj",
+  "def": "unwilling or unable to believe",
+  "ex": "He gave an incredulous stare at the absurd claim",
+  "tier": 3
+ },
+ {
+  "w": "nonplussed",
+  "pr": "non-PLUSST",
+  "pos": "adj",
+  "def": "so surprised one cannot react",
+  "ex": "She was nonplussed by his bizarre question",
+  "tier": 3
+ },
+ {
+  "w": "woeful",
+  "pr": "WOH-fuhl",
+  "pos": "adj",
+  "def": "full of sorrow or misery",
+  "ex": "He gave a woeful sigh at the bad news",
+  "tier": 3
+ },
+ {
+  "w": "aghast",
+  "pr": "uh-GAST",
+  "pos": "adj",
+  "def": "filled with shock and horror",
+  "ex": "She stood aghast at the wreckage before her",
+  "tier": 3
+ },
+ {
+  "w": "languorous",
+  "pr": "LANG-ger-uss",
+  "pos": "adj",
+  "def": "pleasantly lazy and relaxed",
+  "ex": "They spent a languorous afternoon by the pool",
+  "tier": 3
+ },
+ {
+  "w": "chastened",
+  "pr": "CHAY-suhnd",
+  "pos": "adj",
+  "def": "subdued and humbled by criticism",
+  "ex": "Chastened by the loss, he practiced harder",
+  "tier": 3
+ },
+ {
+  "w": "seething",
+  "pr": "SEE-thing",
+  "pos": "adj",
+  "def": "intensely but quietly angry",
+  "ex": "She sat seething through the unfair meeting",
+  "tier": 3
+ },
+ {
+  "w": "disgruntlement",
+  "pr": "dis-GRUN-tuhl-muhnt",
+  "pos": "n",
+  "def": "a feeling of resentful dissatisfaction",
+  "ex": "Their disgruntlement grew with each broken promise",
+  "tier": 3
+ },
+ {
+  "w": "desolate",
+  "pr": "DES-uh-luht",
+  "pos": "adj",
+  "def": "feeling bleak, lonely, and miserable",
+  "ex": "She felt desolate after her friends moved away",
+  "tier": 3
+ },
+ {
+  "w": "apoplexy",
+  "pr": "AP-uh-plek-see",
+  "pos": "n",
+  "def": "a fit of extreme, overpowering anger",
+  "ex": "His outburst bordered on sheer apoplexy",
+  "tier": 3
+ },
+ {
+  "w": "crushed",
+  "pr": "KRUSHT",
+  "pos": "adj",
+  "def": "emotionally devastated",
+  "ex": "He was crushed by the unexpected betrayal",
+  "tier": 3
+ },
+ {
+  "w": "disenchanted",
+  "pr": "dis-en-CHAN-tid",
+  "pos": "adj",
+  "def": "disappointed and no longer idealistic",
+  "ex": "Voters grew disenchanted with empty promises",
+  "tier": 3
+ },
+ {
+  "w": "overwrought",
+  "pr": "oh-ver-RAWT",
+  "pos": "adj",
+  "def": "in a state of nervous excitement or anxiety",
+  "ex": "She was overwrought after the sleepless night",
+  "tier": 3
+ },
+ {
+  "w": "ruefulness",
+  "pr": "ROO-fuhl-nuss",
+  "pos": "n",
+  "def": "a feeling of regret or sorrow",
+  "ex": "A trace of ruefulness crossed his face",
+  "tier": 3
+ },
+ {
+  "w": "smitten",
+  "pr": "SMIT-uhn",
+  "pos": "adj",
+  "def": "suddenly deeply attracted or in love",
+  "ex": "He was utterly smitten from their first meeting",
+  "tier": 3
+ },
+ {
+  "w": "wistfulness",
+  "pr": "WIST-fuhl-nuss",
+  "pos": "n",
+  "def": "a feeling of vague, sad longing",
+  "ex": "Wistfulness filled her as the train pulled away",
+  "tier": 3
+ },
+ {
+  "w": "rattled",
+  "pr": "RAT-uhld",
+  "pos": "adj",
+  "def": "made nervous or unsettled",
+  "ex": "The hostile crowd left the speaker rattled",
+  "tier": 3
+ },
+ {
+  "w": "disheartening",
+  "pr": "dis-HAR-tuh-ning",
+  "pos": "adj",
+  "def": "causing a loss of hope or confidence",
+  "ex": "The dismal results were deeply disheartening",
+  "tier": 3
+ },
+ {
+  "w": "bereft",
+  "pr": "bih-REFT",
+  "pos": "adj",
+  "def": "deprived of and sorrowing for something",
+  "ex": "She felt bereft when the holidays ended",
+  "tier": 3
+ },
+ {
+  "w": "aggravated",
+  "pr": "AG-ruh-vay-tid",
+  "pos": "adj",
+  "def": "annoyed and made worse",
+  "ex": "He grew aggravated by the constant interruptions",
+  "tier": 3
+ },
+ {
+  "w": "equivocal",
+  "pr": "ih-KWIV-uh-kuhl",
+  "pos": "adj",
+  "def": "ambiguous and open to two interpretations",
+  "ex": "His equivocal answer satisfied neither side",
+  "tier": 3
+ },
+ {
+  "w": "rhetorical",
+  "pr": "rih-TOR-ih-kuhl",
+  "pos": "adj",
+  "def": "relating to persuasive or showy speech",
+  "ex": "She posed a rhetorical question to make her point",
+  "tier": 3
+ },
+ {
+  "w": "understated",
+  "pr": "un-der-STAY-tid",
+  "pos": "adj",
+  "def": "expressed in a restrained, subtle way",
+  "ex": "Her understated speech moved the room",
+  "tier": 3
+ },
+ {
+  "w": "mealymouthed",
+  "pr": "MEE-lee-mowthd",
+  "pos": "adj",
+  "def": "unwilling to speak plainly or honestly",
+  "ex": "His mealymouthed apology convinced no one",
+  "tier": 3
+ },
+ {
+  "w": "declamatory",
+  "pr": "dih-KLAM-uh-tor-ee",
+  "pos": "adj",
+  "def": "spoken in a pompous, oratorical style",
+  "ex": "His declamatory tone made a memo sound like a sermon",
+  "tier": 3
+ },
+ {
+  "w": "evasive",
+  "pr": "ih-VAY-siv",
+  "pos": "adj",
+  "def": "avoiding giving a direct answer",
+  "ex": "His evasive replies only deepened our suspicion",
+  "tier": 3
+ },
+ {
+  "w": "caustic",
+  "pr": "KAW-stik",
+  "pos": "adj",
+  "def": "sarcastic in a bitter, cutting way",
+  "ex": "Her caustic wit left him speechless",
+  "tier": 3
+ },
+ {
+  "w": "longwinded",
+  "pr": "long-WIN-did",
+  "pos": "adj",
+  "def": "tediously lengthy in speech or writing",
+  "ex": "His longwinded toast emptied half the room",
+  "tier": 3
+ },
+ {
+  "w": "monosyllabic",
+  "pr": "mon-uh-sih-LAB-ik",
+  "pos": "adj",
+  "def": "using very few words; uncommunicative",
+  "ex": "The teenager gave monosyllabic answers all dinner",
+  "tier": 3
+ },
+ {
+  "w": "digressive",
+  "pr": "dih-GRES-iv",
+  "pos": "adj",
+  "def": "tending to wander from the main topic",
+  "ex": "His digressive lectures never reached the point",
+  "tier": 3
+ },
+ {
+  "w": "effusiveness",
+  "pr": "ih-FYOO-siv-nuss",
+  "pos": "n",
+  "def": "unrestrained, gushing expression of feeling",
+  "ex": "Her effusiveness over the gift embarrassed him",
+  "tier": 3
+ },
+ {
+  "w": "interrogate",
+  "pr": "in-TERR-uh-gayt",
+  "pos": "v",
+  "def": "question someone closely or aggressively",
+  "ex": "Reporters interrogated the mayor about the scandal",
+  "tier": 3
+ },
+ {
+  "w": "prattle",
+  "pr": "PRAT-uhl",
+  "pos": "v",
+  "def": "talk at length in a foolish way",
+  "ex": "The children prattled happily about their day",
+  "tier": 3
+ },
+ {
+  "w": "bluster",
+  "pr": "BLUS-ter",
+  "pos": "v",
+  "def": "talk in a loud, aggressive, empty way",
+  "ex": "He blustered about lawsuits but did nothing",
+  "tier": 3
+ },
+ {
+  "w": "waffle",
+  "pr": "WOF-uhl",
+  "pos": "v",
+  "def": "speak or write vaguely and at length",
+  "ex": "The candidate waffled instead of answering",
+  "tier": 3
+ },
+ {
+  "w": "enunciate",
+  "pr": "ih-NUN-see-ayt",
+  "pos": "v",
+  "def": "pronounce words clearly and distinctly",
+  "ex": "Please enunciate so the back row can hear",
+  "tier": 3
+ },
+ {
+  "w": "pointed",
+  "pr": "POIN-tid",
+  "pos": "adj",
+  "def": "expressed sharply and with clear intent",
+  "ex": "She made a pointed remark about his lateness",
+  "tier": 3
+ },
+ {
+  "w": "disparaging",
+  "pr": "dih-SPAR-uh-jing",
+  "pos": "adj",
+  "def": "expressing scorn or belittlement",
+  "ex": "His disparaging tone insulted the volunteers",
+  "tier": 3
+ },
+ {
+  "w": "droll",
+  "pr": "DROHL",
+  "pos": "adj",
+  "def": "amusing in an odd or dry way",
+  "ex": "He told the story with a droll little smile",
+  "tier": 3
+ },
+ {
+  "w": "hectoring",
+  "pr": "HEK-ter-ing",
+  "pos": "adj",
+  "def": "talking in a bullying, intimidating way",
+  "ex": "His hectoring manner silenced the new interns",
+  "tier": 3
+ },
+ {
+  "w": "avowal",
+  "pr": "uh-VOW-uhl",
+  "pos": "n",
+  "def": "an open, frank declaration",
+  "ex": "Her avowal of guilt stunned the courtroom",
+  "tier": 3
+ },
+ {
+  "w": "conundrum",
+  "pr": "kuh-NUN-druhm",
+  "pos": "n",
+  "def": "a confusing and difficult problem",
+  "ex": "The scheduling conundrum baffled the whole team",
+  "tier": 3
+ },
+ {
+  "w": "quandary",
+  "pr": "KWON-duh-ree",
+  "pos": "n",
+  "def": "a state of difficult uncertainty",
+  "ex": "She was in a quandary over which job to take",
+  "tier": 3
+ },
+ {
+  "w": "imponderable",
+  "pr": "im-PON-der-uh-buhl",
+  "pos": "adj",
+  "def": "impossible to estimate or assess",
+  "ex": "The future remains an imponderable mystery",
+  "tier": 3
+ },
+ {
+  "w": "untenable",
+  "pr": "un-TEN-uh-buhl",
+  "pos": "adj",
+  "def": "not able to be defended or maintained",
+  "ex": "His position became untenable after the new evidence",
+  "tier": 3
+ },
+ {
+  "w": "surmise",
+  "pr": "sur-MYZE",
+  "pos": "v",
+  "def": "guess or conclude from scant evidence",
+  "ex": "I surmise from your face that the news is bad",
+  "tier": 3
+ },
+ {
+  "w": "postulate",
+  "pr": "POSS-chuh-layt",
+  "pos": "v",
+  "def": "assume as a basis for reasoning",
+  "ex": "He postulated that demand would soon collapse",
+  "tier": 3
+ },
+ {
+  "w": "discernment",
+  "pr": "dih-SURN-muhnt",
+  "pos": "n",
+  "def": "keen insight and good judgment",
+  "ex": "Her discernment in hiring built a strong team",
+  "tier": 3
+ },
+ {
+  "w": "simpleminded",
+  "pr": "SIM-puhl-myn-did",
+  "pos": "adj",
+  "def": "lacking intelligence or subtlety",
+  "ex": "His simpleminded plan ignored every obstacle",
+  "tier": 3
+ },
+ {
+  "w": "muddleheaded",
+  "pr": "MUD-uhl-hed-id",
+  "pos": "adj",
+  "def": "confused and unable to think clearly",
+  "ex": "Her muddleheaded notes helped no one",
+  "tier": 3
+ },
+ {
+  "w": "levelheadedness",
+  "pr": "LEV-uhl-hed-id-nuss",
+  "pos": "n",
+  "def": "calm, sensible good judgment",
+  "ex": "His levelheadedness defused the panic",
+  "tier": 3
+ },
+ {
+  "w": "woolly",
+  "pr": "WOOL-ee",
+  "pos": "adj",
+  "def": "vague and confused in thought",
+  "ex": "The proposal was woolly and hard to follow",
+  "tier": 3
+ },
+ {
+  "w": "clearheaded",
+  "pr": "kleer-HED-id",
+  "pos": "adj",
+  "def": "thinking sharply and sensibly",
+  "ex": "She stayed clearheaded amid the chaos",
+  "tier": 3
+ },
+ {
+  "w": "musing",
+  "pr": "MYOO-zing",
+  "pos": "n",
+  "def": "a period of thoughtful reflection",
+  "ex": "Her quiet musings produced the best ideas",
+  "tier": 3
+ },
+ {
+  "w": "incontrovertible",
+  "pr": "in-kon-truh-VUR-tuh-buhl",
+  "pos": "adj",
+  "def": "impossible to deny or dispute",
+  "ex": "The DNA was incontrovertible proof",
+  "tier": 3
+ },
+ {
+  "w": "knowing",
+  "pr": "NOH-ing",
+  "pos": "adj",
+  "def": "suggesting secret understanding",
+  "ex": "She gave a knowing nod across the room",
+  "tier": 3
+ },
+ {
+  "w": "pragmatism",
+  "pr": "PRAG-muh-tiz-uhm",
+  "pos": "n",
+  "def": "a practical, realistic approach",
+  "ex": "His pragmatism kept the project grounded",
+  "tier": 3
+ },
+ {
+  "w": "slapdash",
+  "pr": "SLAP-dash",
+  "pos": "adj",
+  "def": "done hastily and carelessly",
+  "ex": "His slapdash repairs fell apart within a week",
+  "tier": 3
+ },
+ {
+  "w": "arduous",
+  "pr": "AR-joo-uss",
+  "pos": "adj",
+  "def": "requiring great and tiring effort",
+  "ex": "The arduous climb left them gasping for breath",
+  "tier": 3
+ },
+ {
+  "w": "herculean",
+  "pr": "her-kyoo-LEE-uhn",
+  "pos": "adj",
+  "def": "requiring enormous strength or effort",
+  "ex": "Rebuilding overnight was a herculean task",
+  "tier": 3
+ },
+ {
+  "w": "methodical",
+  "pr": "muh-THOD-ih-kuhl",
+  "pos": "adj",
+  "def": "done in an orderly, systematic way",
+  "ex": "Her methodical search left no drawer unchecked",
+  "tier": 3
+ },
+ {
+  "w": "listless",
+  "pr": "LIST-luss",
+  "pos": "adj",
+  "def": "lacking energy or enthusiasm",
+  "ex": "The heat left everyone listless and quiet",
+  "tier": 3
+ },
+ {
+  "w": "remiss",
+  "pr": "rih-MISS",
+  "pos": "adj",
+  "def": "careless or negligent in duty",
+  "ex": "I would be remiss not to thank our hosts",
+  "tier": 3
+ },
+ {
+  "w": "painstakingly",
+  "pr": "PAYN-stay-king-lee",
+  "pos": "adv",
+  "def": "with great care and effort",
+  "ex": "She painstakingly restored the old photograph",
+  "tier": 3
+ },
+ {
+  "w": "untiring",
+  "pr": "un-TY-ring",
+  "pos": "adj",
+  "def": "persistent and never seeming to tire",
+  "ex": "His untiring effort finally won them over",
+  "tier": 3
+ },
+ {
+  "w": "halfhearted",
+  "pr": "haf-HAR-tid",
+  "pos": "adj",
+  "def": "done with little effort or enthusiasm",
+  "ex": "His halfhearted attempt impressed no one",
+  "tier": 3
+ },
+ {
+  "w": "plodding",
+  "pr": "PLOD-ing",
+  "pos": "adj",
+  "def": "slow, dull, and laborious",
+  "ex": "The plodding investigation dragged on for months",
+  "tier": 3
+ },
+ {
+  "w": "exacting",
+  "pr": "ig-ZAK-ting",
+  "pos": "adj",
+  "def": "demanding great care and effort",
+  "ex": "Her exacting standards intimidated new hires",
+  "tier": 3
+ },
+ {
+  "w": "doggedness",
+  "pr": "DAW-gid-nuss",
+  "pos": "n",
+  "def": "stubborn persistence and determination",
+  "ex": "His doggedness eventually wore down the skeptics",
+  "tier": 3
+ },
+ {
+  "w": "grueling",
+  "pr": "GROO-uh-ling",
+  "pos": "adj",
+  "def": "extremely tiring and demanding",
+  "ex": "The grueling march tested every recruit",
+  "tier": 3
+ },
+ {
+  "w": "sluggard",
+  "pr": "SLUG-erd",
+  "pos": "n",
+  "def": "a habitually lazy person",
+  "ex": "He scolded the sluggard for sleeping past noon",
+  "tier": 3
+ },
+ {
+  "w": "toiler",
+  "pr": "TOY-ler",
+  "pos": "n",
+  "def": "one who works long and hard",
+  "ex": "The toilers in the field rarely rested",
+  "tier": 3
+ },
+ {
+  "w": "conscientiousness",
+  "pr": "kon-shee-EN-shuss-nuss",
+  "pos": "n",
+  "def": "careful diligence in one's duties",
+  "ex": "Her conscientiousness earned her every promotion",
+  "tier": 3
+ },
+ {
+  "w": "scrupulousness",
+  "pr": "SKROO-pyuh-luss-nuss",
+  "pos": "n",
+  "def": "careful attention to what is right",
+  "ex": "His scrupulousness left no detail overlooked",
+  "tier": 3
+ },
+ {
+  "w": "combative",
+  "pr": "kuhm-BAT-iv",
+  "pos": "adj",
+  "def": "ready and eager to fight",
+  "ex": "His combative tone derailed the negotiation",
+  "tier": 3
+ },
+ {
+  "w": "antagonistic",
+  "pr": "an-tag-uh-NIS-tik",
+  "pos": "adj",
+  "def": "showing active hostility",
+  "ex": "Their antagonistic rivalry poisoned the department",
+  "tier": 3
+ },
+ {
+  "w": "dissension",
+  "pr": "dih-SEN-shuhn",
+  "pos": "n",
+  "def": "disagreement that causes discord",
+  "ex": "Dissension within the ranks weakened their cause",
+  "tier": 3
+ },
+ {
+  "w": "imperative",
+  "pr": "im-PERR-uh-tiv",
+  "pos": "adj",
+  "def": "of vital, commanding importance",
+  "ex": "It is imperative that we leave immediately",
+  "tier": 3
+ },
+ {
+  "w": "preeminent",
+  "pr": "pree-EM-ih-nuhnt",
+  "pos": "adj",
+  "def": "surpassing all others; supreme",
+  "ex": "She was the preeminent scholar in her field",
+  "tier": 3
+ },
+ {
+  "w": "quarrelsome",
+  "pr": "KWOR-uhl-suhm",
+  "pos": "adj",
+  "def": "prone to arguing and disputes",
+  "ex": "His quarrelsome moods drove friends away",
+  "tier": 3
+ },
+ {
+  "w": "subordination",
+  "pr": "suh-bor-dih-NAY-shuhn",
+  "pos": "n",
+  "def": "the state of being under another's control",
+  "ex": "He chafed at his subordination to a junior boss",
+  "tier": 3
+ },
+ {
+  "w": "disputatious",
+  "pr": "dis-pyoo-TAY-shuss",
+  "pos": "adj",
+  "def": "fond of arguing",
+  "ex": "The disputatious lawyer challenged every word",
+  "tier": 3
+ },
+ {
+  "w": "subservient",
+  "pr": "suhb-SUR-vee-uhnt",
+  "pos": "adj",
+  "def": "excessively willing to obey others",
+  "ex": "His subservient staff never questioned a thing",
+  "tier": 3
+ },
+ {
+  "w": "preponderant",
+  "pr": "prih-PON-der-uhnt",
+  "pos": "adj",
+  "def": "superior in power, number, or influence",
+  "ex": "The preponderant force quickly took the city",
+  "tier": 3
+ },
+ {
+  "w": "ascendency",
+  "pr": "uh-SEN-duhn-see",
+  "pos": "n",
+  "def": "a position of dominant power",
+  "ex": "The party rose to political ascendency overnight",
+  "tier": 3
+ },
+ {
+  "w": "supremacist",
+  "pr": "suh-PREM-uh-sist",
+  "pos": "n",
+  "def": "one believing a group should rule",
+  "ex": "The crowd denounced the supremacist's speech",
+  "tier": 3
+ },
+ {
+  "w": "autocrat",
+  "pr": "AW-tuh-krat",
+  "pos": "n",
+  "def": "a ruler with absolute power",
+  "ex": "The autocrat silenced every critic",
+  "tier": 3
+ },
+ {
+  "w": "oppressor",
+  "pr": "uh-PRES-er",
+  "pos": "n",
+  "def": "one who rules cruelly and unjustly",
+  "ex": "The people finally overthrew their oppressor",
+  "tier": 3
+ },
+ {
+  "w": "browbeating",
+  "pr": "BROW-beet-ing",
+  "pos": "n",
+  "def": "the act of bullying with words",
+  "ex": "His constant browbeating crushed morale",
+  "tier": 3
+ },
+ {
+  "w": "grandiose",
+  "pr": "gran-dee-OHS",
+  "pos": "adj",
+  "def": "impressive in an exaggerated, pompous way",
+  "ex": "His grandiose plans never survived a budget",
+  "tier": 3
+ },
+ {
+  "w": "palatial",
+  "pr": "puh-LAY-shuhl",
+  "pos": "adj",
+  "def": "resembling a palace; spacious and grand",
+  "ex": "They lived in a palatial home overlooking the bay",
+  "tier": 3
+ },
+ {
+  "w": "seedy",
+  "pr": "SEE-dee",
+  "pos": "adj",
+  "def": "shabby and disreputable in appearance",
+  "ex": "They met in a seedy bar near the docks",
+  "tier": 3
+ },
+ {
+  "w": "rumpled",
+  "pr": "RUM-puhld",
+  "pos": "adj",
+  "def": "creased and untidy in appearance",
+  "ex": "He arrived rumpled after the overnight flight",
+  "tier": 3
+ },
+ {
+  "w": "pulchritudinous",
+  "pr": "pul-krih-TOO-dih-nuss",
+  "pos": "adj",
+  "def": "having great physical beauty",
+  "ex": "The pulchritudinous gardens drew visitors from afar",
+  "tier": 3
+ },
+ {
+  "w": "frumpiness",
+  "pr": "FRUM-pee-nuss",
+  "pos": "n",
+  "def": "a dowdy, unfashionable appearance",
+  "ex": "She fought the frumpiness of the old uniform",
+  "tier": 3
+ },
+ {
+  "w": "spotless",
+  "pr": "SPOT-luss",
+  "pos": "adj",
+  "def": "perfectly clean and unblemished",
+  "ex": "The kitchen was spotless after the deep clean",
+  "tier": 3
+ },
+ {
+  "w": "glittering",
+  "pr": "GLIT-er-ing",
+  "pos": "adj",
+  "def": "shining with bright flashes of light",
+  "ex": "She wore a glittering gown to the gala",
+  "tier": 3
+ },
+ {
+  "w": "luxuriant",
+  "pr": "lug-ZHOOR-ee-uhnt",
+  "pos": "adj",
+  "def": "rich, lush, and abundant in growth",
+  "ex": "Luxuriant ferns covered the rainforest floor",
+  "tier": 3
+ },
+ {
+  "w": "blemished",
+  "pr": "BLEM-isht",
+  "pos": "adj",
+  "def": "marked by a flaw or imperfection",
+  "ex": "The blemished apples sold at a discount",
+  "tier": 3
+ },
+ {
+  "w": "pockmarked",
+  "pr": "POK-markt",
+  "pos": "adj",
+  "def": "covered with small pits or scars",
+  "ex": "The pockmarked road jolted the old truck",
+  "tier": 3
+ },
+ {
+  "w": "resplendency",
+  "pr": "rih-SPLEN-duhn-see",
+  "pos": "n",
+  "def": "the quality of dazzling brightness",
+  "ex": "The crown's resplendency caught every eye",
+  "tier": 3
+ },
+ {
+  "w": "garishly",
+  "pr": "GAIR-ish-lee",
+  "pos": "adv",
+  "def": "in an unpleasantly bright, showy way",
+  "ex": "The room was garishly decorated for the party",
+  "tier": 3
+ },
+ {
+  "w": "comely",
+  "pr": "KUHM-lee",
+  "pos": "adj",
+  "def": "pleasant and attractive in appearance",
+  "ex": "A comely young clerk greeted us at the desk",
+  "tier": 3
+ },
+ {
+  "w": "immutable",
+  "pr": "ih-MYOO-tuh-buhl",
+  "pos": "adj",
+  "def": "unable to be changed",
+  "ex": "The laws of physics seem immutable",
+  "tier": 3
+ },
+ {
+  "w": "inexhaustible",
+  "pr": "in-ig-ZAW-stuh-buhl",
+  "pos": "adj",
+  "def": "incapable of being used up",
+  "ex": "She had an inexhaustible supply of patience",
+  "tier": 3
+ },
+ {
+  "w": "paltry",
+  "pr": "PAWL-tree",
+  "pos": "adj",
+  "def": "very small or insignificant in amount",
+  "ex": "They offered a paltry sum for the painting",
+  "tier": 3
+ },
+ {
+  "w": "metamorphose",
+  "pr": "met-uh-MOR-fohz",
+  "pos": "v",
+  "def": "change completely in form or nature",
+  "ex": "The shy intern metamorphosed into a leader",
+  "tier": 3
+ },
+ {
+  "w": "smattering",
+  "pr": "SMAT-er-ing",
+  "pos": "n",
+  "def": "a small, scattered amount",
+  "ex": "He knew only a smattering of French",
+  "tier": 3
+ },
+ {
+  "w": "multitudinous",
+  "pr": "muhl-tih-TOO-dih-nuss",
+  "pos": "adj",
+  "def": "very numerous",
+  "ex": "The multitudinous stars filled the desert sky",
+  "tier": 3
+ },
+ {
+  "w": "infinitesimal",
+  "pr": "in-fin-ih-TES-ih-muhl",
+  "pos": "adj",
+  "def": "extremely small",
+  "ex": "The odds of winning were infinitesimal",
+  "tier": 3
+ },
+ {
+  "w": "ceaseless",
+  "pr": "SEES-luss",
+  "pos": "adj",
+  "def": "constant and never-ending",
+  "ex": "The ceaseless traffic noise kept her awake",
+  "tier": 3
+ },
+ {
+  "w": "voluminous",
+  "pr": "vuh-LOO-mih-nuss",
+  "pos": "adj",
+  "def": "very large in volume or quantity",
+  "ex": "The lawyer produced voluminous documents",
+  "tier": 3
+ },
+ {
+  "w": "sundry",
+  "pr": "SUN-dree",
+  "pos": "adj",
+  "def": "of various kinds; several",
+  "ex": "She packed sundry items for the long trip",
+  "tier": 3
+ },
+ {
+  "w": "teeming",
+  "pr": "TEE-ming",
+  "pos": "adj",
+  "def": "full of and swarming with",
+  "ex": "The market was teeming with shoppers",
+  "tier": 3
+ },
+ {
+  "w": "vestige",
+  "pr": "VES-tij",
+  "pos": "n",
+  "def": "a small remaining trace of something",
+  "ex": "Not a vestige of the old building remained",
+  "tier": 3
+ },
+ {
+  "w": "abeyance",
+  "pr": "uh-BAY-uhns",
+  "pos": "n",
+  "def": "a temporary state of suspension",
+  "ex": "The project was held in abeyance for months",
+  "tier": 3
+ },
+ {
+  "w": "recurring",
+  "pr": "rih-KUR-ing",
+  "pos": "adj",
+  "def": "happening again and again",
+  "ex": "A recurring dream disturbed her sleep",
+  "tier": 3
+ },
+ {
+  "w": "fitful",
+  "pr": "FIT-fuhl",
+  "pos": "adj",
+  "def": "occurring in irregular bursts",
+  "ex": "He fell into a fitful, restless sleep",
+  "tier": 3
+ },
+ {
+  "w": "unceasing",
+  "pr": "un-SEE-sing",
+  "pos": "adj",
+  "def": "continuing without pause",
+  "ex": "Their unceasing efforts saved the company",
+  "tier": 3
+ },
+ {
+  "w": "aplenty",
+  "pr": "uh-PLEN-tee",
+  "pos": "adj",
+  "def": "in abundance; plentiful",
+  "ex": "There were problems aplenty that morning",
+  "tier": 3
+ },
+ {
+  "w": "manifoldness",
+  "pr": "MAN-ih-fohld-nuss",
+  "pos": "n",
+  "def": "the quality of being many and varied",
+  "ex": "The manifoldness of the menu overwhelmed us",
+  "tier": 3
+ },
+ {
+  "w": "everlasting",
+  "pr": "ev-er-LAS-ting",
+  "pos": "adj",
+  "def": "lasting forever or a very long time",
+  "ex": "They pledged everlasting friendship",
+  "tier": 3
+ },
+ {
+  "w": "oscillate",
+  "pr": "OS-ih-layt",
+  "pos": "v",
+  "def": "swing or vary between extremes",
+  "ex": "Prices oscillated wildly all week",
+  "tier": 3
+ },
+ {
+  "w": "shrinkage",
+  "pr": "SHRINK-ij",
+  "pos": "n",
+  "def": "the amount by which something decreases",
+  "ex": "Inventory shrinkage cut into their profits",
+  "tier": 3
+ },
+ {
+  "w": "overabundance",
+  "pr": "oh-ver-uh-BUN-duhns",
+  "pos": "n",
+  "def": "an excessive quantity of something",
+  "ex": "An overabundance of zucchini filled the garden",
+  "tier": 3
+ },
+ {
+  "w": "sparse",
+  "pr": "SPARSS",
+  "pos": "adj",
+  "def": "thinly scattered; not dense",
+  "ex": "The audience was sparse on opening night",
+  "tier": 3
+ },
+ {
+  "w": "scads",
+  "pr": "SKADZ",
+  "pos": "n",
+  "def": "a large number or quantity",
+  "ex": "She had scads of unfinished projects",
+  "tier": 3
+ },
+ {
+  "w": "piecemeal",
+  "pr": "PEES-meel",
+  "pos": "adj",
+  "def": "done gradually in separate stages",
+  "ex": "The reforms arrived in a piecemeal fashion",
+  "tier": 3
+ },
+ {
+  "w": "middling",
+  "pr": "MID-ling",
+  "pos": "adj",
+  "def": "moderate or average in size or quality",
+  "ex": "Sales were middling despite the hype",
+  "tier": 3
+ },
+ {
+  "w": "brusquely",
+  "pr": "BRUSK-lee",
+  "pos": "adv",
+  "def": "in an abrupt, blunt manner",
+  "ex": "She answered brusquely and walked away",
+  "tier": 3
+ },
+ {
+  "w": "congenial",
+  "pr": "kuhn-JEEN-yuhl",
+  "pos": "adj",
+  "def": "pleasant, friendly, and agreeable",
+  "ex": "The congenial host put everyone at ease",
+  "tier": 3
+ },
+ {
+  "w": "acerbity",
+  "pr": "uh-SUR-bih-tee",
+  "pos": "n",
+  "def": "sharpness or bitterness of manner",
+  "ex": "His acerbity offended the new recruits",
+  "tier": 3
+ },
+ {
+  "w": "amiability",
+  "pr": "ay-mee-uh-BIL-ih-tee",
+  "pos": "n",
+  "def": "friendly, good-natured pleasantness",
+  "ex": "Her amiability won over the toughest clients",
+  "tier": 3
+ },
+ {
+  "w": "flamboyant",
+  "pr": "flam-BOY-uhnt",
+  "pos": "adj",
+  "def": "strikingly bold and showy",
+  "ex": "He made a flamboyant entrance in a red cape",
+  "tier": 3
+ },
+ {
+  "w": "austerity",
+  "pr": "aw-STERR-ih-tee",
+  "pos": "n",
+  "def": "sternness and severe simplicity",
+  "ex": "The monastery's austerity surprised the visitors",
+  "tier": 3
+ },
+ {
+  "w": "brashness",
+  "pr": "BRASH-nuss",
+  "pos": "n",
+  "def": "bold, tactless self-confidence",
+  "ex": "His brashness alienated potential allies",
+  "tier": 3
+ },
+ {
+  "w": "anguished",
+  "pr": "ANG-gwisht",
+  "pos": "adj",
+  "def": "suffering severe mental pain",
+  "ex": "She gave an anguished cry at the news",
+  "tier": 3
+ },
+ {
+  "w": "heartsick",
+  "pr": "HART-sik",
+  "pos": "adj",
+  "def": "deeply sad or despairing",
+  "ex": "He felt heartsick over the broken friendship",
+  "tier": 3
+ },
+ {
+  "w": "exasperating",
+  "pr": "ig-ZAS-per-ay-ting",
+  "pos": "adj",
+  "def": "intensely irritating and frustrating",
+  "ex": "The exasperating delays ruined the trip",
+  "tier": 3
+ },
+ {
+  "w": "concision",
+  "pr": "kuhn-SIH-zhuhn",
+  "pos": "n",
+  "def": "brief and clear expression",
+  "ex": "Her concision made the report easy to read",
+  "tier": 3
+ },
+ {
+  "w": "equivocation",
+  "pr": "ih-kwiv-uh-KAY-shuhn",
+  "pos": "n",
+  "def": "deliberately ambiguous language",
+  "ex": "His equivocation frustrated the interviewer",
+  "tier": 3
+ },
+ {
+  "w": "frankness",
+  "pr": "FRANK-nuss",
+  "pos": "n",
+  "def": "openness and honesty in speech",
+  "ex": "His frankness, though jarring, earned respect",
+  "tier": 3
+ },
+ {
+  "w": "foresighted",
+  "pr": "FOR-sy-tid",
+  "pos": "adj",
+  "def": "showing good planning for the future",
+  "ex": "Her foresighted saving cushioned the layoff",
+  "tier": 3
+ }
+]

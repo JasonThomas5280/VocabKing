@@ -1,0 +1,1042 @@
+[
+ {
+  "w": "affectionate",
+  "pr": "uh-FEK-shuh-nuht",
+  "pos": "adj",
+  "def": "showing warmth, fondness, and tenderness toward others",
+  "ex": "She gave her grandmother an affectionate hug.",
+  "tier": 1
+ },
+ {
+  "w": "approachable",
+  "pr": "uh-PROH-chuh-buhl",
+  "pos": "adj",
+  "def": "friendly and easy to talk to",
+  "ex": "The new manager is remarkably approachable.",
+  "tier": 1
+ },
+ {
+  "w": "dependable",
+  "pr": "dih-PEN-duh-buhl",
+  "pos": "adj",
+  "def": "reliable and able to be trusted",
+  "ex": "He is the most dependable person on the team.",
+  "tier": 1
+ },
+ {
+  "w": "easygoing",
+  "pr": "EE-zee-goh-ing",
+  "pos": "adj",
+  "def": "relaxed and tolerant in attitude",
+  "ex": "Her easygoing nature put everyone at ease.",
+  "tier": 1
+ },
+ {
+  "w": "meticulous",
+  "pr": "muh-TIK-yuh-luhs",
+  "pos": "adj",
+  "def": "showing great attention to detail",
+  "ex": "He kept meticulous records of every expense.",
+  "tier": 1
+ },
+ {
+  "w": "thrifty",
+  "pr": "THRIF-tee",
+  "pos": "adj",
+  "def": "careful and economical with money",
+  "ex": "Her thrifty habits helped them save money.",
+  "tier": 1
+ },
+ {
+  "w": "vivacious",
+  "pr": "vy-VAY-shuhs",
+  "pos": "adj",
+  "def": "lively, spirited, and full of energy",
+  "ex": "The vivacious host kept the party going.",
+  "tier": 1
+ },
+ {
+  "w": "reserved",
+  "pr": "rih-ZURVD",
+  "pos": "adj",
+  "def": "slow to reveal emotion or opinions",
+  "ex": "He was polite but reserved with strangers.",
+  "tier": 1
+ },
+ {
+  "w": "impulsive",
+  "pr": "im-PUHL-siv",
+  "pos": "adj",
+  "def": "acting on sudden urges without forethought",
+  "ex": "Her impulsive decision to quit surprised everyone.",
+  "tier": 1
+ },
+ {
+  "w": "considerate",
+  "pr": "kuhn-SID-uh-ruht",
+  "pos": "adj",
+  "def": "thoughtful of the needs of others",
+  "ex": "It was considerate of you to call ahead.",
+  "tier": 1
+ },
+ {
+  "w": "obstinate",
+  "pr": "OB-stuh-nuht",
+  "pos": "adj",
+  "def": "stubbornly refusing to change one's mind",
+  "ex": "He remained obstinate despite all the evidence.",
+  "tier": 1
+ },
+ {
+  "w": "forgiving",
+  "pr": "fur-GIV-ing",
+  "pos": "adj",
+  "def": "willing to pardon faults and offenses",
+  "ex": "She has a forgiving heart.",
+  "tier": 1
+ },
+ {
+  "w": "opinionated",
+  "pr": "uh-PIN-yuh-nay-tid",
+  "pos": "adj",
+  "def": "holding strong views and expressing them firmly",
+  "ex": "He is opinionated but willing to listen.",
+  "tier": 1
+ },
+ {
+  "w": "adventurous",
+  "pr": "ad-VEN-chur-uhs",
+  "pos": "adj",
+  "def": "eager to try new and risky things",
+  "ex": "Their adventurous spirit took them around the world.",
+  "tier": 1
+ },
+ {
+  "w": "introverted",
+  "pr": "IN-truh-vur-tid",
+  "pos": "adj",
+  "def": "focused inward and drained by socializing",
+  "ex": "His introverted side craved quiet weekends.",
+  "tier": 1
+ },
+ {
+  "w": "extroverted",
+  "pr": "EK-struh-vur-tid",
+  "pos": "adj",
+  "def": "outgoing and energized by other people",
+  "ex": "Her extroverted charm filled the room.",
+  "tier": 1
+ },
+ {
+  "w": "genuine",
+  "pr": "JEN-yoo-in",
+  "pos": "adj",
+  "def": "sincere and free from pretense",
+  "ex": "His apology felt completely genuine.",
+  "tier": 1
+ },
+ {
+  "w": "hospitable",
+  "pr": "hos-PIT-uh-buhl",
+  "pos": "adj",
+  "def": "welcoming and generous to guests",
+  "ex": "Our hosts were warm and hospitable.",
+  "tier": 1
+ },
+ {
+  "w": "self-effacing",
+  "pr": "self-ih-FAY-sing",
+  "pos": "adj",
+  "def": "modest and reluctant to draw attention",
+  "ex": "Her self-effacing humor made her likable.",
+  "tier": 1
+ },
+ {
+  "w": "grateful",
+  "pr": "GRAYT-fuhl",
+  "pos": "adj",
+  "def": "feeling or showing thankfulness",
+  "ex": "I'm grateful for all your help.",
+  "tier": 1
+ },
+ {
+  "w": "overjoyed",
+  "pr": "oh-vur-JOID",
+  "pos": "adj",
+  "def": "extremely happy and delighted",
+  "ex": "She was overjoyed at the news.",
+  "tier": 1
+ },
+ {
+  "w": "frazzled",
+  "pr": "FRAZ-uhld",
+  "pos": "adj",
+  "def": "worn out and frantic from stress",
+  "ex": "She felt frazzled after the long week.",
+  "tier": 1
+ },
+ {
+  "w": "distraught",
+  "pr": "dih-STRAWT",
+  "pos": "adj",
+  "def": "deeply upset and agitated",
+  "ex": "He was distraught over the loss.",
+  "tier": 1
+ },
+ {
+  "w": "contented",
+  "pr": "kuhn-TEN-tid",
+  "pos": "adj",
+  "def": "peacefully satisfied with one's situation",
+  "ex": "A contented sigh escaped her lips.",
+  "tier": 1
+ },
+ {
+  "w": "heartened",
+  "pr": "HAR-tuhnd",
+  "pos": "adj",
+  "def": "encouraged and made more hopeful",
+  "ex": "We were heartened by the support.",
+  "tier": 1
+ },
+ {
+  "w": "sorrowful",
+  "pr": "SOR-oh-fuhl",
+  "pos": "adj",
+  "def": "feeling or expressing deep sadness",
+  "ex": "A sorrowful tune drifted through the hall.",
+  "tier": 1
+ },
+ {
+  "w": "jittery",
+  "pr": "JIT-uh-ree",
+  "pos": "adj",
+  "def": "nervous and unable to relax",
+  "ex": "She felt jittery before the interview.",
+  "tier": 1
+ },
+ {
+  "w": "smitten",
+  "pr": "SMIT-uhn",
+  "pos": "adj",
+  "def": "strongly attracted to or charmed by",
+  "ex": "He was utterly smitten with her.",
+  "tier": 1
+ },
+ {
+  "w": "rambling",
+  "pr": "RAM-bling",
+  "pos": "adj",
+  "def": "long-winded and lacking clear direction",
+  "ex": "His rambling speech lost the audience.",
+  "tier": 1
+ },
+ {
+  "w": "divulge",
+  "pr": "dih-VUHLJ",
+  "pos": "v",
+  "def": "make secret information known",
+  "ex": "He refused to divulge his sources.",
+  "tier": 1
+ },
+ {
+  "w": "reiterate",
+  "pr": "ree-IT-uh-rayt",
+  "pos": "v",
+  "def": "say or do again for emphasis",
+  "ex": "Let me reiterate the main point.",
+  "tier": 1
+ },
+ {
+  "w": "diplomatic",
+  "pr": "dip-luh-MAT-ik",
+  "pos": "adj",
+  "def": "tactful and skilled in handling people",
+  "ex": "She gave a diplomatic answer to avoid conflict.",
+  "tier": 1
+ },
+ {
+  "w": "long-winded",
+  "pr": "lawng-WIN-did",
+  "pos": "adj",
+  "def": "tediously lengthy in speech or writing",
+  "ex": "His long-winded answer bored the class.",
+  "tier": 1
+ },
+ {
+  "w": "evasive",
+  "pr": "ih-VAY-siv",
+  "pos": "adj",
+  "def": "avoiding giving a direct answer",
+  "ex": "His evasive replies raised suspicion.",
+  "tier": 1
+ },
+ {
+  "w": "affirm",
+  "pr": "uh-FURM",
+  "pos": "v",
+  "def": "state firmly that something is true",
+  "ex": "She affirmed her commitment to the project.",
+  "tier": 1
+ },
+ {
+  "w": "reflective",
+  "pr": "rih-FLEK-tiv",
+  "pos": "adj",
+  "def": "thinking deeply and quietly about things",
+  "ex": "He grew reflective as the year ended.",
+  "tier": 1
+ },
+ {
+  "w": "surmise",
+  "pr": "sur-MYZ",
+  "pos": "v",
+  "def": "guess from incomplete evidence",
+  "ex": "I can only surmise what happened.",
+  "tier": 1
+ },
+ {
+  "w": "perceive",
+  "pr": "pur-SEEV",
+  "pos": "v",
+  "def": "become aware of through the senses",
+  "ex": "I perceive a shift in her tone.",
+  "tier": 1
+ },
+ {
+  "w": "foresee",
+  "pr": "for-SEE",
+  "pos": "v",
+  "def": "predict or expect a future event",
+  "ex": "No one could foresee the outcome.",
+  "tier": 1
+ },
+ {
+  "w": "persistent",
+  "pr": "pur-SIS-tuhnt",
+  "pos": "adj",
+  "def": "continuing firmly despite obstacles",
+  "ex": "Her persistent efforts finally paid off.",
+  "tier": 1
+ },
+ {
+  "w": "determined",
+  "pr": "dih-TUR-mind",
+  "pos": "adj",
+  "def": "firmly set on doing something",
+  "ex": "She was determined to win.",
+  "tier": 1
+ },
+ {
+  "w": "hasten",
+  "pr": "HAY-suhn",
+  "pos": "v",
+  "def": "move or act with speed",
+  "ex": "We hastened to finish before dark.",
+  "tier": 1
+ },
+ {
+  "w": "methodical",
+  "pr": "muh-THOD-ih-kuhl",
+  "pos": "adj",
+  "def": "done in an orderly, systematic way",
+  "ex": "His methodical approach left nothing to chance.",
+  "tier": 1
+ },
+ {
+  "w": "submissive",
+  "pr": "suhb-MIS-iv",
+  "pos": "adj",
+  "def": "willing to yield to others' authority",
+  "ex": "He grew tired of being submissive.",
+  "tier": 1
+ },
+ {
+  "w": "prevail",
+  "pr": "prih-VAYL",
+  "pos": "v",
+  "def": "win out against opposition",
+  "ex": "Justice will prevail in the end.",
+  "tier": 1
+ },
+ {
+  "w": "sentimental",
+  "pr": "sen-tuh-MEN-tuhl",
+  "pos": "adj",
+  "def": "prompted by tender feelings and nostalgia",
+  "ex": "He kept the ring for sentimental reasons.",
+  "tier": 1
+ },
+ {
+  "w": "adept",
+  "pr": "uh-DEPT",
+  "pos": "adj",
+  "def": "highly skilled at something",
+  "ex": "She is adept at solving puzzles.",
+  "tier": 1
+ },
+ {
+  "w": "composed",
+  "pr": "kuhm-POHZD",
+  "pos": "adj",
+  "def": "calm and in control of oneself",
+  "ex": "She stayed composed under pressure.",
+  "tier": 1
+ },
+ {
+  "w": "versatile",
+  "pr": "VUR-suh-tuhl",
+  "pos": "adj",
+  "def": "able to adapt to many tasks",
+  "ex": "He is a versatile musician.",
+  "tier": 1
+ },
+ {
+  "w": "wholesome",
+  "pr": "HOHL-suhm",
+  "pos": "adj",
+  "def": "good for health or moral well-being",
+  "ex": "They enjoyed wholesome family fun.",
+  "tier": 1
+ },
+ {
+  "w": "meddlesome",
+  "pr": "MED-uhl-suhm",
+  "pos": "adj",
+  "def": "inclined to interfere in others' affairs",
+  "ex": "His meddlesome aunt asked too many questions.",
+  "tier": 1
+ },
+ {
+  "w": "deft",
+  "pr": "DEFT",
+  "pos": "adj",
+  "def": "quick and skillful in movement",
+  "ex": "With a deft motion she sliced the bread.",
+  "tier": 1
+ },
+ {
+  "w": "feeble",
+  "pr": "FEE-buhl",
+  "pos": "adj",
+  "def": "weak and lacking strength",
+  "ex": "He gave a feeble excuse.",
+  "tier": 1
+ },
+ {
+  "w": "potent",
+  "pr": "POH-tuhnt",
+  "pos": "adj",
+  "def": "having great power or effect",
+  "ex": "The medicine was surprisingly potent.",
+  "tier": 1
+ },
+ {
+  "w": "hardy",
+  "pr": "HAR-dee",
+  "pos": "adj",
+  "def": "tough and able to endure hardship",
+  "ex": "These hardy plants survive the frost.",
+  "tier": 1
+ },
+ {
+  "w": "brittle",
+  "pr": "BRIT-uhl",
+  "pos": "adj",
+  "def": "hard but easily snapped",
+  "ex": "The old paper had grown brittle.",
+  "tier": 1
+ },
+ {
+  "w": "durable",
+  "pr": "DUR-uh-buhl",
+  "pos": "adj",
+  "def": "able to last and withstand wear",
+  "ex": "These boots are remarkably durable.",
+  "tier": 1
+ },
+ {
+  "w": "snobbish",
+  "pr": "SNOB-ish",
+  "pos": "adj",
+  "def": "looking down on those seen as inferior",
+  "ex": "His snobbish remarks offended the guests.",
+  "tier": 1
+ },
+ {
+  "w": "tender",
+  "pr": "TEN-dur",
+  "pos": "adj",
+  "def": "gentle, kind, and loving",
+  "ex": "She gave the child a tender smile.",
+  "tier": 1
+ },
+ {
+  "w": "vicious",
+  "pr": "VISH-uhs",
+  "pos": "adj",
+  "def": "cruel and dangerously aggressive",
+  "ex": "The dog gave a vicious snarl.",
+  "tier": 1
+ },
+ {
+  "w": "soothe",
+  "pr": "SOOTH",
+  "pos": "v",
+  "def": "gently calm or comfort",
+  "ex": "Soft music can soothe a crying baby.",
+  "tier": 1
+ },
+ {
+  "w": "agitate",
+  "pr": "AJ-uh-tayt",
+  "pos": "v",
+  "def": "make someone troubled or nervous",
+  "ex": "Loud noise can agitate the patients.",
+  "tier": 1
+ },
+ {
+  "w": "console",
+  "pr": "kuhn-SOHL",
+  "pos": "v",
+  "def": "comfort someone in disappointment",
+  "ex": "He tried to console his grieving friend.",
+  "tier": 1
+ },
+ {
+  "w": "commend",
+  "pr": "kuh-MEND",
+  "pos": "v",
+  "def": "praise formally or strongly",
+  "ex": "I commend her for her honesty.",
+  "tier": 1
+ },
+ {
+  "w": "applaud",
+  "pr": "uh-PLAWD",
+  "pos": "v",
+  "def": "express strong approval of something",
+  "ex": "We applaud your courage.",
+  "tier": 1
+ },
+ {
+  "w": "revere",
+  "pr": "rih-VEER",
+  "pos": "v",
+  "def": "feel deep respect for",
+  "ex": "Students revere the old professor.",
+  "tier": 1
+ },
+ {
+  "w": "belittle",
+  "pr": "bih-LIT-uhl",
+  "pos": "v",
+  "def": "make someone seem unimportant",
+  "ex": "Don't belittle his efforts.",
+  "tier": 1
+ },
+ {
+  "w": "esteem",
+  "pr": "ih-STEEM",
+  "pos": "n",
+  "def": "respect and high regard",
+  "ex": "She is held in high esteem.",
+  "tier": 1
+ },
+ {
+  "w": "reverence",
+  "pr": "REV-ur-uhns",
+  "pos": "n",
+  "def": "deep respect mixed with awe",
+  "ex": "They spoke of her with reverence.",
+  "tier": 1
+ },
+ {
+  "w": "admonish",
+  "pr": "ad-MON-ish",
+  "pos": "v",
+  "def": "warn or reprimand firmly",
+  "ex": "Teachers admonish a noisy class.",
+  "tier": 1
+ },
+ {
+  "w": "deride",
+  "pr": "dih-RYD",
+  "pos": "v",
+  "def": "mock or ridicule scornfully",
+  "ex": "Critics deride the new policy.",
+  "tier": 1
+ },
+ {
+  "w": "extol",
+  "pr": "ik-STOHL",
+  "pos": "v",
+  "def": "praise enthusiastically",
+  "ex": "They extol the virtues of patience.",
+  "tier": 1
+ },
+ {
+  "w": "mock",
+  "pr": "MOK",
+  "pos": "v",
+  "def": "tease scornfully to ridicule",
+  "ex": "The children mocked his accent.",
+  "tier": 1
+ },
+ {
+  "w": "taunt",
+  "pr": "TAWNT",
+  "pos": "v",
+  "def": "provoke with insulting remarks",
+  "ex": "They taunt the losing team.",
+  "tier": 1
+ },
+ {
+  "w": "ridicule",
+  "pr": "RID-ih-kyool",
+  "pos": "v",
+  "def": "make fun of cruelly",
+  "ex": "He feared being ridiculed for asking.",
+  "tier": 1
+ },
+ {
+  "w": "flatter",
+  "pr": "FLAT-ur",
+  "pos": "v",
+  "def": "praise excessively to win favor",
+  "ex": "Don't flatter the boss to get ahead.",
+  "tier": 1
+ },
+ {
+  "w": "cherish",
+  "pr": "CHAIR-ish",
+  "pos": "v",
+  "def": "hold dear and care for tenderly",
+  "ex": "I cherish these old photographs.",
+  "tier": 1
+ },
+ {
+  "w": "yearn",
+  "pr": "YURN",
+  "pos": "v",
+  "def": "long intensely for something",
+  "ex": "He yearned for the quiet countryside.",
+  "tier": 1
+ },
+ {
+  "w": "relish",
+  "pr": "REL-ish",
+  "pos": "v",
+  "def": "enjoy greatly with delight",
+  "ex": "She relished every bite of dessert.",
+  "tier": 1
+ },
+ {
+  "w": "resent",
+  "pr": "rih-ZENT",
+  "pos": "v",
+  "def": "feel bitterness about something unfair",
+  "ex": "I resent being left out of plans.",
+  "tier": 1
+ },
+ {
+  "w": "covet",
+  "pr": "KUHV-it",
+  "pos": "v",
+  "def": "strongly desire what another has",
+  "ex": "Many people covet what they cannot have.",
+  "tier": 1
+ },
+ {
+  "w": "savor",
+  "pr": "SAY-vur",
+  "pos": "v",
+  "def": "enjoy slowly and fully",
+  "ex": "Let's savor this moment.",
+  "tier": 1
+ },
+ {
+  "w": "lament",
+  "pr": "luh-MENT",
+  "pos": "v",
+  "def": "express deep grief or regret",
+  "ex": "They lament the lost opportunity.",
+  "tier": 1
+ },
+ {
+  "w": "mourn",
+  "pr": "MORN",
+  "pos": "v",
+  "def": "feel sorrow over a loss",
+  "ex": "The whole town will mourn its hero.",
+  "tier": 1
+ },
+ {
+  "w": "rejoice",
+  "pr": "rih-JOIS",
+  "pos": "v",
+  "def": "feel and show great joy",
+  "ex": "We rejoiced at the good news.",
+  "tier": 1
+ },
+ {
+  "w": "fret",
+  "pr": "FRET",
+  "pos": "v",
+  "def": "worry anxiously about something",
+  "ex": "Don't fret over small mistakes.",
+  "tier": 1
+ },
+ {
+  "w": "glum",
+  "pr": "GLUHM",
+  "pos": "adj",
+  "def": "gloomy and low in spirits",
+  "ex": "He looked glum after the loss.",
+  "tier": 1
+ },
+ {
+  "w": "upbeat",
+  "pr": "UHP-beet",
+  "pos": "adj",
+  "def": "cheerful and full of hope",
+  "ex": "She kept an upbeat attitude.",
+  "tier": 1
+ },
+ {
+  "w": "poised",
+  "pr": "POIZD",
+  "pos": "adj",
+  "def": "calm, balanced, and self-assured",
+  "ex": "She remained poised on stage.",
+  "tier": 1
+ },
+ {
+  "w": "genteel",
+  "pr": "jen-TEEL",
+  "pos": "adj",
+  "def": "polite and refined, often affectedly",
+  "ex": "They lived in genteel poverty.",
+  "tier": 1
+ },
+ {
+  "w": "suave",
+  "pr": "SWAHV",
+  "pos": "adj",
+  "def": "charming, smooth, and sophisticated",
+  "ex": "The suave host greeted every guest.",
+  "tier": 1
+ },
+ {
+  "w": "posh",
+  "pr": "POSH",
+  "pos": "adj",
+  "def": "elegant and associated with wealth",
+  "ex": "They dined at a posh restaurant.",
+  "tier": 1
+ },
+ {
+  "w": "tidy",
+  "pr": "TY-dee",
+  "pos": "adj",
+  "def": "neat and well arranged",
+  "ex": "She kept a tidy desk.",
+  "tier": 1
+ },
+ {
+  "w": "spruce",
+  "pr": "SPROOS",
+  "pos": "adj",
+  "def": "neat and smart in appearance",
+  "ex": "He looked spruce for the wedding.",
+  "tier": 1
+ },
+ {
+  "w": "trivial",
+  "pr": "TRIV-ee-uhl",
+  "pos": "adj",
+  "def": "of little value or importance",
+  "ex": "They argued over trivial details.",
+  "tier": 1
+ },
+ {
+  "w": "colossal",
+  "pr": "kuh-LOS-uhl",
+  "pos": "adj",
+  "def": "extremely large in size or degree",
+  "ex": "It was a colossal mistake.",
+  "tier": 1
+ },
+ {
+  "w": "minuscule",
+  "pr": "MIN-uh-skyool",
+  "pos": "adj",
+  "def": "extremely tiny",
+  "ex": "The differences were minuscule.",
+  "tier": 1
+ },
+ {
+  "w": "immense",
+  "pr": "ih-MENS",
+  "pos": "adj",
+  "def": "extremely large or great",
+  "ex": "The project took immense effort.",
+  "tier": 1
+ },
+ {
+  "w": "paltry",
+  "pr": "PAWL-tree",
+  "pos": "adj",
+  "def": "small and almost worthless",
+  "ex": "They offered a paltry reward.",
+  "tier": 1
+ },
+ {
+  "w": "recurring",
+  "pr": "rih-KUR-ing",
+  "pos": "adj",
+  "def": "happening again and again",
+  "ex": "She had a recurring dream about flying.",
+  "tier": 1
+ },
+ {
+  "w": "newfound",
+  "pr": "NOO-fownd",
+  "pos": "adj",
+  "def": "recently discovered or acquired",
+  "ex": "She enjoyed her newfound confidence.",
+  "tier": 1
+ },
+ {
+  "w": "abiding",
+  "pr": "uh-BY-ding",
+  "pos": "adj",
+  "def": "lasting a long time and enduring",
+  "ex": "He had an abiding love of music.",
+  "tier": 1
+ },
+ {
+  "w": "trifling",
+  "pr": "TRY-fling",
+  "pos": "adj",
+  "def": "small and of little importance",
+  "ex": "It was a trifling sum of money.",
+  "tier": 1
+ },
+ {
+  "w": "affluent",
+  "pr": "AF-loo-uhnt",
+  "pos": "adj",
+  "def": "having plenty of money and wealth",
+  "ex": "They lived in an affluent suburb.",
+  "tier": 1
+ },
+ {
+  "w": "despise",
+  "pr": "dih-SPYZ",
+  "pos": "v",
+  "def": "regard with deep contempt",
+  "ex": "I despise dishonesty in any form.",
+  "tier": 1
+ },
+ {
+  "w": "loathe",
+  "pr": "LOHTH",
+  "pos": "v",
+  "def": "feel intense dislike or disgust",
+  "ex": "I loathe waking up early.",
+  "tier": 1
+ },
+ {
+  "w": "taper",
+  "pr": "TAY-pur",
+  "pos": "v",
+  "def": "gradually become smaller toward an end",
+  "ex": "The road begins to taper near the bridge.",
+  "tier": 1
+ },
+ {
+  "w": "amplify",
+  "pr": "AM-pluh-fy",
+  "pos": "v",
+  "def": "make larger, louder, or stronger",
+  "ex": "Speakers amplify the singer's voice.",
+  "tier": 1
+ },
+ {
+  "w": "impede",
+  "pr": "im-PEED",
+  "pos": "v",
+  "def": "obstruct or delay progress",
+  "ex": "Heavy traffic can impede a trip.",
+  "tier": 1
+ },
+ {
+  "w": "propel",
+  "pr": "pruh-PEL",
+  "pos": "v",
+  "def": "drive or push forward",
+  "ex": "Ambition can propel a career.",
+  "tier": 1
+ },
+ {
+  "w": "nurture",
+  "pr": "NUR-chur",
+  "pos": "v",
+  "def": "care for and encourage growth",
+  "ex": "Good teachers nurture curiosity.",
+  "tier": 1
+ },
+ {
+  "w": "stifle",
+  "pr": "STY-fuhl",
+  "pos": "v",
+  "def": "suppress or hold back",
+  "ex": "He stifled a yawn.",
+  "tier": 1
+ },
+ {
+  "w": "suppress",
+  "pr": "suh-PRES",
+  "pos": "v",
+  "def": "forcibly put an end to",
+  "ex": "She suppressed a laugh.",
+  "tier": 1
+ },
+ {
+  "w": "reinforce",
+  "pr": "ree-in-FORS",
+  "pos": "v",
+  "def": "strengthen or support further",
+  "ex": "The beams reinforce the roof.",
+  "tier": 1
+ },
+ {
+  "w": "sabotage",
+  "pr": "SAB-uh-tahzh",
+  "pos": "v",
+  "def": "deliberately ruin or obstruct",
+  "ex": "He tried to sabotage the deal.",
+  "tier": 1
+ },
+ {
+  "w": "endanger",
+  "pr": "in-DAYN-jur",
+  "pos": "v",
+  "def": "put in a dangerous situation",
+  "ex": "Pollution can endanger wildlife.",
+  "tier": 1
+ },
+ {
+  "w": "safeguard",
+  "pr": "SAYF-gard",
+  "pos": "v",
+  "def": "protect from harm or loss",
+  "ex": "Laws safeguard consumer rights.",
+  "tier": 1
+ },
+ {
+  "w": "cultivate",
+  "pr": "KUHL-tuh-vayt",
+  "pos": "v",
+  "def": "work to develop or improve",
+  "ex": "She works hard to cultivate friendships.",
+  "tier": 1
+ },
+ {
+  "w": "hamper",
+  "pr": "HAM-pur",
+  "pos": "v",
+  "def": "hinder or restrict movement",
+  "ex": "Storms often hamper rescue efforts.",
+  "tier": 1
+ },
+ {
+  "w": "hinge",
+  "pr": "HINJ",
+  "pos": "v",
+  "def": "depend entirely on something",
+  "ex": "The plan hinges on funding.",
+  "tier": 1
+ },
+ {
+  "w": "flourish",
+  "pr": "FLUR-ish",
+  "pos": "v",
+  "def": "grow or develop vigorously",
+  "ex": "New businesses flourish downtown.",
+  "tier": 1
+ },
+ {
+  "w": "wither",
+  "pr": "WITH-ur",
+  "pos": "v",
+  "def": "shrivel and lose vitality",
+  "ex": "Plants wither in extreme heat.",
+  "tier": 1
+ },
+ {
+  "w": "stagnate",
+  "pr": "STAG-nayt",
+  "pos": "v",
+  "def": "stop developing or improving",
+  "ex": "Sales began to stagnate.",
+  "tier": 1
+ },
+ {
+  "w": "revitalize",
+  "pr": "ree-VY-tuh-lyz",
+  "pos": "v",
+  "def": "give new energy or life to",
+  "ex": "The grant revitalized the program.",
+  "tier": 1
+ },
+ {
+  "w": "sparse",
+  "pr": "SPARS",
+  "pos": "adj",
+  "def": "thinly scattered and not dense",
+  "ex": "The crowd was sparse that evening.",
+  "tier": 1
+ },
+ {
+  "w": "steady",
+  "pr": "STED-ee",
+  "pos": "adj",
+  "def": "firm, constant, and unchanging",
+  "ex": "He kept a steady pace all day.",
+  "tier": 1
+ },
+ {
+  "w": "finite",
+  "pr": "FY-nyt",
+  "pos": "adj",
+  "def": "having limits or bounds",
+  "ex": "Our time together is finite.",
+  "tier": 1
+ },
+ {
+  "w": "dapper",
+  "pr": "DAP-ur",
+  "pos": "adj",
+  "def": "neat and stylish in dress",
+  "ex": "He looked dapper in his new suit.",
+  "tier": 1
+ },
+ {
+  "w": "punctual",
+  "pr": "PUHNGK-choo-uhl",
+  "pos": "adj",
+  "def": "arriving or doing things on time",
+  "ex": "She is always punctual for meetings.",
+  "tier": 1
+ },
+ {
+  "w": "hearty",
+  "pr": "HAR-tee",
+  "pos": "adj",
+  "def": "warm, enthusiastic, and sincere",
+  "ex": "He gave a hearty welcome to the guests.",
+  "tier": 1
+ }
+]

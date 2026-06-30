@@ -51,6 +51,14 @@
         </div>
       </div>
 
+      <div class="treasure-panel" id="treasurePanel">
+        <div class="gem-count">💎 <b id="gemNum">0</b> <span class="gem-lbl">gems</span></div>
+        <div class="chest">
+          <div class="chest-bar"><i id="chestFill"></i></div>
+          <div class="chest-text">🎁 Next chest <b id="chestNow">0</b>/<span id="chestTarget">100</span></div>
+        </div>
+      </div>
+
       <button id="startBtn" class="btn-primary btn-play">▶&nbsp; Quick Play</button>
       <button id="customizeToggle" class="customize-toggle" aria-expanded="false" aria-controls="customize">⚙ Customize</button>
 
@@ -121,19 +129,27 @@
 
       <div class="scoreline">
         <span id="qCount" class="q-count">1</span>
+        <span class="combo-badge" id="comboBadge" hidden>×2</span>
+        <span class="gem-pill">💎 <span id="gemQuiz">0</span></span>
         <span class="score-pill">★ <span id="scoreNum">0</span></span>
       </div>
 
       <div class="stage">
         <div id="flashcard" class="flashcard">
           <div class="fc-face fc-front">
+            <div class="power-badge" id="powerBadge" hidden>⚡ Power Word · Double Points!</div>
             <div class="fc-kicker" id="fcKicker">What does this word mean?</div>
             <div class="fc-word" id="question">candid</div>
+            <div class="fc-pron" id="pronRow">
+              <button type="button" class="speak-btn" id="speakBtn" aria-label="Hear pronunciation">🔊</button>
+              <span id="pronText"></span>
+            </div>
             <div class="fc-pos" id="posTag">adjective</div>
             <div class="fc-hint" id="flipHint">tap to reveal</div>
           </div>
           <div class="fc-face fc-back">
             <div class="fc-word-sm" id="answerWord">candid</div>
+            <div class="fc-pron back" id="pronRowBack"><span id="pronTextBack"></span></div>
             <div class="fc-def" id="answerDef">honest and direct</div>
             <div class="fc-ex" id="answerEx"></div>
             <div class="fc-hint">tap for next</div>

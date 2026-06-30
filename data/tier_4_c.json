@@ -1,0 +1,1442 @@
+[
+{
+"w": "jejune",
+"pr": "jih-JOON",
+"pos": "adj",
+"def": "naive, simplistic, or lacking substance",
+"ex": "His jejune outlook ignored every real complication",
+"tier": 4
+},
+{
+"w": "priggish",
+"pr": "PRIG-ish",
+"pos": "adj",
+"def": "self-righteously moralistic and prim",
+"ex": "Her priggish disapproval soured the whole dinner",
+"tier": 4
+},
+{
+"w": "hidebound",
+"pr": "HYDE-bownd",
+"pos": "adj",
+"def": "rigidly conventional and resistant to change",
+"ex": "The hidebound board rejected every fresh idea",
+"tier": 4
+},
+{
+"w": "stolid",
+"pr": "STOL-id",
+"pos": "adj",
+"def": "showing little emotion or animation",
+"ex": "He met the bad news with a stolid nod",
+"tier": 4
+},
+{
+"w": "mercenary",
+"pr": "MUR-suh-ner-ee",
+"pos": "adj",
+"def": "motivated chiefly by money or gain",
+"ex": "His mercenary streak showed in every deal",
+"tier": 4
+},
+{
+"w": "venturesome",
+"pr": "VEN-chur-sum",
+"pos": "adj",
+"def": "inclined to take risks; daring",
+"ex": "Her venturesome spirit led her up the cliff",
+"tier": 4
+},
+{
+"w": "puerile",
+"pr": "PYOO-ur-il",
+"pos": "adj",
+"def": "childishly silly and immature",
+"ex": "His puerile pranks embarrassed the whole team",
+"tier": 4
+},
+{
+"w": "wanton",
+"pr": "WON-tun",
+"pos": "adj",
+"def": "deliberately reckless and unprovoked",
+"ex": "Their wanton cruelty shocked everyone present",
+"tier": 4
+},
+{
+"w": "waggish",
+"pr": "WAG-ish",
+"pos": "adj",
+"def": "playfully mischievous and witty",
+"ex": "His waggish remarks kept the office laughing",
+"tier": 4
+},
+{
+"w": "indomitable",
+"pr": "in-DOM-ih-tuh-bul",
+"pos": "adj",
+"def": "impossible to subdue or defeat",
+"ex": "Her indomitable will carried the team through",
+"tier": 4
+},
+{
+"w": "debonair",
+"pr": "deb-uh-NAIR",
+"pos": "adj",
+"def": "suave, charming, and self-assured",
+"ex": "The debonair host put every guest at ease",
+"tier": 4
+},
+{
+"w": "blithesome",
+"pr": "BLYTHE-sum",
+"pos": "adj",
+"def": "cheerful and lighthearted",
+"ex": "Her blithesome laugh lifted the party",
+"tier": 4
+},
+{
+"w": "rakish",
+"pr": "RAY-kish",
+"pos": "adj",
+"def": "dashing and stylishly unconventional",
+"ex": "He wore his hat at a rakish angle",
+"tier": 4
+},
+{
+"w": "magisterial",
+"pr": "maj-ih-STEER-ee-ul",
+"pos": "adj",
+"def": "authoritative and commanding respect",
+"ex": "She gave a magisterial summary of the case",
+"tier": 4
+},
+{
+"w": "hardbitten",
+"pr": "HARD-bit-un",
+"pos": "adj",
+"def": "toughened by hard experience",
+"ex": "The hardbitten reporter trusted no one's spin",
+"tier": 4
+},
+{
+"w": "genteel",
+"pr": "jen-TEEL",
+"pos": "adj",
+"def": "politely refined, sometimes affectedly so",
+"ex": "Her genteel manners hid a sharp wit",
+"tier": 4
+},
+{
+"w": "foppish",
+"pr": "FOP-ish",
+"pos": "adj",
+"def": "excessively concerned with fine clothes",
+"ex": "His foppish vanity amused the rough crew",
+"tier": 4
+},
+{
+"w": "staid",
+"pr": "STAYD",
+"pos": "adj",
+"def": "sedate, respectable, and unadventurous",
+"ex": "The staid old firm distrusted anything new",
+"tier": 4
+},
+{
+"w": "rambunctious",
+"pr": "ram-BUNK-shus",
+"pos": "adj",
+"def": "boisterous and hard to control",
+"ex": "The rambunctious kids upended the quiet hall",
+"tier": 4
+},
+{
+"w": "temperate",
+"pr": "TEM-pur-it",
+"pos": "adj",
+"def": "moderate and self-restrained",
+"ex": "His temperate habits surprised his wild friends",
+"tier": 4
+},
+{
+"w": "voracious",
+"pr": "vor-AY-shus",
+"pos": "adj",
+"def": "having a huge appetite or craving",
+"ex": "She was a voracious reader of biographies",
+"tier": 4
+},
+{
+"w": "dapper",
+"pr": "DAP-ur",
+"pos": "adj",
+"def": "neat and trim in dress and bearing",
+"ex": "The dapper clerk adjusted his pocket square",
+"tier": 4
+},
+{
+"w": "waspish",
+"pr": "WOS-pish",
+"pos": "adj",
+"def": "sharply irritable and snappish",
+"ex": "Her waspish replies stung everyone at the table",
+"tier": 4
+},
+{
+"w": "rue",
+"pr": "ROO",
+"pos": "v",
+"def": "to bitterly regret something",
+"ex": "He came to rue his hasty promise",
+"tier": 4
+},
+{
+"w": "chary",
+"pr": "CHAIR-ee",
+"pos": "adj",
+"def": "cautiously reluctant or wary",
+"ex": "She was chary of lending him money",
+"tier": 4
+},
+{
+"w": "plangent",
+"pr": "PLAN-junt",
+"pos": "adj",
+"def": "loud, mournful, and resonant",
+"ex": "A plangent wail rose from the harbor",
+"tier": 4
+},
+{
+"w": "aghast",
+"pr": "uh-GAST",
+"pos": "adj",
+"def": "filled with sudden shock or horror",
+"ex": "She stood aghast at the wreckage",
+"tier": 4
+},
+{
+"w": "woeful",
+"pr": "WOH-ful",
+"pos": "adj",
+"def": "full of sorrow or wretchedly bad",
+"ex": "His woeful expression said it all",
+"tier": 4
+},
+{
+"w": "inconsolable",
+"pr": "in-kun-SOH-luh-bul",
+"pos": "adj",
+"def": "impossible to comfort or cheer",
+"ex": "She was inconsolable after the loss",
+"tier": 4
+},
+{
+"w": "desolation",
+"pr": "des-uh-LAY-shun",
+"pos": "n",
+"def": "a state of bleak emptiness or grief",
+"ex": "A deep desolation settled over the town",
+"tier": 4
+},
+{
+"w": "misanthropy",
+"pr": "mis-AN-thruh-pee",
+"pos": "n",
+"def": "a dislike or distrust of humankind",
+"ex": "His misanthropy kept him from crowds",
+"tier": 4
+},
+{
+"w": "repugnance",
+"pr": "rih-PUG-nunss",
+"pos": "n",
+"def": "intense disgust or aversion",
+"ex": "She felt repugnance at the cruel joke",
+"tier": 4
+},
+{
+"w": "solicitude",
+"pr": "suh-LIS-ih-tood",
+"pos": "n",
+"def": "care or concern for another's wellbeing",
+"ex": "His solicitude for the sick was tireless",
+"tier": 4
+},
+{
+"w": "disgruntlement",
+"pr": "dis-GRUN-tul-munt",
+"pos": "n",
+"def": "a state of sulky dissatisfaction",
+"ex": "Their disgruntlement grew with each delay",
+"tier": 4
+},
+{
+"w": "rapt",
+"pr": "RAPT",
+"pos": "adj",
+"def": "completely absorbed and fascinated",
+"ex": "The rapt audience forgot the time",
+"tier": 4
+},
+{
+"w": "wretched",
+"pr": "RECH-id",
+"pos": "adj",
+"def": "miserable or of poor quality",
+"ex": "She felt wretched after the long illness",
+"tier": 4
+},
+{
+"w": "anguished",
+"pr": "ANG-gwisht",
+"pos": "adj",
+"def": "experiencing severe mental pain",
+"ex": "Her anguished plea moved the whole court",
+"tier": 4
+},
+{
+"w": "abashed",
+"pr": "uh-BASHT",
+"pos": "adj",
+"def": "embarrassed and ashamed",
+"ex": "He looked abashed at his own mistake",
+"tier": 4
+},
+{
+"w": "dolor",
+"pr": "DOH-lur",
+"pos": "n",
+"def": "a state of great sorrow",
+"ex": "A heavy dolor weighed on the mourners",
+"tier": 4
+},
+{
+"w": "plaintiveness",
+"pr": "PLAYN-tiv-ness",
+"pos": "n",
+"def": "a sorrowful, mournful quality",
+"ex": "The plaintiveness of the tune lingered",
+"tier": 4
+},
+{
+"w": "declamatory",
+"pr": "dih-KLAM-uh-tor-ee",
+"pos": "adj",
+"def": "marked by pompous formal speech",
+"ex": "His declamatory style wearied the audience",
+"tier": 4
+},
+{
+"w": "hortatory",
+"pr": "HOR-tuh-tor-ee",
+"pos": "adj",
+"def": "urging strongly toward action",
+"ex": "The hortatory speech roused the volunteers",
+"tier": 4
+},
+{
+"w": "imprecate",
+"pr": "IM-prih-kayt",
+"pos": "v",
+"def": "to invoke a curse upon",
+"ex": "He imprecated against his careless rivals",
+"tier": 4
+},
+{
+"w": "apologue",
+"pr": "AP-uh-log",
+"pos": "n",
+"def": "a moral fable or allegory",
+"ex": "She closed with a sly little apologue",
+"tier": 4
+},
+{
+"w": "aver",
+"pr": "uh-VUR",
+"pos": "v",
+"def": "to state firmly as true",
+"ex": "She averred that she had seen nothing",
+"tier": 4
+},
+{
+"w": "disquisition",
+"pr": "dis-kwih-ZISH-un",
+"pos": "n",
+"def": "a long formal discussion of a subject",
+"ex": "His disquisition on bees lost half the room",
+"tier": 4
+},
+{
+"w": "circumlocutious",
+"pr": "sur-kum-luh-KYOO-shus",
+"pos": "adj",
+"def": "using needlessly roundabout language",
+"ex": "His circumlocutious memo buried the point",
+"tier": 4
+},
+{
+"w": "expostulatory",
+"pr": "ik-SPOS-chuh-luh-tor-ee",
+"pos": "adj",
+"def": "expressing earnest protest",
+"ex": "She raised an expostulatory hand",
+"tier": 4
+},
+{
+"w": "rejoin",
+"pr": "rih-JOIN",
+"pos": "v",
+"def": "to reply, especially sharply",
+"ex": "He rejoined that the figures were wrong",
+"tier": 4
+},
+{
+"w": "preachment",
+"pr": "PREECH-munt",
+"pos": "n",
+"def": "tiresome moralizing talk",
+"ex": "Spare me the preachment about thrift",
+"tier": 4
+},
+{
+"w": "interlocutory",
+"pr": "in-tur-LOK-yuh-tor-ee",
+"pos": "adj",
+"def": "relating to dialogue or conversation",
+"ex": "The interlocutory exchange clarified little",
+"tier": 4
+},
+{
+"w": "vaunt",
+"pr": "VAWNT",
+"pos": "v",
+"def": "to boast about proudly",
+"ex": "He vaunted his connections to anyone listening",
+"tier": 4
+},
+{
+"w": "apostrophize",
+"pr": "uh-POS-truh-fyze",
+"pos": "v",
+"def": "to address an absent person rhetorically",
+"ex": "The poet apostrophized the silent moon",
+"tier": 4
+},
+{
+"w": "recapitulate",
+"pr": "ree-kuh-PICH-uh-layt",
+"pos": "v",
+"def": "to restate the main points",
+"ex": "Let me recapitulate before we vote",
+"tier": 4
+},
+{
+"w": "enjoin",
+"pr": "en-JOIN",
+"pos": "v",
+"def": "to urge or order with authority",
+"ex": "The judge enjoined them to keep silent",
+"tier": 4
+},
+{
+"w": "foreword",
+"pr": "FOR-wurd",
+"pos": "n",
+"def": "an introductory note in a book",
+"ex": "She wrote a gracious foreword for the volume",
+"tier": 4
+},
+{
+"w": "sapiential",
+"pr": "sap-ee-EN-shul",
+"pos": "adj",
+"def": "relating to or providing wisdom",
+"ex": "Her sapiential advice steadied the young clerk",
+"tier": 4
+},
+{
+"w": "sciolism",
+"pr": "SY-uh-liz-um",
+"pos": "n",
+"def": "superficial pretense of knowledge",
+"ex": "His confident sciolism fooled no expert",
+"tier": 4
+},
+{
+"w": "discernment",
+"pr": "dih-SURN-munt",
+"pos": "n",
+"def": "keen judgment or insight",
+"ex": "Her discernment caught the flaw at once",
+"tier": 4
+},
+{
+"w": "intellectualize",
+"pr": "in-tuh-LEK-choo-uh-lyze",
+"pos": "v",
+"def": "to reason coldly, avoiding feeling",
+"ex": "He intellectualized the grief he would not feel",
+"tier": 4
+},
+{
+"w": "ponderable",
+"pr": "PON-dur-uh-bul",
+"pos": "adj",
+"def": "able to be weighed or thought over",
+"ex": "She raised a genuinely ponderable objection",
+"tier": 4
+},
+{
+"w": "apprehend",
+"pr": "ap-rih-HEND",
+"pos": "v",
+"def": "to grasp the meaning of",
+"ex": "He apprehended the danger only too late",
+"tier": 4
+},
+{
+"w": "surmise",
+"pr": "sur-MYZE",
+"pos": "v",
+"def": "to guess from slight evidence",
+"ex": "She surmised the truth from his pause",
+"tier": 4
+},
+{
+"w": "cognize",
+"pr": "KOG-nyze",
+"pos": "v",
+"def": "to perceive or come to know",
+"ex": "We slowly cognized the scale of the problem",
+"tier": 4
+},
+{
+"w": "misconstrue",
+"pr": "mis-kun-STROO",
+"pos": "v",
+"def": "to interpret wrongly",
+"ex": "He misconstrued her silence as anger",
+"tier": 4
+},
+{
+"w": "construe",
+"pr": "kun-STROO",
+"pos": "v",
+"def": "to interpret or assign meaning to",
+"ex": "They construed the clause far too broadly",
+"tier": 4
+},
+{
+"w": "philosophize",
+"pr": "fih-LOS-uh-fyze",
+"pos": "v",
+"def": "to reason about fundamental questions",
+"ex": "He liked to philosophize over coffee",
+"tier": 4
+},
+{
+"w": "postulate",
+"pr": "POS-chuh-layt",
+"pos": "v",
+"def": "to assume as a basis for reasoning",
+"ex": "She postulated a hidden third cause",
+"tier": 4
+},
+{
+"w": "theorize",
+"pr": "THEE-uh-ryze",
+"pos": "v",
+"def": "to form an explanation by reasoning",
+"ex": "Scientists theorized about the strange signal",
+"tier": 4
+},
+{
+"w": "perpend",
+"pr": "pur-PEND",
+"pos": "v",
+"def": "to ponder or consider carefully",
+"ex": "He perpended the offer for a long while",
+"tier": 4
+},
+{
+"w": "cognizance",
+"pr": "KOG-nih-zunss",
+"pos": "n",
+"def": "awareness or notice of something",
+"ex": "The board took cognizance of the complaint",
+"tier": 4
+},
+{
+"w": "recollect",
+"pr": "rek-uh-LEKT",
+"pos": "v",
+"def": "to remember or call to mind",
+"ex": "She recollected the address only later",
+"tier": 4
+},
+{
+"w": "envisage",
+"pr": "en-VIZ-ij",
+"pos": "v",
+"def": "to form a mental picture of",
+"ex": "He envisaged a far larger project",
+"tier": 4
+},
+{
+"w": "perseverate",
+"pr": "pur-SEV-ur-ayt",
+"pos": "v",
+"def": "to repeat an action persistently",
+"ex": "He perseverated on the same small detail",
+"tier": 4
+},
+{
+"w": "plod",
+"pr": "PLOD",
+"pos": "v",
+"def": "to work or walk slowly and doggedly",
+"ex": "She plodded through the dense report",
+"tier": 4
+},
+{
+"w": "galumph",
+"pr": "guh-LUMF",
+"pos": "v",
+"def": "to move in a clumsy heavy way",
+"ex": "The dog galumphed across the muddy yard",
+"tier": 4
+},
+{
+"w": "scrabble",
+"pr": "SKRAB-ul",
+"pos": "v",
+"def": "to scratch or grope hurriedly",
+"ex": "He scrabbled for coins under the seat",
+"tier": 4
+},
+{
+"w": "grub",
+"pr": "GRUB",
+"pos": "v",
+"def": "to dig or search laboriously",
+"ex": "She grubbed through old files for the deed",
+"tier": 4
+},
+{
+"w": "travail",
+"pr": "truh-VAYL",
+"pos": "n",
+"def": "painful or laborious effort",
+"ex": "Years of travail finally bore fruit",
+"tier": 4
+},
+{
+"w": "addle",
+"pr": "AD-ul",
+"pos": "v",
+"def": "to confuse or muddle",
+"ex": "Fatigue addled his usually sharp mind",
+"tier": 4
+},
+{
+"w": "husbandry",
+"pr": "HUZ-bun-dree",
+"pos": "n",
+"def": "careful management of resources",
+"ex": "Prudent husbandry stretched the small budget",
+"tier": 4
+},
+{
+"w": "hew",
+"pr": "HYOO",
+"pos": "v",
+"def": "to cut or shape with heavy blows",
+"ex": "They hewed a path through the brush",
+"tier": 4
+},
+{
+"w": "ferret",
+"pr": "FAIR-it",
+"pos": "v",
+"def": "to search out by persistent effort",
+"ex": "She ferreted out the missing receipt",
+"tier": 4
+},
+{
+"w": "contrive",
+"pr": "kun-TRYVE",
+"pos": "v",
+"def": "to devise or bring about cleverly",
+"ex": "He contrived a way to leave early",
+"tier": 4
+},
+{
+"w": "dredge",
+"pr": "DREJ",
+"pos": "v",
+"def": "to bring up by laborious searching",
+"ex": "He dredged old grievances into the meeting",
+"tier": 4
+},
+{
+"w": "belabor",
+"pr": "bih-LAY-bur",
+"pos": "v",
+"def": "to argue or explain at tedious length",
+"ex": "Don't belabor a point we already accept",
+"tier": 4
+},
+{
+"w": "compass",
+"pr": "KUM-pus",
+"pos": "v",
+"def": "to achieve or bring about",
+"ex": "Through patience he compassed his aim",
+"tier": 4
+},
+{
+"w": "hegemon",
+"pr": "HEJ-uh-mon",
+"pos": "n",
+"def": "a dominant state or power",
+"ex": "The aging hegemon could no longer dictate terms",
+"tier": 4
+},
+{
+"w": "suppress",
+"pr": "suh-PRESS",
+"pos": "v",
+"def": "to forcibly put an end to",
+"ex": "Troops moved to suppress the uprising",
+"tier": 4
+},
+{
+"w": "vassalage",
+"pr": "VAS-uh-lij",
+"pos": "n",
+"def": "a position of servitude or dependence",
+"ex": "The colony chafed under economic vassalage",
+"tier": 4
+},
+{
+"w": "mutineer",
+"pr": "myoo-tih-NEER",
+"pos": "n",
+"def": "one who rebels against authority",
+"ex": "The mutineers seized the wheel at dawn",
+"tier": 4
+},
+{
+"w": "overawe",
+"pr": "oh-vur-AW",
+"pos": "v",
+"def": "to subdue with a sense of awe",
+"ex": "The vast hall overawed the visitors",
+"tier": 4
+},
+{
+"w": "usurpation",
+"pr": "yoo-sur-PAY-shun",
+"pos": "n",
+"def": "wrongful seizure of power",
+"ex": "His usurpation of the throne sparked war",
+"tier": 4
+},
+{
+"w": "supplanter",
+"pr": "suh-PLAN-tur",
+"pos": "n",
+"def": "one who ousts and takes another's place",
+"ex": "The young supplanter seized the chief's seat",
+"tier": 4
+},
+{
+"w": "interdict",
+"pr": "in-tur-DIKT",
+"pos": "v",
+"def": "to forbid or cut off by authority",
+"ex": "They interdicted all supplies to the fort",
+"tier": 4
+},
+{
+"w": "subordination",
+"pr": "suh-bor-dih-NAY-shun",
+"pos": "n",
+"def": "the state of being under another's control",
+"ex": "She resented her subordination to a novice",
+"tier": 4
+},
+{
+"w": "warlike",
+"pr": "WOR-lyke",
+"pos": "adj",
+"def": "hostile and eager for conflict",
+"ex": "The warlike faction shouted down the doves",
+"tier": 4
+},
+{
+"w": "subdual",
+"pr": "sub-DOO-ul",
+"pos": "n",
+"def": "the act of bringing under control",
+"ex": "The subdual of the revolt took weeks",
+"tier": 4
+},
+{
+"w": "dethrone",
+"pr": "dee-THROHN",
+"pos": "v",
+"def": "to remove from power or position",
+"ex": "The scandal dethroned the longtime champion",
+"tier": 4
+},
+{
+"w": "dowdy",
+"pr": "DOW-dee",
+"pos": "adj",
+"def": "dull and unfashionable in appearance",
+"ex": "Her dowdy coat hid an elegant figure",
+"tier": 4
+},
+{
+"w": "gimcrack",
+"pr": "JIM-krak",
+"pos": "adj",
+"def": "showy but cheap and flimsy",
+"ex": "The shelf held rows of gimcrack ornaments",
+"tier": 4
+},
+{
+"w": "slatternly",
+"pr": "SLAT-urn-lee",
+"pos": "adj",
+"def": "dirty and untidy in appearance",
+"ex": "The slatternly room embarrassed our guest",
+"tier": 4
+},
+{
+"w": "bedizened",
+"pr": "bih-DYE-zund",
+"pos": "adj",
+"def": "gaudily or vulgarly decorated",
+"ex": "She arrived bedizened with cheap jewels",
+"tier": 4
+},
+{
+"w": "trim",
+"pr": "TRIM",
+"pos": "adj",
+"def": "neat, slim, and well-kept",
+"ex": "The trim little yacht gleamed at the dock",
+"tier": 4
+},
+{
+"w": "seedy",
+"pr": "SEE-dee",
+"pos": "adj",
+"def": "shabby and disreputable in appearance",
+"ex": "They met in a seedy roadside diner",
+"tier": 4
+},
+{
+"w": "superfluity",
+"pr": "soo-pur-FLOO-ih-tee",
+"pos": "n",
+"def": "an excessive amount of something",
+"ex": "A superfluity of choices paralyzed the buyers",
+"tier": 4
+},
+{
+"w": "abeyance",
+"pr": "uh-BAY-unss",
+"pos": "n",
+"def": "a state of temporary suspension",
+"ex": "The plan was held in abeyance for a year",
+"tier": 4
+},
+{
+"w": "spate",
+"pr": "SPAYT",
+"pos": "n",
+"def": "a sudden large number or amount",
+"ex": "A spate of complaints flooded the office",
+"tier": 4
+},
+{
+"w": "upswing",
+"pr": "UP-swing",
+"pos": "n",
+"def": "an upward trend or improvement",
+"ex": "Sales saw a sharp upswing in spring",
+"tier": 4
+},
+{
+"w": "flurry",
+"pr": "FLUR-ee",
+"pos": "n",
+"def": "a sudden short burst of activity",
+"ex": "A flurry of edits hit the document at once",
+"tier": 4
+},
+{
+"w": "vituperous",
+"pr": "vih-TOO-pur-us",
+"pos": "adj",
+"def": "given to bitter abusive language",
+"ex": "His vituperous outburst silenced the meeting",
+"tier": 4
+},
+{
+"w": "disparage",
+"pr": "dih-SPAIR-ij",
+"pos": "v",
+"def": "to belittle or speak slightingly of",
+"ex": "Critics disparaged the film as shallow",
+"tier": 4
+},
+{
+"w": "extol",
+"pr": "ik-STOHL",
+"pos": "v",
+"def": "to praise enthusiastically",
+"ex": "Reviewers extolled her daring debut",
+"tier": 4
+},
+{
+"w": "gainsayer",
+"pr": "GAYN-say-ur",
+"pos": "n",
+"def": "one who denies or contradicts",
+"ex": "Every plan has its stubborn gainsayer",
+"tier": 4
+},
+{
+"w": "upbraider",
+"pr": "up-BRAY-dur",
+"pos": "n",
+"def": "one who scolds severely",
+"ex": "The upbraider lectured them for an hour",
+"tier": 4
+},
+{
+"w": "brood",
+"pr": "BROOD",
+"pos": "v",
+"def": "to dwell moodily on a worry",
+"ex": "He brooded over the lost chance for days",
+"tier": 4
+},
+{
+"w": "lament",
+"pr": "luh-MENT",
+"pos": "v",
+"def": "to express deep grief about",
+"ex": "They lamented the closing of the school",
+"tier": 4
+},
+{
+"w": "bemoan",
+"pr": "bih-MOHN",
+"pos": "v",
+"def": "to express sorrow or regret over",
+"ex": "She bemoaned the loss of quiet streets",
+"tier": 4
+},
+{
+"w": "languor",
+"pr": "LANG-gur",
+"pos": "n",
+"def": "pleasant or weary listlessness",
+"ex": "A summer languor settled over the porch",
+"tier": 4
+},
+{
+"w": "yearn",
+"pr": "YURN",
+"pos": "v",
+"def": "to long intensely for something",
+"ex": "He yearned for the hills of home",
+"tier": 4
+},
+{
+"w": "pine",
+"pr": "PYNE",
+"pos": "v",
+"def": "to grow weak with longing",
+"ex": "She pined for her distant family",
+"tier": 4
+},
+{
+"w": "perceive",
+"pr": "pur-SEEV",
+"pos": "v",
+"def": "to become aware of through the mind",
+"ex": "He perceived a shift in her mood",
+"tier": 4
+},
+{
+"w": "toilworn",
+"pr": "TOIL-worn",
+"pos": "adj",
+"def": "worn out by hard labor",
+"ex": "His toilworn hands told the story",
+"tier": 4
+},
+{
+"w": "labor",
+"pr": "LAY-bur",
+"pos": "v",
+"def": "to work hard or with difficulty",
+"ex": "They labored through the long night",
+"tier": 4
+},
+{
+"w": "scavenge",
+"pr": "SKAV-inj",
+"pos": "v",
+"def": "to search for usable things",
+"ex": "Gulls scavenged along the empty pier",
+"tier": 4
+},
+{
+"w": "forage",
+"pr": "FOR-ij",
+"pos": "v",
+"def": "to search widely for provisions",
+"ex": "The hikers foraged for berries",
+"tier": 4
+},
+{
+"w": "delve",
+"pr": "DELV",
+"pos": "v",
+"def": "to dig or search deeply",
+"ex": "She delved into the dusty archives",
+"tier": 4
+},
+{
+"w": "conquer",
+"pr": "KON-kur",
+"pos": "v",
+"def": "to overcome and take control of",
+"ex": "They conquered the rugged frontier",
+"tier": 4
+},
+{
+"w": "warmonger",
+"pr": "WOR-mung-gur",
+"pos": "n",
+"def": "one who stirs up war",
+"ex": "The warmonger thrived on every crisis",
+"tier": 4
+},
+{
+"w": "strongman",
+"pr": "STRONG-man",
+"pos": "n",
+"def": "a ruler who governs by force",
+"ex": "The strongman crushed all dissent",
+"tier": 4
+},
+{
+"w": "grandiose",
+"pr": "GRAN-dee-ohss",
+"pos": "adj",
+"def": "impressively or pompously grand",
+"ex": "His grandiose plans never left the page",
+"tier": 4
+},
+{
+"w": "ungainly",
+"pr": "un-GAYN-lee",
+"pos": "adj",
+"def": "awkward and clumsy in form",
+"ex": "The ungainly machine barely fit the door",
+"tier": 4
+},
+{
+"w": "comely",
+"pr": "KUM-lee",
+"pos": "adj",
+"def": "pleasant and attractive in appearance",
+"ex": "A comely garden fronted the cottage",
+"tier": 4
+},
+{
+"w": "homely",
+"pr": "HOHM-lee",
+"pos": "adj",
+"def": "plain and unattractive",
+"ex": "The homely facade hid a lavish interior",
+"tier": 4
+},
+{
+"w": "glut",
+"pr": "GLUT",
+"pos": "n",
+"def": "an oversupply of something",
+"ex": "A glut of grain drove prices down",
+"tier": 4
+},
+{
+"w": "trove",
+"pr": "TROHV",
+"pos": "n",
+"def": "a valuable collection or store",
+"ex": "The attic held a trove of letters",
+"tier": 4
+},
+{
+"w": "torrent",
+"pr": "TOR-unt",
+"pos": "n",
+"def": "a violent rushing flow or rush",
+"ex": "A torrent of objections followed",
+"tier": 4
+},
+{
+"w": "ebb",
+"pr": "EB",
+"pos": "v",
+"def": "to decline or fade gradually",
+"ex": "His enthusiasm slowly ebbed away",
+"tier": 4
+},
+{
+"w": "crescendo",
+"pr": "kruh-SHEN-doh",
+"pos": "n",
+"def": "a gradual rise to a peak",
+"ex": "Tension built to a crescendo",
+"tier": 4
+},
+{
+"w": "interlude",
+"pr": "IN-tur-lood",
+"pos": "n",
+"def": "an intervening period of time",
+"ex": "A brief interlude of calm followed",
+"tier": 4
+},
+{
+"w": "epoch",
+"pr": "EP-uk",
+"pos": "n",
+"def": "a notable period of history",
+"ex": "The discovery began a new epoch",
+"tier": 4
+},
+{
+"w": "waxing",
+"pr": "WAK-sing",
+"pos": "adj",
+"def": "growing larger or stronger",
+"ex": "The waxing crowd grew restless",
+"tier": 4
+},
+{
+"w": "waning",
+"pr": "WAY-ning",
+"pos": "adj",
+"def": "growing smaller or weaker",
+"ex": "His waning strength worried the nurses",
+"tier": 4
+},
+{
+"w": "teem",
+"pr": "TEEM",
+"pos": "v",
+"def": "to be full of or swarming with",
+"ex": "The tidepool teemed with life",
+"tier": 4
+},
+{
+"w": "incalculable",
+"pr": "in-KAL-kyuh-luh-bul",
+"pos": "adj",
+"def": "too great to be counted",
+"ex": "The flood did incalculable harm",
+"tier": 4
+},
+{
+"w": "legion",
+"pr": "LEE-jun",
+"pos": "adj",
+"def": "very numerous",
+"ex": "Her admirers were legion",
+"tier": 4
+},
+{
+"w": "scads",
+"pr": "SKADZ",
+"pos": "n",
+"def": "a large quantity or number",
+"ex": "He had scads of unread books",
+"tier": 4
+},
+{
+"w": "trickle",
+"pr": "TRIK-ul",
+"pos": "n",
+"def": "a small slow flow or amount",
+"ex": "Only a trickle of guests arrived",
+"tier": 4
+},
+{
+"w": "smattering",
+"pr": "SMAT-ur-ing",
+"pos": "n",
+"def": "a slight superficial amount",
+"ex": "She had a smattering of Greek",
+"tier": 4
+},
+{
+"w": "disconcert",
+"pr": "dis-kun-SURT",
+"pos": "v",
+"def": "to unsettle or fluster",
+"ex": "The sudden question disconcerted him",
+"tier": 4
+},
+{
+"w": "nonplus",
+"pr": "non-PLUSS",
+"pos": "v",
+"def": "to leave utterly puzzled",
+"ex": "Her answer nonplussed the whole panel",
+"tier": 4
+},
+{
+"w": "rile",
+"pr": "RYLE",
+"pos": "v",
+"def": "to irritate or anger",
+"ex": "His smug tone riled the audience",
+"tier": 4
+},
+{
+"w": "nettle",
+"pr": "NET-ul",
+"pos": "v",
+"def": "to annoy or provoke",
+"ex": "The remark nettled her badly",
+"tier": 4
+},
+{
+"w": "pique",
+"pr": "PEEK",
+"pos": "v",
+"def": "to arouse irritation or interest",
+"ex": "His secrecy piqued her curiosity",
+"tier": 4
+},
+{
+"w": "contented",
+"pr": "kun-TEN-tid",
+"pos": "adj",
+"def": "peacefully satisfied",
+"ex": "A contented hum filled the kitchen",
+"tier": 4
+},
+{
+"w": "dismal",
+"pr": "DIZ-mul",
+"pos": "adj",
+"def": "gloomy and depressing",
+"ex": "A dismal rain fell all weekend",
+"tier": 4
+},
+{
+"w": "dejection",
+"pr": "dih-JEK-shun",
+"pos": "n",
+"def": "a low, downcast state of mind",
+"ex": "Dejection clouded his usually bright face",
+"tier": 4
+},
+{
+"w": "euphony",
+"pr": "YOO-fuh-nee",
+"pos": "n",
+"def": "pleasant agreeable sound",
+"ex": "The verse had a gentle euphony",
+"tier": 4
+},
+{
+"w": "cadence",
+"pr": "KAY-dunss",
+"pos": "n",
+"def": "the rhythmic flow of sound",
+"ex": "Her speech had a soothing cadence",
+"tier": 4
+},
+{
+"w": "timbre",
+"pr": "TAM-bur",
+"pos": "n",
+"def": "the distinctive quality of a sound",
+"ex": "His voice had a warm timbre",
+"tier": 4
+},
+{
+"w": "admonish",
+"pr": "ad-MON-ish",
+"pos": "v",
+"def": "to warn or reprove gently",
+"ex": "She admonished them to be careful",
+"tier": 4
+},
+{
+"w": "entreat",
+"pr": "en-TREET",
+"pos": "v",
+"def": "to ask earnestly or anxiously",
+"ex": "He entreated them to stay",
+"tier": 4
+},
+{
+"w": "beseech",
+"pr": "bih-SEECH",
+"pos": "v",
+"def": "to beg urgently for something",
+"ex": "She beseeched the court for mercy",
+"tier": 4
+},
+{
+"w": "carp",
+"pr": "KARP",
+"pos": "v",
+"def": "to complain pettily and often",
+"ex": "He carped about every small change",
+"tier": 4
+},
+{
+"w": "quibble",
+"pr": "KWIB-ul",
+"pos": "v",
+"def": "to argue over trivial points",
+"ex": "They quibbled over the wording for hours",
+"tier": 4
+},
+{
+"w": "disdainful",
+"pr": "dis-DAYN-ful",
+"pos": "adj",
+"def": "showing contempt or scorn",
+"ex": "She gave a disdainful glance",
+"tier": 4
+},
+{
+"w": "contemptuous",
+"pr": "kun-TEMP-choo-us",
+"pos": "adj",
+"def": "feeling or showing scorn",
+"ex": "His contemptuous laugh stung",
+"tier": 4
+},
+{
+"w": "condescend",
+"pr": "kon-dih-SEND",
+"pos": "v",
+"def": "to behave with patronizing superiority",
+"ex": "He condescended to explain it slowly",
+"tier": 4
+},
+{
+"w": "patronize",
+"pr": "PAY-truh-nyze",
+"pos": "v",
+"def": "to treat with condescension",
+"ex": "Don't patronize a seasoned expert",
+"tier": 4
+},
+{
+"w": "chide",
+"pr": "CHYDE",
+"pos": "v",
+"def": "to scold or rebuke mildly",
+"ex": "She chided him for being late",
+"tier": 4
+},
+{
+"w": "reprove",
+"pr": "rih-PROOV",
+"pos": "v",
+"def": "to express disapproval of",
+"ex": "The coach reproved their sloppy play",
+"tier": 4
+},
+{
+"w": "coax",
+"pr": "KOHKS",
+"pos": "v",
+"def": "to persuade gently and gradually",
+"ex": "She coaxed the cat from the tree",
+"tier": 4
+},
+{
+"w": "dissuade",
+"pr": "dih-SWAYD",
+"pos": "v",
+"def": "to persuade not to do something",
+"ex": "Friends dissuaded him from quitting",
+"tier": 4
+},
+{
+"w": "enliven",
+"pr": "en-LY-vun",
+"pos": "v",
+"def": "to make more lively or spirited",
+"ex": "A joke enlivened the dull meeting",
+"tier": 4
+},
+{
+"w": "animate",
+"pr": "AN-ih-mayt",
+"pos": "v",
+"def": "to give life or vigor to",
+"ex": "Enthusiasm animated her every word",
+"tier": 4
+},
+{
+"w": "daunt",
+"pr": "DAWNT",
+"pos": "v",
+"def": "to discourage or intimidate",
+"ex": "The steep odds did not daunt her",
+"tier": 4
+},
+{
+"w": "overshadow",
+"pr": "oh-vur-SHAD-oh",
+"pos": "v",
+"def": "to dominate or surpass in importance",
+"ex": "His fame overshadowed his quiet sister",
+"tier": 4
+},
+{
+"w": "eclipse",
+"pr": "ih-KLIPS",
+"pos": "v",
+"def": "to surpass and obscure",
+"ex": "The sequel eclipsed the original",
+"tier": 4
+},
+{
+"w": "paramountcy",
+"pr": "PAIR-uh-mownt-see",
+"pos": "n",
+"def": "the state of supreme importance",
+"ex": "No one questioned her paramountcy in the field",
+"tier": 4
+},
+{
+"w": "sway",
+"pr": "SWAY",
+"pos": "n",
+"def": "controlling influence or dominating power",
+"ex": "The faction held sway over the council for years",
+"tier": 4
+}
+]

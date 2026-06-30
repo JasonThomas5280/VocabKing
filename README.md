@@ -28,6 +28,13 @@ python3 -m http.server 8000
   - ⌨️ **Type It** — see the meaning, type the word
   - 🃏 **Flip Cards** — self-check; tap to reveal the definition + an example
     sentence (or press `Space`)
+- **🔊 Pronunciation** — every word shows a friendly respelling (e.g.
+  `kuh-LAM-ih-tee`) and a tap-to-hear button (Web Speech API)
+- **Candy-Crush-style rewards**
+  - ⚡ **Power Words** — random golden cards worth **double points** + bonus gems
+  - 🔗 **Combo multiplier** — consecutive correct answers ramp your score ×2 → ×5
+  - 🎁 **Prize drops** — surprise bonuses every few correct answers mid-round
+  - 💎 **Gems + chests** — collect gems and fill a chest that pays out a bonus
 - **One-tap Quick Play** — the home screen starts a round instantly using your
   last settings; all configuration is tucked behind an optional **⚙ Customize**
 - **🎚️ Difficulty that scales with you** — words are organized into 6 tiers

@@ -48,6 +48,19 @@
   const scoreNum = $("scoreNum");
   const toastWrap = $("toastWrap");
 
+  // pronunciation + power + gems/combo refs
+  const pronRow = $("pronRow");
+  const pronText = $("pronText");
+  const pronTextBack = $("pronTextBack");
+  const speakBtn = $("speakBtn");
+  const powerBadge = $("powerBadge");
+  const comboBadge = $("comboBadge");
+  const gemQuiz = $("gemQuiz");
+  const gemNum = $("gemNum");
+  const chestFill = $("chestFill");
+  const chestNow = $("chestNow");
+  const chestTarget = $("chestTarget");
+
   // daily streak panel + customize
   const streakPanel = $("streakPanel");
   const flameEl = $("flame");
@@ -70,6 +83,16 @@
   const CARD_SECONDS = 8; // timer-bar fill duration (cosmetic urgency, no fail)
   const POS_FULL = { adj: "adjective", n: "noun", v: "verb", adv: "adverb" };
 
+  // Candy-Crush-style reward tuning
+  const POWER_RATE = 0.16;   // chance a card is a Power Word (2× points)
+  const COMBO_STEP = 3;      // every N-in-a-row bumps the multiplier
+  const COMBO_MAX = 5;       // max combo multiplier
+  const PRIZE_EVERY = 5;     // a prize drops every N correct in a round
+  const GEMS_POWER = 5;      // gems for nailing a Power Word
+  const GEMS_PRIZE = 15;     // gems in a mid-round prize drop
+  const GEMS_PERFECT = 25;   // gems for a flawless round
+  const CHEST_SIZE = 100;    // gems to fill one chest
+
   const ACHIEVEMENTS = {
     first_perfect: { emoji: "🏆", name: "Flawless", desc: "100% in a round" },
     sharpshooter:  { emoji: "🎯", name: "Sharpshooter", desc: "90%+ in a round" },
@@ -79,6 +102,10 @@
     dedicated:     { emoji: "📚", name: "Bookworm", desc: "Played 10 rounds" },
     scholar:       { emoji: "🧠", name: "Scholar", desc: "Reached the Elite tier" },
     wordsmith:     { emoji: "📝", name: "Wordsmith", desc: "Mastered 250 words" },
+    combo_master:  { emoji: "🔗", name: "Combo Master", desc: "Hit a ×5 combo" },
+    power_player:  { emoji: "⚡", name: "Power Player", desc: "Nailed 25 Power Words" },
+    gem_hoarder:   { emoji: "💎", name: "Gem Hoarder", desc: "Collected 500 gems" },
+    chest_opener:  { emoji: "🎁", name: "Treasure Hunter", desc: "Opened a chest" },
   };
 
   // ---------- word data (from words.js) ----------
@@ -96,6 +123,7 @@
   const defaultStore = () => ({
     bestPct: 0, bestStreak: 0, games: 0,
     xp: 0, totalCorrect: 0,
+    gems: 0, powerWords: 0, chests: 0,  // Candy-Crush-style collectibles
     words: {},             // word -> { s: seen, c: correct }
     achievements: {},      // id -> true
     settings: { tiers: [1, 2], auto: true, mode: "choice", length: 10 },
@@ -290,6 +318,59 @@
     badgeCount.textContent = "🏅 " + Object.keys(store.achievements).length;
   }
 
+  // ---------- gems, combo, chest ----------
+  function comboMult() { return Math.min(COMBO_MAX, 1 + Math.floor(streak / COMBO_STEP)); }
+
+  function renderTreasure() {
+    const g = store.gems || 0;
+    if (gemNum) gemNum.textContent = g;
+    if (gemQuiz) gemQuiz.textContent = g;
+    const into = g % CHEST_SIZE;
+    if (chestFill) chestFill.style.width = Math.round((into / CHEST_SIZE) * 100) + "%";
+    if (chestNow) chestNow.textContent = into;
+    if (chestTarget) chestTarget.textContent = CHEST_SIZE;
+  }
+
+  // Award gems and celebrate whenever a chest fills (every CHEST_SIZE gems).
+  function addGems(n) {
+    if (!n) return;
+    const before = store.gems || 0;
+    store.gems = before + n;
+    if (Math.floor(store.gems / CHEST_SIZE) > Math.floor(before / CHEST_SIZE)) {
+      store.chests = (store.chests || 0) + 1;
+      store.gems += 30; // chest bonus
+      setTimeout(() => { toast("🎁", "Chest unlocked!", "+30 bonus gems — keep going!"); burstConfetti(); }, 300);
+      award("chest_opener");
+    }
+    if (store.gems >= 500) award("gem_hoarder");
+    renderTreasure();
+  }
+
+  function flashCombo() {
+    const m = comboMult();
+    if (m > 1) {
+      comboBadge.hidden = false;
+      comboBadge.textContent = "×" + m;
+      comboBadge.classList.remove("pop"); void comboBadge.offsetWidth; comboBadge.classList.add("pop");
+    } else {
+      comboBadge.hidden = true;
+    }
+  }
+
+  // ---------- speak (Web Speech API) ----------
+  function speak(word) {
+    try {
+      const synth = window.speechSynthesis;
+      if (!synth) return;
+      synth.cancel();
+      const u = new SpeechSynthesisUtterance(word);
+      u.rate = 0.9; u.lang = "en-US";
+      u.onstart = () => speakBtn && speakBtn.classList.add("speaking");
+      u.onend = () => speakBtn && speakBtn.classList.remove("speaking");
+      synth.speak(u);
+    } catch {}
+  }
+
   // chips (tier quick-selects)
   document.querySelectorAll(".quick-row .chip").forEach((c) =>
     c.addEventListener("click", () => { if (c.dataset.select) applyQuickSelect(c.dataset.select); })
@@ -403,6 +484,7 @@
   let idx = 0, score = 0, streak = 0, bestStreakRound = 0;
   let locked = false, cardStart = 0, totalTime = 0, answered = 0;
   let roundXp = 0, fastCorrect = false;
+  let currentPower = false, roundCorrect = 0, roundGems = 0, hitMaxCombo = false;
   let lastMissed = [];
   const missed = [];
 
@@ -415,7 +497,9 @@
     deck = customDeck || buildDeck(len);
     idx = 0; score = 0; streak = 0; bestStreakRound = 0;
     answered = 0; totalTime = 0; roundXp = 0; fastCorrect = false; missed.length = 0;
+    roundCorrect = 0; roundGems = 0; hitMaxCombo = false;
     scoreNum.textContent = "0"; streakNum.textContent = "0";
+    comboBadge.hidden = true; gemQuiz.textContent = store.gems || 0;
     show("quiz");
     renderCard();
   }
@@ -451,6 +535,14 @@
     answerWord.textContent = card.w;
     answerDef.textContent = card.def;
     answerEx.textContent = card.ex ? "“" + card.ex + "”" : "";
+    pronTextBack.textContent = card.pr || "";
+
+    // Power Word roll — golden 2× card (skip in flip mode, which isn't scored)
+    currentPower = settings.mode !== "flip" && Math.random() < POWER_RATE;
+    flashcard.classList.toggle("is-power", currentPower);
+    powerBadge.hidden = !currentPower;
+
+    pronRow.hidden = true; // shown only when the front displays the word
 
     const len = roundLength();
     qCount.textContent = idx + 1;
@@ -478,6 +570,8 @@
   function renderChoiceMode(card) {
     fcKicker.textContent = "What does this word mean?";
     questionEl.textContent = card.w;
+    pronText.textContent = card.pr || "";
+    pronRow.hidden = false;
     posTag.textContent = expandPos(card.pos);
     posTag.hidden = false;
 
@@ -506,6 +600,8 @@
   function renderFlipMode(card) {
     fcKicker.textContent = "What does this mean?";
     questionEl.textContent = card.w;
+    pronText.textContent = card.pr || "";
+    pronRow.hidden = false;
     posTag.textContent = expandPos(card.pos);
     posTag.hidden = false;
     flashcard.classList.add("is-flip-mode");
@@ -580,6 +676,13 @@
     if (isFlipped) flipControls.classList.add("is-active");
   });
 
+  // 🔊 hear the word (doesn't flip the card)
+  speakBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const card = deck[idx];
+    if (card) speak(card.w);
+  });
+
   // ---------- grading ----------
   function grade(ok) {
     const t = (performance.now() - cardStart) / 1000;
@@ -595,19 +698,45 @@
     if (ok) {
       streak++;
       bestStreakRound = Math.max(bestStreakRound, streak);
-      const streakBonus = Math.min(streak - 1, 10) * 2;
+      const mult = comboMult();                 // escalating combo multiplier
+      if (mult >= COMBO_MAX) hitMaxCombo = true;
       const speedBonus = settings.mode === "flip" ? 0 : t < 1.5 ? 5 : t < 3 ? 3 : t < 5 ? 1 : 0;
-      const tierBonus = (card.tier - 1) * 2; // harder words are worth more points
+      const tierBonus = (card.tier - 1) * 2;    // harder words are worth more points
       if (settings.mode !== "flip" && t < 1.2) fastCorrect = true;
-      const gained = 10 + streakBonus + speedBonus + tierBonus;
+      const base = 10 + speedBonus + tierBonus;
+      const powerMult = currentPower ? 2 : 1;   // ⚡ Power Word doubles it
+      const gained = base * mult * powerMult;
       score += gained; roundXp += gained;
       store.totalCorrect++;
+      roundCorrect++;
       bumpDailyGoal();
       flashcard.classList.add("correct-glow");
+      flashCombo();
       popStreak();
-      tone(true); haptic(true);
+
+      if (currentPower) {
+        store.powerWords = (store.powerWords || 0) + 1;
+        roundGems += GEMS_POWER; addGems(GEMS_POWER);
+        toast("⚡", "Power Word!", `Double points · +${GEMS_POWER}💎`);
+        burstConfetti(); powerTone();
+        if (store.powerWords >= 25) award("power_player");
+      } else {
+        tone(true);
+      }
+      haptic(true);
+      if (hitMaxCombo) award("combo_master");
+
+      // 🎁 mid-round prize drop every few correct
+      if (roundCorrect % PRIZE_EVERY === 0) {
+        const prizePts = 25 * mult;
+        score += prizePts; roundXp += prizePts;
+        roundGems += GEMS_PRIZE; addGems(GEMS_PRIZE);
+        toast("🎁", "Prize drop!", `+${prizePts} pts · +${GEMS_PRIZE}💎`);
+        burstConfetti();
+      }
     } else {
       streak = 0;
+      comboBadge.hidden = true;
       missed.push({ w: card.w, pos: card.pos, def: card.def, ex: card.ex, tier: card.tier });
       flashcard.classList.add("wrong-glow", "shake");
       tone(false); haptic(false);
@@ -685,7 +814,7 @@
     renderProfile(); renderMastery(); renderBestStrip(); reflectDifficulty();
     show("results");
 
-    if (pct === 100) { burstConfetti(); playFanfare(); }
+    if (pct === 100) { burstConfetti(); playFanfare(); addGems(GEMS_PERFECT); toast("💎", "Flawless bonus!", `+${GEMS_PERFECT} gems`); }
     else if (pct >= 80) burstConfetti();
     if (after > before) celebrateLevel(after);
     checkAchievements(pct);
@@ -760,6 +889,26 @@
         gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.18);
         osc.connect(gain).connect(ac.destination);
         osc.start(t); osc.stop(t + 0.2);
+      });
+    } catch {}
+  }
+
+  // Bright sparkle for nailing a Power Word.
+  function powerTone() {
+    try {
+      const ac = ensureAudio();
+      const now = ac.currentTime;
+      [784, 988, 1175, 1568].forEach((f, i) => {
+        const osc = ac.createOscillator();
+        const gain = ac.createGain();
+        osc.type = "triangle";
+        osc.frequency.value = f;
+        const t = now + i * 0.06;
+        gain.gain.setValueAtTime(0.0001, t);
+        gain.gain.exponentialRampToValueAtTime(0.2, t + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.22);
+        osc.connect(gain).connect(ac.destination);
+        osc.start(t); osc.stop(t + 0.24);
       });
     } catch {}
   }
@@ -917,4 +1066,5 @@
   renderMastery();
   renderBestStrip();
   renderStreak();
+  renderTreasure();
 })();

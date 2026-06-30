@@ -402,5 +402,64 @@ body {
 @keyframes toastIn { from { opacity: 0; transform: translateY(-20px) scale(.9); } to { opacity: 1; transform: none; } }
 @keyframes toastOut { to { opacity: 0; transform: translateY(-14px) scale(.96); } }
 
+/* ---------- treasure / gems / chest ---------- */
+.treasure-panel {
+  display: flex; align-items: center; gap: 16px;
+  background: linear-gradient(160deg, rgba(42,214,200,.14), rgba(109,94,252,.12));
+  border: 1px solid rgba(42,214,200,.3); border-radius: var(--r-lg);
+  padding: 14px 18px; margin-bottom: 16px; box-shadow: var(--shadow);
+}
+.gem-count { font-family: "Fredoka"; font-weight: 600; font-size: 1.05rem; white-space: nowrap; }
+.gem-count b { color: var(--accent); font-size: 1.4rem; }
+.gem-lbl { color: var(--muted); font-size: 0.8rem; }
+.chest { flex: 1; }
+.chest-bar { height: 10px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--stroke); overflow: hidden; }
+.chest-bar i { display: block; height: 100%; width: 0%; border-radius: 999px; background: linear-gradient(90deg, var(--warn), var(--accent)); transition: width .5s cubic-bezier(.2,.8,.2,1); }
+.chest-text { color: var(--muted); font-size: 0.78rem; margin-top: 6px; }
+.chest-text b { color: var(--warn); }
+
+/* ---------- quiz scoreline extras ---------- */
+.gem-pill { font-family: "Fredoka"; font-weight: 600; color: var(--accent); font-size: 0.95rem; }
+.combo-badge {
+  font-family: "Fredoka"; font-weight: 700; font-size: 1rem; color: #fff;
+  padding: 3px 12px; border-radius: 999px; margin-right: auto; margin-left: 10px;
+  background: linear-gradient(135deg, var(--brand-2), var(--bad));
+  box-shadow: 0 6px 18px -6px var(--brand-2);
+}
+.combo-badge[hidden] { display: none; }
+.combo-badge.pop { animation: comboPop .4s; }
+@keyframes comboPop { 0%{transform:scale(1);} 45%{transform:scale(1.4) rotate(-4deg);} 100%{transform:scale(1);} }
+
+/* ---------- pronunciation row ---------- */
+.fc-pron { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 8px; color: var(--accent); font-weight: 700; letter-spacing: .3px; font-size: 0.98rem; }
+.fc-pron.back { color: rgba(255,255,255,.9); margin-top: 4px; font-size: 0.9rem; }
+.fc-pron:empty, .fc-pron.back:empty { display: none; }
+.speak-btn {
+  border: 1px solid var(--stroke); background: var(--surface-2); color: var(--text);
+  width: 34px; height: 34px; border-radius: 50%; cursor: pointer; font-size: 1rem; line-height: 1;
+  display: grid; place-items: center; transition: transform .12s, border-color .2s, background .2s;
+}
+.speak-btn:hover { border-color: var(--accent); }
+.speak-btn:active { transform: scale(0.88); }
+.speak-btn.speaking { background: var(--accent); border-color: transparent; animation: pulseSpeak .8s infinite; }
+@keyframes pulseSpeak { 0%,100%{box-shadow:0 0 0 0 rgba(42,214,200,.5);} 50%{box-shadow:0 0 0 8px rgba(42,214,200,0);} }
+
+/* ---------- power word card ---------- */
+.power-badge {
+  position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+  font-family: "Fredoka"; font-weight: 700; font-size: 0.82rem; white-space: nowrap;
+  padding: 5px 14px; border-radius: 999px; color: #2a1a00;
+  background: linear-gradient(135deg, #ffe27a, var(--warn));
+  box-shadow: 0 8px 22px -8px var(--warn); animation: powerPulse 1.1s ease-in-out infinite;
+}
+.power-badge[hidden] { display: none; }
+@keyframes powerPulse { 0%,100%{transform:translateX(-50%) scale(1);} 50%{transform:translateX(-50%) scale(1.06);} }
+.flashcard.is-power .fc-front {
+  border-color: var(--warn);
+  background: linear-gradient(160deg, #3a2f12, #221a31);
+  box-shadow: 0 0 0 2px var(--warn), 0 24px 60px -16px rgba(255,206,79,.5);
+}
+.flashcard.is-power .fc-word { background: linear-gradient(180deg, #fff, #ffe9a8); -webkit-background-clip: text; background-clip: text; }
+
 /* ---------- confetti ---------- */
 .confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 50; }
